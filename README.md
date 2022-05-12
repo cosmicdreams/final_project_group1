@@ -23,6 +23,10 @@ o	https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precip
 
 ### Potential Project Idea 2: Scanning a pokemon: Team balance recommendation - Notable pokemon near you (using multiple large pokemon stat datasets; large pokemon image dataset; geographic location dataset for specific pokemon features)!
 
+### Summary:
+- Use machine learning in several different ways to interrogate Pokemon datasets, which include images, characteristics and geographical location. We will form an image classifier, a recommendation system incorporating geographic locations for finding pokemon, and a prediction model concerning characteristics.
+
+
 #### Questions we want to answer: 
 - Can we create a pokemon image classifier?
 - Can we predict the type of pokemon based on having a gender vs. not?
