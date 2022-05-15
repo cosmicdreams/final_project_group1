@@ -39,7 +39,7 @@ For our data pipeline we need a means of acquiring and classifying pokemon image
 - Similar to the recommendation that the pokedex can give you based on your location.  We’d like the assistant to recommend pokemon that will balance your team.  If you have Pokemon that are all of the same type, have it recommend a different type so you can have the advantage in different kinds of battles.
 
 - For this we can reuse much of the same datasets we’ve already gathered.  We just need a means of inputting a user’s current team.
-### Implementation
+## Implementation
 Our final deliverable will need:
 
 - A web page
