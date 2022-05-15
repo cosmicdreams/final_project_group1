@@ -22,6 +22,7 @@
 - Matplotlib
 - Graphvis (for graphic visualization)
 - Scikit-Learn
+- More TBD....
 
 ## Data Analysis and Pipeline Design:
 ### Pokemon Identifier
