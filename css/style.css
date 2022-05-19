@@ -1,0 +1,58 @@
+body{
+    color: #f5f5ef(104, 18, 18);
+}.jumbotron {
+    background-size: 100% 100%;
+    text-align: center;
+    background-color: rgb(45, 88, 54);
+  }
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120vh;
+    background: #fff(243, 239, 239);
+  }
+
+  .drag-area{
+      border: 5px dashed rgb(18, 90, 32);
+      height: 300px;
+      width: 500px;
+      border-radius: 5px solid #e5e5e1;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .drag-area .icon{
+      font-size: 200px;
+      color: #fff(45, 4, 4);
+  }
+
+  .drag-area header{
+      font: size 30px; 
+      font-weight: 500;
+      color: rgb(6, 45, 4);
+  }
+
+  .drag-area span{
+      font-size: 25px;
+      font-weight: 500;
+      color: rgb(9, 19, 1);
+      margin: 10px 0 15px 0; 
+  }
+
+  .drag-area button{
+      padding: 10px 20px;
+      font-size: 20px;
+      font-weight: 500;
+      border:none;
+      outline: none;
+      background: #b5e180;
+      color:rgb(23, 54, 27);
+      border: radius, 5px;
+      cursor: pointer;
+  }
