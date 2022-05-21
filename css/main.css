@@ -120,65 +120,10 @@ button:hover {
     text-transform: capitalize;
 }
 
-#kantoPokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 40px;
-}
-
-#johtoPokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 40px;
-}
-
-#hoennPokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 40px;
-}
-
-#sinnohPokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 40px;
-}
-
-#unovaPokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 40px;
-}
-
-#kalosPokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 40px;
-}
-
 #alolaPokedex {
     padding-inline-start: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 40px;
 }
-
-#galarPokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 40px;
-}
-
-#megaPokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 40px;
-}
+ 
