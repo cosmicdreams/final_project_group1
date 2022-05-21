@@ -1,0 +1,184 @@
+body {
+    background-color: #4B4453;
+    font-family: Nunito;
+    margin: 0;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+h1 {
+    color: #34464F;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: #F4F4F4;
+    color: #222222;
+    display: grid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover {
+    animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F4F4F4;
+    opacity: 0.98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+button {
+    background-color: #4B4453;
+    padding: 10px 20px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    transition: transform 100ms;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0px 1px 2px #624199;
+}
+
+.card-image {
+    height: 180px;
+    margin: 0 auto;
+}
+
+.card-id {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.card-type {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.card-attribute {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+#kantoPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
+
+#johtoPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
+
+#hoennPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
+
+#sinnohPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
+
+#unovaPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
+
+#kalosPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
+
+#alolaPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
+
+#galarPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
+
+#megaPokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+}
