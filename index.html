@@ -24,31 +24,18 @@
       <div class="col-md-2">
        <p><b>POKEDEX</b></p> 
       </div>
-     
-       <!-- <div class="center"></div>  -->
-          <div class="drag-area ">
-            <div class=".icon"></div>
-             <h1>Drag & Drop to Upload File</h1>
-               <span>OR</span>
-               <button>Browse File</button>
-               
-        </div>
 
-       
-        <div class="row">
-         <div class="col-md-5">
-             <form action="/action_page.php" onsubmit="myFunction()">
-              Pokedex will provide information below: <input type="text" name="fname">
-               <input type="submit" value="Submit"><h1 style="background-color:rgb(157, 213, 114);"></h1>
-                </form>
-        
-             <script>
-             function myFunction() {
-             alert("The form was submitted");
-          }
-        </script><script src="/js/data.js"></script>
-      </div>
-      <div>
+      <!-- <div class="center"></div>  -->
+      <div class="drag-area ">
+        <form method="post" enctype="multipart/form-data">
+          <div>
+            <input type="file" id="file" name="file" multiple>
+          </div>
+          <div>
+            <button>Submit</button>
+          </div>
+        </form>
+
 <body>
     
 </body>
