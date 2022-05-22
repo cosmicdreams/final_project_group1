@@ -19,10 +19,8 @@
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot1.png)
 -----------------------------------------------------------------------------------------------------------------------------------
 ### Client used for endpoint and sending requests is Postman (a free multi-user platform)
-#### First we linked by url to see data:
-![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot4.png)
-
-#### Then we created requests (this is a screenshot of a POST) and results:
+#### First we linked by url in Postman
+#### Then we created requests (see below a screenshot of a POST addition of a pokemon character):
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot5.png)
 ---------------------------------------------------------------------------------------------------------------------------
 #### Confirmation that our  http://127.0.0.1:5000/users and data.csv file were updated:
