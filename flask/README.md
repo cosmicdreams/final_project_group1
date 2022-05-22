@@ -14,7 +14,7 @@
 #### POST:
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot3.png)
 #### DELETE:
-![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot4.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot11.png)
 
 --------------------------------------------------------------------------------------------------------------------------------
 #### Ran code and linked to the http site http://127.0.0.1:5000/users: 
