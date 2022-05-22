@@ -8,7 +8,7 @@
 ### FLASK build
 #### code for GET, POST, and DELETE using information entry relevant to our pokemon dataset
 #### GET:
-![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/plot2.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot1.png)
 #### POST:
 ![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/plot3.png)
 #### DELETE:
