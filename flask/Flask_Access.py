@@ -37,7 +37,7 @@ class Users(Resource):
         parser.add_argument('name', required=True)
         args = parser.parse_args()
 
-        data = pd.read_csv('/Resources/data.csv')
+        data = pd.read_csv('data.csv')
 
         data = data[data['name'] != args['name']]
 
