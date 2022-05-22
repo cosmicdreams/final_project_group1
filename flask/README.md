@@ -4,6 +4,8 @@
 ### -POST – Used by the client to send or write data to the server
 ### -DELETE – Used by the client to delete existing data on the server
 -----------------------------------------------------------------------------------------------------------------------------------------
+### our data.csv file includes the name, type, and hp (hitpoints) of several pokemon:
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot0.png)
 
 ### FLASK build
 #### code for GET, POST, and DELETE using information entry relevant to our pokemon dataset
