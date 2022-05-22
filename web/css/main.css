@@ -126,4 +126,13 @@ button:hover {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 40px;
 }
+
+.app-separator {
+    border: 1px solid black;
+    margin: 1rem 0;
+    text-align: center;
+}
  
+.center {
+    text-align: center;
+}
