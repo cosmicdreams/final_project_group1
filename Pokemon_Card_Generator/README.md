@@ -20,3 +20,4 @@ API Source:
 ### Defined themeColor to equal the typeColor and the Pokemon ID using stats retrieved in Console (see below for derivation of the const hp (which was composed of data.stats[0].base_stat
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image6.png)
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image7.png)
+
