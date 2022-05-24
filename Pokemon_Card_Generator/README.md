@@ -18,6 +18,6 @@ API Source:
 ### Const typeColor to match each Pokemon type to a Color to display on the card:
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image10.png)
 ### Defined themeColor to equal the typeColor and the Pokemon ID using stats retrieved in Console (see below for derivation of the const hp (which was composed of data.stats[0].base_stat
-![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image6.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image6_1.png)
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image9.png)
 
