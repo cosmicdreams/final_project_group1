@@ -4,6 +4,11 @@ import imghdr
 app = Flask(__name__)
 
 
+@app.route('/')
+def home_page():
+    return "<h1>Home of a Data Boot Camp project</h1> "
+
+
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if request.method == 'POST':
