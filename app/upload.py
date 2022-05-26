@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from tensorflow import keras
+from tensorflow-cpu import keras
 import imghdr
 
 app = Flask(__name__)
