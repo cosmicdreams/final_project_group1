@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from tensorflow import keras
 import imghdr
 
 app = Flask(__name__)
@@ -23,6 +24,7 @@ def upload_file():
 
 # Get identify of the provided Pokemon image with image classifier.
 def identify_file(file):
+    model = keras.models.load_model('Resources')
     return 'Todo'
 
 
