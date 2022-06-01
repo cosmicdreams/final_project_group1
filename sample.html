@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon Resource Cards</title>
+
+    <link rel="stylesheet" href="/static/css/main.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180">
+    <link rel="icon" type="image/png" sizes="32x32">
+    <link rel="icon" type="image/png" sizes="16x16">
+    <!--<link rel="manifest" href="favicon/site.webmanifest">-->
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Load initial assets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <style type="text/css">
+        @font-face {
+            font-weight: 400;
+            font-style: normal;
+            font-family: 'Circular-Loom';
+
+            src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-weight: 500;
+            font-style: normal;
+            font-family: 'Circular-Loom';
+
+            src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-weight: 700;
+            font-style: normal;
+            font-family: 'Circular-Loom';
+
+            src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-weight: 900;
+            font-style: normal;
+            font-family: 'Circular-Loom';
+
+            src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+        }</style>
+</head>
+
+
+<body>
+
+<!-- Simple Navigation bar -->
+<div class="navbar">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Pokedex</a>
+        </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+        <li>Presented by Team Ashe's Mustache</li>
+    </ul>
+</div>
+<!-- Add Jumbotron to Header -->
+<div class="jumbotron text-center" style="background-color:rgb(183, 209, 185);">
+    <h1>WHO'S THAT POKEMON</h1>
+</div>
+
+<div class="container">
+    <!-- Bar separating post submission display -->
+    <div class="row">
+        <div class="drag-area col-md-12 center">
+            <form method="post" action="/upload" enctype="multipart/form-data">
+                <div class=".icon"></div>
+                <h2>Drag &amp; Drop to Upload File</h2>
+                <input type="file" id="upload" name="upload" accept="image/jpeg, image/png, image/gif">
+                <input type="submit" id="send_file" value="Who's that Pokemon">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="app-separator">Upload a file and Pokedex will provide information below:</div>
+
+<div class="container">
+    <div class="row">
+        <div class="tabset-basics sv-tabs-wrapper sv-tabs-onetab">
+            <div class="sv-tabs-tab-list">
+                <a class="sv-tabs-tab active" href="#tab-basic-2">Ivysaur</a>
+            </div>
+            <div class="sv-tabs-panel-list">
+                <div class="sv-tabs-panel active" id="tab-basic-2">
+                    <div class="grid-row">
+                        <div class="grid-col span-md-6 span-lg-4 text-center">
+                            <p><a rel="lightbox" href="https://img.pokemondb.net/artwork/large/ivysaur.jpg"
+                                  data-title="Ivysaur official artwork"><img
+                                    src="https://img.pokemondb.net/artwork/ivysaur.jpg" width="360" height="335"
+                                    alt="Ivysaur artwork by Ken Sugimori"></a></p>
+                            <p class="text-small"><a href="/artwork/ivysaur">Additional artwork</a></p>
+                        </div>
+                        <div class="grid-col span-md-6 span-lg-4">
+                            <h2>Pokédex data</h2>
+                            <table class="vitals-table">
+                                <tbody>
+                                <tr>
+                                    <th>National №</th>
+                                    <td><strong>002</strong></td>
+                                </tr>
+                                <tr>
+                                    <th>Type</th>
+                                    <td>
+                                        <a class="type-icon type-grass" href="/type/grass">Grass</a> <a
+                                            class="type-icon type-poison" href="/type/poison">Poison</a></td>
+                                </tr>
+                                <tr>
+                                    <th>Species</th>
+                                    <td>Seed Pokémon</td>
+                                </tr>
+                                <tr>
+                                    <th>Height</th>
+                                    <td>1.0&nbsp;m (3′03″)</td>
+                                </tr>
+                                <tr>
+                                    <th>Weight</th>
+                                    <td>13.0&nbsp;kg (28.7&nbsp;lbs)</td>
+                                </tr>
+                                <tr>
+                                    <th>Abilities</th>
+                                    <td><span class="text-muted">1. <a href="/ability/overgrow"
+                                                                       title="Powers up Grass-type moves in a pinch.">Overgrow</a></span><br><small
+                                            class="text-muted"><a href="/ability/chlorophyll"
+                                                                  title="Boosts the Pokémon's Speed in sunshine.">Chlorophyll</a>
+                                        (hidden ability)</small><br></td>
+                                </tr>
+                                <tr>
+                                    <th>Local №</th>
+                                    <td>002 <small class="text-muted">(Red/Blue/Yellow)</small><br>227 <small
+                                            class="text-muted">(Gold/Silver/Crystal)</small><br>002 <small
+                                            class="text-muted">(FireRed/LeafGreen)</small><br>232 <small
+                                            class="text-muted">(HeartGold/SoulSilver)</small><br>081 <small
+                                            class="text-muted">(X/Y — Central Kalos)</small><br>002 <small
+                                            class="text-muted">(Let's Go Pikachu/Let's Go Eevee)</small><br>069 <small
+                                            class="text-muted">(The Isle of Armor)</small><br></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="grid-col span-md-12 span-lg-4">
+                            <div class="grid-row">
+                                <div class="grid-col span-md-6 span-lg-12">
+                                    <h2>Training</h2>
+                                    <table class="vitals-table">
+                                        <tbody>
+                                        <tr>
+                                            <th>EV yield</th>
+                                            <td class="text">
+                                                1 Special Attack, 1 Special Defense
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Catch rate</th>
+                                            <td>
+                                                45 <small class="text-muted">(5.9% with PokéBall, full HP)</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Base <a href="/glossary#def-friendship">Friendship</a></th>
+                                            <td>
+                                                50 <small class="text-muted">(normal)</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Base Exp.</th>
+                                            <td>142</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Growth Rate</th>
+                                            <td>Medium Slow</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="grid-col span-md-6 span-lg-12">
+                                    <h2>Breeding</h2>
+                                    <table class="vitals-table">
+                                        <tbody>
+                                        <tr>
+                                            <th>Egg Groups</th>
+                                            <td><a href="/egg-group/grass">Grass</a>, <a href="/egg-group/monster">Monster</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Gender</th>
+                                            <td><span class="text-blue">87.5% male</span>, <span class="text-pink">12.5% female</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><a href="/glossary#def-eggcycle">Egg cycles</a></th>
+                                            <td>20 <small class="text-muted">(4,884–5,140 steps)</small>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-col span-md-12 span-lg-8">
+                            <div id="dex-stats"></div>
+                            <h2>Base stats</h2>
+                            <div class="resp-scroll">
+                                <table class="vitals-table">
+                                    <tbody>
+                                    <tr>
+                                        <th>HP</th>
+                                        <td class="cell-num">60</td>
+                                        <td class="cell-barchart">
+                                            <div style="width:33.33%;" class="barchart-bar barchart-rank-3 "></div>
+                                        </td>
+                                        <td class="cell-num">230</td>
+                                        <td class="cell-num">324</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Attack</th>
+                                        <td class="cell-num">62</td>
+                                        <td class="cell-barchart">
+                                            <div style="width:34.44%;" class="barchart-bar barchart-rank-3 "></div>
+                                        </td>
+                                        <td class="cell-num">116</td>
+                                        <td class="cell-num">245</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Defense</th>
+                                        <td class="cell-num">63</td>
+                                        <td class="cell-barchart">
+                                            <div style="width:35.00%;" class="barchart-bar barchart-rank-3 "></div>
+                                        </td>
+                                        <td class="cell-num">117</td>
+                                        <td class="cell-num">247</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sp. Atk</th>
+                                        <td class="cell-num">80</td>
+                                        <td class="cell-barchart">
+                                            <div style="width:44.44%;" class="barchart-bar barchart-rank-3 "></div>
+                                        </td>
+                                        <td class="cell-num">148</td>
+                                        <td class="cell-num">284</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sp. Def</th>
+                                        <td class="cell-num">80</td>
+                                        <td class="cell-barchart">
+                                            <div style="width:44.44%;" class="barchart-bar barchart-rank-3 "></div>
+                                        </td>
+                                        <td class="cell-num">148</td>
+                                        <td class="cell-num">284</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Speed</th>
+                                        <td class="cell-num">60</td>
+                                        <td class="cell-barchart">
+                                            <div style="width:33.33%;" class="barchart-bar barchart-rank-3 "></div>
+                                        </td>
+                                        <td class="cell-num">112</td>
+                                        <td class="cell-num">240</td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    <tr>
+                                        <th>Total</th>
+                                        <td class="cell-total"><b>405</b></td>
+                                        <th class="cell-barchart"></th>
+                                        <th>Min</th>
+                                        <th>Max</th>
+                                    </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <p class="text-small text-muted">The ranges shown on the right are for a level 100 Pokémon.
+                                Maximum values are based on a beneficial nature, 252 EVs, 31 IVs; minimum values are
+                                based on a hindering nature, 0 EVs, 0 IVs.</p>
+                        </div>
+                        <div class="grid-col span-md-12 span-lg-4">
+                            <h2>Type defenses</h2>
+                            <p>The effectiveness of each type on <em>Ivysaur</em>.</p>
+                            <div class="resp-scroll text-center">
+                                <table class="type-table type-table-pokedex">
+                                    <tbody>
+                                    <tr>
+                                        <th><a class="type-icon type-normal type-cell type-abbr" href="/type/normal"
+                                               title="Normal">Nor</a></th>
+                                        <th><a class="type-icon type-fire type-cell type-abbr" href="/type/fire"
+                                               title="Fire">Fir</a></th>
+                                        <th><a class="type-icon type-water type-cell type-abbr" href="/type/water"
+                                               title="Water">Wat</a></th>
+                                        <th><a class="type-icon type-electric type-cell type-abbr" href="/type/electric"
+                                               title="Electric">Ele</a></th>
+                                        <th><a class="type-icon type-grass type-cell type-abbr" href="/type/grass"
+                                               title="Grass">Gra</a></th>
+                                        <th><a class="type-icon type-ice type-cell type-abbr" href="/type/ice"
+                                               title="Ice">Ice</a></th>
+                                        <th><a class="type-icon type-fighting type-cell type-abbr" href="/type/fighting"
+                                               title="Fighting">Fig</a></th>
+                                        <th><a class="type-icon type-poison type-cell type-abbr" href="/type/poison"
+                                               title="Poison">Poi</a></th>
+                                        <th><a class="type-icon type-ground type-cell type-abbr" href="/type/ground"
+                                               title="Ground">Gro</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td title="Normal → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                        <td title="Fire → Grass/Poison = super-effective"
+                                            class="type-fx-cell type-fx-200">2
+                                        </td>
+                                        <td title="Water → Grass/Poison = not very effective"
+                                            class="type-fx-cell type-fx-50">½
+                                        </td>
+                                        <td title="Electric → Grass/Poison = not very effective"
+                                            class="type-fx-cell type-fx-50">½
+                                        </td>
+                                        <td title="Grass → Grass/Poison = not very effective"
+                                            class="type-fx-cell type-fx-25">¼
+                                        </td>
+                                        <td title="Ice → Grass/Poison = super-effective"
+                                            class="type-fx-cell type-fx-200">2
+                                        </td>
+                                        <td title="Fighting → Grass/Poison = not very effective"
+                                            class="type-fx-cell type-fx-50">½
+                                        </td>
+                                        <td title="Poison → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                        <td title="Ground → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <table class="type-table type-table-pokedex">
+                                    <tbody>
+                                    <tr>
+                                        <th><a class="type-icon type-flying type-cell type-abbr" href="/type/flying"
+                                               title="Flying">Fly</a></th>
+                                        <th><a class="type-icon type-psychic type-cell type-abbr" href="/type/psychic"
+                                               title="Psychic">Psy</a></th>
+                                        <th><a class="type-icon type-bug type-cell type-abbr" href="/type/bug"
+                                               title="Bug">Bug</a></th>
+                                        <th><a class="type-icon type-rock type-cell type-abbr" href="/type/rock"
+                                               title="Rock">Roc</a></th>
+                                        <th><a class="type-icon type-ghost type-cell type-abbr" href="/type/ghost"
+                                               title="Ghost">Gho</a></th>
+                                        <th><a class="type-icon type-dragon type-cell type-abbr" href="/type/dragon"
+                                               title="Dragon">Dra</a></th>
+                                        <th><a class="type-icon type-dark type-cell type-abbr" href="/type/dark"
+                                               title="Dark">Dar</a></th>
+                                        <th><a class="type-icon type-steel type-cell type-abbr" href="/type/steel"
+                                               title="Steel">Ste</a></th>
+                                        <th><a class="type-icon type-fairy type-cell type-abbr" href="/type/fairy"
+                                               title="Fairy">Fai</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td title="Flying → Grass/Poison = super-effective"
+                                            class="type-fx-cell type-fx-200">2
+                                        </td>
+                                        <td title="Psychic → Grass/Poison = super-effective"
+                                            class="type-fx-cell type-fx-200">2
+                                        </td>
+                                        <td title="Bug → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                        <td title="Rock → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                        <td title="Ghost → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                        <td title="Dragon → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                        <td title="Dark → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                        <td title="Steel → Grass/Poison = normal effectiveness"
+                                            class="type-fx-cell type-fx-100"></td>
+                                        <td title="Fairy → Grass/Poison = not very effective"
+                                            class="type-fx-cell type-fx-50">½
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/alola.js" defer=""></script>
+
+
+</body>
+<loom-container id="lo-engage-ext-container">
+    <loom-shadow classname="resolved"></loom-shadow>
+</loom-container>
+<loom-container id="lo-companion-container">
+    <loom-shadow classname="resolved"></loom-shadow>
+</loom-container>
+</html>
