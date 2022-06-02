@@ -24,7 +24,8 @@ def upload_file():
         if file is None:
             return {'error': 'Upload File Error: File not provided'}
         elif imghdr.what(file) in ['jpeg', 'jpg', 'png', 'gif']:
-            return identify_file(file)
+            payload = identify_file(file)
+            return payload
 
         return {'error': 'Upload File Error: file not an image'}
 
@@ -60,18 +61,17 @@ def get_pokemon_data(pokemon_id):
     return render_template('pokemon_data_display.html', pokemon=pokemon_id)
 
 
+# Render the incoming markup from elder's query.
+def spit_markup(elders_markup):
+    return render_template('elders_markup.html', markup=elders_markup)
+
+
 # Get a dictionary which contains class and number of images in that class
 def get_map():
     import os
 
-    path = 'input/PokemonData'
-    classes = os.listdir(path)
-    counts = {}
-
-    for c in classes:
-        counts[c] = len(os.listdir(os.path.join(path, c)))
-
-    return sorted(counts.items(), key=lambda x: x[1], reverse=True)
+    path = '../input/PokemonData'
+    return sorted(os.listdir(path))
 
 
 if __name__ == '__main__':
