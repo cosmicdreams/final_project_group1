@@ -1,34 +1,23 @@
-# Team-group1  - Technology.md Document
-### Chris Weber, Elder Arias, Terra Lasho, Pierre Boucard, and Thaofeeqat Dauda
-## Introduction: 
-- This document provides a checkpoint, a first ‘planned sketch’ including a brief description of our technological intentions as we navigate this project.  So far, our group has narrowed down project ideas to 2, and as we continue this week to our final choice, we will delineate the needs/pathway for each below:
-### Potential Project Idea 1: Dow Jones Index Daily Performance by US Atmospheric Influence
-#### Questions we want to answer:
-- Does the US daily average weather have influence over DJI's performance (using dataset containing daily performance from 1992 to 2022; and archived US weather from NWA)?
-- Can we PREDICT a positive DJI timeframe by using weather forecasting?
+# Generate a Pokemon Card that draws info from PokeAPI.co
+## Fetch Data
+### Build the Card using index.html and style.css:
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image1.png)
 
-### Potential Project Idea 2: Scanning a pokemon: Team balance recommendation - Notable pokemon near you (using multiple large pokemon stat datasets; large pokemon image dataset; geographic location dataset for specific pokemon features)!
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image2.png)
+### - Link the Card to Pokeapi.co https://pokeapi.co/api/v2/pokemon/
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image3.png)
+API Source:
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image4.png)
+### - Define constant variables using document.getElementById for “card” and “btn” (the button) 
+### -Initiates the callback that will be invoked with the btn (button) is “clicked”, and performs function: getPokeData.  We then defined the function for retrieving the pokemon from the API (using getPokeData). First, we decided to use a formula to draw a random Pokemon (by ID) from the Pokeapi.com database. We then created a variable (finalUrl) which held the PokeAPI url + the random caller (using the random Pokemon ID). We finally used .fetch to retrieve the callback ‘then.response’ and extract the data in .json (this includes ALL data -height, id, moves, etc). 
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image5.png)
+## We will derive our live application Pokemon ID from our Image Classifier TBD…
 
-#### Questions we want to answer: 
-- Can we create a pokemon image classifier?
-- Can we predict the type of pokemon based on having a gender vs. not?
-- Can we provide a map and recommendation for pokemon features near you?
+-----------------------------------------------------------------------------------------------------------------------------------
+## Generate and Style Card
+### Const typeColor to match each Pokemon type to a Color to display on the card:
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image10.png)
+### Defined themeColor to equal the typeColor and the Pokemon ID using stats retrieved in Console (see below for derivation of the const hp (which was composed of data.stats[0].base_stat
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image6_1.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/Pokemon_Card_Generator/Resources/image9.png)
 
-## Technologies Used:
--	Software: Jupyter Notebook, and Python 3.7.9
--	Python libraries:
-- Numpy
-- Pandas
-- Seaborn (violin, factorplot, heatmap)
-- Matplotlib
-- Graphvis (for graphic visualization)
-- Scikit-Learn
-
-## Data Cleaning and Analysis
--	Pandas will be used to clean the data and perform an exploratory analysis. First we will import our CSV files into a pandas dataframe. Next, we will loop through the data using pandas and convert and transform the categorical data (LabelEncoder and pandas). We will next clean the data by dropping rows with missing values, or filling in the row that has a missing value. Finally, we will merge the datasets to be used for analysis.
--	Numpy will be used for linear algebra and fixing arrays, Seaborn for cool visualizations, matplotlib for figures, graphviz for awesome graph visualization and Scikit-Learn for preprocessing and machine learning algorithms.
--	Postgres will be used for data storage.
--	Several project specific tools may include:
-
-## Dashboard
--	TBD, however, we are interested in using Tableau, and plotly.js. We will potentially deploy our dashboard to a cloud server.
