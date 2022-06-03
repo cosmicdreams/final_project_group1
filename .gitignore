@@ -131,3 +131,5 @@ dmypy.json
 # Custom folders
 kaggle
 .idea
+tmp
+uploads
