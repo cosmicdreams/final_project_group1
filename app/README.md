@@ -28,16 +28,3 @@
 #### Confirmation that our  http://127.0.0.1:5000/users and data.csv file were updated:
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot6.png)
 ![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/flask/Resources/Plot7.png)
-
-
-### Things we learned
-
-#### How to set up Webpack
-1. npm i webpack-cli webpack
-2. Configure the webpack.config.js to consume the javascript that needs to be compiled, and output the file into the app/static/js folder.
-3. run webpack --mode production
-4. modify your html file to use the new js at /static/js/main.js
-
-
-
-
