@@ -4,6 +4,7 @@ from urllib.parse import urlparse
 
 import cv2 as cv
 import numpy as np
+import requests
 from flask import Flask, render_template, request, abort, send_from_directory
 from tensorflow.keras.models import load_model
 from werkzeug.utils import secure_filename
@@ -72,7 +73,6 @@ def validate_image(stream):
 
 # Mock data for testing purposes.
 def get_test_image():
-    import requests
     url = 'https://johnlewis.scene7.com/is/image/JohnLewis/237525467'
     r = requests.get(url, stream=True).raw
     image = np.asarray(bytearray(r.read()), dtype="uint8")
@@ -80,8 +80,6 @@ def get_test_image():
 
 
 def get_image(url):
-    import requests
-
     r = requests.get(url, stream=True).raw
     image = np.asarray(bytearray(r.read()), dtype="uint8")
     return cv.imdecode(image, cv.IMREAD_COLOR)
