@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024
-app.config['UPLOAD_EXTENSIONS'] = ['.jpg', '.png', '.gif', '.webp']
+app.config['UPLOAD_EXTENSIONS'] = ['.jpg', '.png', '.gif', '.webp', '.jpeg']
 app.config['UPLOAD_PATH'] = 'uploads'
 
 
@@ -68,7 +68,7 @@ def validate_image(stream):
     format = imghdr.what(None, header)
     if not format:
         return None
-    return '.' + (format if format != 'jpeg' else 'jpg')
+    return '.' + format
 
 
 # Mock data for testing purposes.
