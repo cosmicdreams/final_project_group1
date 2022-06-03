@@ -1,4 +1,4 @@
-import {css, html, LitElement} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js';
+import {css, html, LitElement} from 'lit';
 
 export class PokemonCard extends LitElement {
     static properties = {
