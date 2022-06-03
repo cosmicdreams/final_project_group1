@@ -1,17 +1,12 @@
-import os
-
-from flask import Flask, render_template, request, url_for, abort, send_from_directory
-from tensorflow import keras
-from tensorflow.keras.models import load_model
-from os import scandir
 import imghdr
-from werkzeug.utils import secure_filename
-import numpy as np
-import cv2 as cv
-import base64
-import io
-import shutil
+import os
 from urllib.parse import urlparse
+
+import cv2 as cv
+import numpy as np
+from flask import Flask, render_template, request, abort, send_from_directory
+from tensorflow.keras.models import load_model
+from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024
