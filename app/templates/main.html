@@ -51,10 +51,10 @@
         <!-- Bar separating post submission display -->
         <div class="row" style="margin-top:3em">
             <div class="drag-area col-md-8 center">
-                <form method="post" action="/upload" enctype="multipart/form-data">
+                <form method="post" action="/" enctype="multipart/form-data">
 
                     <div class="file-upload">
-                        <input type="file" id="upload" name="upload" accept="image/jpeg, image/png, image/gif">
+                        <input type="file" id="upload" name="upload" accept="image/jpeg, image/png, image/gif, image/webp">
                     </div>
                     <div class="submit-pokemon">
                         <input type="submit" id="send_file" value="Who's that Pokemon">
@@ -68,7 +68,7 @@
 
 <div class="app-separator">Upload a file and Pokedex will provide information below:</div>
 
-{{result}}
+{{ result|safe }}
 
 </body>
 </html>

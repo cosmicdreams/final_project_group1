@@ -10,7 +10,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024
-app.config['UPLOAD_EXTENSIONS'] = ['.jpg', '.png', '.gif']
+app.config['UPLOAD_EXTENSIONS'] = ['.jpg', '.png', '.gif', '.webp']
 app.config['UPLOAD_PATH'] = 'uploads'
 
 
@@ -19,7 +19,7 @@ def home_page():
     return render_template('main.html')
 
 
-@app.route('/upload', methods=['POST'])
+@app.route('/', methods=['POST'])
 def upload_files():
     uploaded_file = request.files['upload']
     filename = secure_filename(uploaded_file.filename)
@@ -46,7 +46,8 @@ def upload_files():
         payload = identify_image(image)
 
         # 5. Send response
-        return payload
+        pokemon_name = payload['Prediction']
+        return render_result(pokemon_name)
 
 
 @app.route('/uploads/<filename>')
@@ -111,22 +112,40 @@ def identify_image(image):
             'Accuracy': round(prediction[0][pred_class] * 100, 2)}
 
 
-# Once we have the identity, pull data on pokemon
-def get_pokemon_data(pokemon_id):
-    return render_template('pokemon_data_display.html', pokemon=pokemon_id)
-
-
-# Render the incoming markup from elder's query.
-def spit_markup(elders_markup):
-    return render_template('elders_markup.html', markup=elders_markup)
-
-
 # Get a dictionary which contains class and number of images in that class
 def get_map():
     import os
 
     path = '../input/PokemonData'
-    return sorted(os.listdir(path))
+    pokemon_list = sorted(os.listdir(path))
+    if '.DS_Store' in pokemon_list:
+        pokemon_list.remove('.DS_Store')
+
+    return pokemon_list
+
+
+# Render the incoming markup from elder's query.
+def render_scrape(pokemon_name):
+    markup = render_mock_scrape()  # Do db lookup of markup here.
+    return render_template('wrap-me.html', markup=markup)
+
+
+# Outputs and initializes the pokemon card element.
+def render_card(pokemon_name):
+    return render_template('pokemon-card.html', pokemon_name=pokemon_name)
+
+
+# Compile the two results and deliver a complete set of results.
+def render_result(pokemon_name):
+    scrape_result = render_scrape(pokemon_name)
+    card_result = render_card(pokemon_name)
+    compiled_result = render_template('result.html', scrape=scrape_result, card=card_result)
+    return render_template('main.html', result=compiled_result)
+
+
+# Until we have the db select working, here's a method to get the
+def render_mock_scrape():
+    return render_template('mock_scrape.html')
 
 
 # Launcher
