@@ -138,7 +138,7 @@ def render_card(pokemon_name):
 # Compile the two results and deliver a complete set of results.
 def render_result(pokemon_name):
     scrape_result = render_scrape(pokemon_name)
-    card_result = render_card(pokemon_name)
+    card_result = render_card(pokemon_name.lower())  # PokeApi requires names to be lower case.
     compiled_result = render_template('result.html', scrape=scrape_result, card=card_result)
     return render_template('main.html', result=compiled_result)
 
