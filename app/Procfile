@@ -1,1 +1,1 @@
-web: gunicorn upload:app --preload
+web: newrelic-admin run-program gunicorn upload:app --preload
