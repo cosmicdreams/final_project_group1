@@ -133,3 +133,5 @@ kaggle
 .idea
 tmp
 uploads
+node_modules
+.DS_Store
