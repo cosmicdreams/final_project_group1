@@ -26,8 +26,7 @@ def upload_files():
     filename = secure_filename(uploaded_file.filename)
     if filename != '':
         file_ext = os.path.splitext(filename)[1]
-        if file_ext not in app.config['UPLOAD_EXTENSIONS'] or \
-                file_ext != validate_image(uploaded_file.stream):
+        if file_ext not in app.config['UPLOAD_EXTENSIONS'] or not validate_image(uploaded_file.stream, file_ext):
             abort(400)
 
         # 1. Save uploaded file in temp directory verbatim
@@ -62,13 +61,18 @@ def create_uploads(path):
 
 
 # Check the first part so that the file type can be determined.
-def validate_image(stream):
+def validate_image(stream, test_ext):
     header = stream.read(512)  # 512 bytes should be enough for a header check
     stream.seek(0)  # reset stream pointer
     format = imghdr.what(None, header)
     if not format:
-        return None
-    return '.' + format
+        return False
+
+    jpegs = ['jpg', 'jpeg']
+    if format in jpegs:
+        return test_ext.lstrip('.') in jpegs
+
+    return format in app.config['UPLOAD_EXTENSIONS']
 
 
 # Mock data for testing purposes.
@@ -132,10 +136,42 @@ def get_map():
             'Wartortle', 'Weedle', 'Weepinbell', 'Weezing', 'Wigglytuff', 'Zapdos', 'Zubat']
 
 
+def get_scrape_data(pokemon_name):
+    from sqlalchemy import create_engine
+    if pokemon_name in ['Alolan Sandslash']:
+        pokemon_name = 'Sandslash'
+
+    data = []
+    db_string = "sqlite:///db/pokescrape.db"
+    db = create_engine(db_string)
+
+    # Query/Read from Database
+    query = f"SELECT html FROM pokedex_html where name = '{pokemon_name}';"
+    with db.connect() as con:
+        results = con.execute(query)
+        for row in results:
+            data = row
+            break
+
+    # Close Connection to Postgres:
+    db.dispose()
+
+    return data[0]
+
+
 # Render the incoming markup from elder's query.
 def render_scrape(pokemon_name):
-    markup = render_mock_scrape()  # Do db lookup of markup here.
+    markup = get_scrape_data(pokemon_name)  # Do db lookup of markup here.
+    markup = clean_markup(markup)
     return render_template('wrap-me.html', markup=markup)
+
+
+# It's possible for the markup to be nested within square brackets []
+def clean_markup(markup):
+    markup = markup.replace("[", "")
+    markup = markup.replace("]", "")
+
+    return markup
 
 
 # Outputs and initializes the pokemon card element.
