@@ -20,6 +20,12 @@ def home_page():
     return render_template('main.html')
 
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico',
+                               mimetype='image/vnd.microsoft.icon')
+
+
 @app.route('/', methods=['POST'])
 def upload_files():
     uploaded_file = request.files['upload']
@@ -72,7 +78,7 @@ def validate_image(stream, test_ext):
     if format in jpegs:
         return test_ext.lstrip('.') in jpegs
 
-    return format in app.config['UPLOAD_EXTENSIONS']
+    return format not in app.config['UPLOAD_EXTENSIONS']
 
 
 # Mock data for testing purposes.
