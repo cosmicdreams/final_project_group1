@@ -20,20 +20,6 @@ def home_page():
     return render_template('main.html')
 
 
-# Needed to manually handle these files.
-@app.route('/favicon.ico')
-def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico',
-                               mimetype='image/vnd.microsoft.icon')
-
-
-# Needed to manually handle these files.
-@app.route('/site.webmanifest')
-def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'site.webmanifest',
-                               mimetype='application/manifest+json')
-
-
 @app.route('/', methods=['POST'])
 def upload_files():
     uploaded_file = request.files['upload']
