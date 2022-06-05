@@ -15,9 +15,9 @@
 
 
 ## Pokemon Identifier
-#### In order to have our Pokedex identify a Pokemon from an uploaded picture we need a large image collection of Pokemon.  This whole process sounds complicated. Luckily others have done this before.  
+### In order to have our Pokedex identify a Pokemon from an uploaded picture we need a large image collection of Pokemon.  This whole process sounds complicated. Luckily others have done this before.  
 
-#### For our data pipeline we need a means of acquiring and classifying Pokemon images.  A quick search found this set of 6,820 cropped and labeled Pokemon. From there we just need to figure out the image classifier code and bundle up whatever comes from that.
+### For our data pipeline we need a means of acquiring and classifying Pokemon images.  A quick search found this set of 6,820 cropped and labeled Pokemon. From there we just need to figure out the image classifier code and bundle up whatever comes from that.
 ---------------------------------------------------------------
 ### Machine Learning Model 
 
@@ -43,7 +43,7 @@
 
 
 ## Pokemon Characteristics
-#### In order to be able to retrieve a name with corresponding Pokemon characteristics, we needed to scrape, clean, and make a database.
+### In order to be able to retrieve a name with corresponding Pokemon characteristics, we needed to scrape, clean, and make a database.
 
 ---------------------------------------------------------------
 ### Database Integration
@@ -70,16 +70,13 @@
 
 
 ## Pokemon Visualization
-
+--------------------------------------------------------
 ### Dashboard 
 
 #### We deployed a dashboard on herokuapp: 
 https://pokedex-bootcamp.herokuapp.com/
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN5.png)
-
 #### With this, the user is able to upload an image of an unknown Pokemon, select the button “Who’s that Pokemon”, and be able to search our image database for a matching Pokemon. The app then retrieves specific information about the identified Pokemon
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN6.png)
 
 ---------------------------------------------------------
