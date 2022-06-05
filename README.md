@@ -23,22 +23,22 @@ To take these three different challenges we need to first gather data.
 
 #### 1) For the data pre-processing in the machine learning model, we uploaded 6,820 images of 150 different Pokemon via Tensorflow ImageDataGenerator.
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN7.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN7.png)
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN8.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN8.png)
 
 
 ##### 2) Feature engineering aspects of our model included several rounds of the activation function ReLU (rectified linear unit) in hidden layer to avoid vanishing gradient problem and increased computation performance , and Softmax function use in last output layer to calculate the probabilities distribution. 
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN9.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN9.png)
 
 #### 3) We used 20 epochs
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN10.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN10.png)
 
 #### 4) The accuracy of the model was: 66%
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN11.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN11.png)
 
 ## Might need to further articulate:
 -	Description of how data was split into training and testing sets
@@ -51,23 +51,23 @@ To take these three different challenges we need to first gather data.
 ### Database Integration
 #### 1) Data was scraped from https://pokemondb.net/pokedex using pandas, splinter, and BeautifulSoup
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN1.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN1.png)
 
 #### 2) Data was cleaned after scraping (I.e. removal of odd characters)
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN5.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN5.png)
 
 #### 3) Output of data scraping:
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN2.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN2.png)
 
 #### 4) We utilized postgres in AWS to store our scraped data:
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN3.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN3.png)
 
 #### 5) Using Sqlalchemy, we queried the database to dynamically interface and retrieve specific character information
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN4.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN4.png)
 
 ## (INSERT ERD WITH RELATIONSHIPS)
 
@@ -78,11 +78,11 @@ To take these three different challenges we need to first gather data.
 #### We deployed a dashboard on herokuapp: 
 https://pokedex-bootcamp.herokuapp.com/
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN5.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN5.png)
 
 #### With this, the user is able to upload an image of an unknown pokemon, select the button “Who’s that Pokemon”, and be able to search our image database for a matching pokemon. The app then retrieves specific information about the identified pokemon
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN6.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN6.png)
 
 ---------------------------------------------------------
 
