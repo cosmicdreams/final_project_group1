@@ -53,7 +53,7 @@
 
 #### 2) Data was cleaned after scraping (I.e. removal of odd characters)
 
-![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN5.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN1_5.png)
 
 #### 3) Output of data scraping:
 
