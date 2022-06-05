@@ -2,14 +2,17 @@
 ## by Team Ashe’s Mustache
 ### A helpful Pokemon assistant for Pokemon Go
 
-In Pokemon Lore, there is a Pokedex.  A digital assistant that helps you identify Pokemon and explain the detail about the game.  For our final project in Data Science boot camp we wanted to build a Pokedex that is capable of:
+#### In Pokemon Lore, there is a Pokedex.  A digital assistant that helps you identify Pokemon and explain the detail about the game.  For our final project in Data Science boot camp we wanted to build a Pokedex that is capable of:
 
 Identifying Pokemon from an image: What’s that Pokemon
-Suggest Pokemon to look out for near you.
-Take a look at your roster, and suggest a Pokemon that would improve your team.
+•	Uploading an image of an unknown Pokemon
+•	Our Machine Learning Model will make an ID to a Pokemon Character
+•	Output will include name and confirmation picture with statistics for that character
+•	A classic Pokemon card for your viewing pleasure
+## Link to Google Slides draft presentation: https://docs.google.com/presentation/d/1TUYjjJdEUT_wmSrtK9HSYktDf_2qKt652W3KmD4fK8A/edit?usp=sharing
+
 
 To take these three different challenges we need to first gather data.
-Data Pipeline Strategy
 
 ## Pokemon Identifier
 In order to have our pokedex identify a pokemon from an uploaded picture we need a large image collection of pokemon.  This whole process sounds complicated. Luckily others have done this before.  
