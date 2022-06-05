@@ -43,12 +43,72 @@ export class PokemonCard extends LitElement {
         display: block;
         background: radial-gradient(circle at 50% 0%, var(--default) 35%, green 36%);
     }
-    :host([poketype=poison]) {
-        background: radial-gradient(circle at 50% 0%, var(--default) 35%, #fed330 36%);
-    } 
-    }
     :host([poketype=electric]) {
         background: radial-gradient(circle at 50% 0%, var(--electric) 35%, #fed330 36%);
+    } 
+    }
+    :host([poketype=bug]) {
+        background: radial-gradient(circle at 50% 0%, var(--bug) 35%, ##26de81 36%);
+    }
+    }
+    :host([poketype=dragon]) {
+        background: radial-gradient(circle at 50% 0%, var(--dragon) 35%, #ffeaa7 36%);
+    }
+    }
+    :host([poketype=fairy]) {
+        background: radial-gradient(circle at 50% 0%, var(--fairy) 35%, #FF0069 36%);
+    }
+    }
+    :host([poketype=fighting]) {
+        background: radial-gradient(circle at 50% 0%, var(--fighting) 35%, ##30336b 36%);
+    }
+    }
+    :host([poketype=fire]) {
+        background: radial-gradient(circle at 50% 0%, var(--fire) 35%, #f0932b 36%);
+    }
+    }
+    :host([poketype=flying]) {
+        background: radial-gradient(circle at 50% 0%, var(--flying) 35%, #81ecec 36%);
+    }
+    }
+    :host([poketype=grass]) {
+        background: radial-gradient(circle at 50% 0%, var(--grass) 35%, #00b894 36%);
+    }
+    }
+    :host([poketype=ground]) {
+        background: radial-gradient(circle at 50% 0%, var(--ground) 35%, #EFB549 36%);
+    }
+    }
+    :host([poketype=ghost]) {
+        background: radial-gradient(circle at 50% 0%, var(--ghost) 35%, #a55eea 36%);
+    }
+    }
+    :host([poketype=ice]) {
+        background: radial-gradient(circle at 50% 0%, var(--ice) 35%, #74b9ff 36%);
+    }
+    }
+    :host([poketype=normal]) {
+        background: radial-gradient(circle at 50% 0%, var(--normal) 35%, #95afc0 36%);
+    }
+    }
+    :host([poketype=poison]) {
+        background: radial-gradient(circle at 50% 0%, var(--poison) 35%, #6c5ce7 36%);
+    }
+    }
+    :host([poketype=psychic]) {
+        background: radial-gradient(circle at 50% 0%, var(--psychic]) 35%, #a29bfe 36%);
+    }
+    }
+    :host([poketype=rock]) {
+        background: radial-gradient(circle at 50% 0%, var(--rock) 35%, #2d3436 36%);
+    }
+    }
+    :host([poketype=water]) {
+        background: radial-gradient(circle at 50% 0%, var(--water) 35%, #0190FF 36%);
+    }
+    }
+    :host([poketype=default]) {
+        background: radial-gradient(circle at 50% 0%, var(--default) 35%, white 36%);
     } 
     img {
         display: block;
