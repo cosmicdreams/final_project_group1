@@ -41,7 +41,7 @@ export class PokemonCard extends LitElement {
         box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
         border-radius: 10px;
         display: block;
-        background: radial-gradient(circle at 50% 0%, var(--default) 35%, green 36%);
+        background: radial-gradient(circle at 50% 0%, var(--default) 35%, 36%);
     }
     :host([poketype=electric]) {
         background: radial-gradient(circle at 50% 0%, var(--electric) 35%, #fed330 36%);
