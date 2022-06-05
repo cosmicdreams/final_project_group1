@@ -22,6 +22,8 @@ To take these three different challenges we need to first gather data.
 ### Machine Learning Model 
 
 #### 1) For the data pre-processing in the machine learning model, we uploaded 6,820 images of 150 different Pokemon via Tensorflow ImageDataGenerator.
+![](https://github.com/cosmicdreams/final_project_group1/blob/Beetleee/app/Resources/JN7.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/Main/app/Resources/JN8.png)
 JN7.png
 JN8.png
 ##### 2) Feature engineering aspects of our model included several rounds of the activation function ReLU (rectified linear unit) in hidden layer to avoid vanishing gradient problem and increased computation performance , and Softmax function use in last output layer to calculate the probabilities distribution. 
