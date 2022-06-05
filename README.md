@@ -40,9 +40,7 @@ To take these three different challenges we need to first gather data.
 
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN11.png)
 
-## Might need to further articulate:
--	Description of how data was split into training and testing sets
--	Description of how the model was trained (or retrained, if the team is using an existing model)
+
 
 ## Pokemon Characteristics
 #### In order to be able to retrieve a name with corresponding Pokemon characteristics, we needed to scrape, clean, and make a database.
@@ -69,7 +67,7 @@ To take these three different challenges we need to first gather data.
 
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN4.png)
 
-## (INSERT ERD WITH RELATIONSHIPS)
+
 
 ## Pokemon Visualization
 
