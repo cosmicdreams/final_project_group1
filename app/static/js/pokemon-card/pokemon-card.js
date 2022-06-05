@@ -32,7 +32,7 @@ export class PokemonCard extends LitElement {
         --psychic: #a29bfe;
         --rock: #2d3436;
         --water: #0190FF;
-        --default: clear;
+        --default: green;
     }
     :host {
         position: relative;      
@@ -162,7 +162,7 @@ export class PokemonCard extends LitElement {
 
     constructor() {
         super();
-        this.name = 'Pikachu';
+        this.name = '';
         this.poketype = '';
         this.data = '';
         this.hp = '';
