@@ -12,7 +12,7 @@
 ## Link to Google Slides draft presentation: https://docs.google.com/presentation/d/1TUYjjJdEUT_wmSrtK9HSYktDf_2qKt652W3KmD4fK8A/edit?usp=sharing
 
 
-To take these three different challenges we need to first gather data.
+---------------------------------------------------------------
 
 ## Pokemon Identifier
 #### In order to have our pokedex identify a pokemon from an uploaded picture we need a large image collection of pokemon.  This whole process sounds complicated. Luckily others have done this before.  
