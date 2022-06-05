@@ -61,11 +61,10 @@
 ## Pokemon Visualization
 --------------------------------------------------------
 ### Dashboard 
-
-#### We deployed a dashboard on herokuapp: 
+### 1) We deployed a dashboard on herokuapp: 
 https://pokedex-bootcamp.herokuapp.com/
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN5.png)
-#### With this, the user is able to upload an image of an unknown Pokemon, select the button “Who’s that Pokemon”, and be able to search our image database for a matching Pokemon. The app then retrieves specific information about the identified Pokemon
+#### 2) With this, the user is able to upload an image of an unknown Pokemon, select the button “Who’s that Pokemon”, and be able to search our image database for a matching Pokemon. The app then retrieves specific information about the identified Pokemon
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN6.png)
 
 ---------------------------------------------------------
