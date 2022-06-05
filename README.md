@@ -36,5 +36,11 @@ Our final deliverable will need:
 * The ability to provide your location
 * The ability to define the pokemon that are in your team
 
+# Things we learned
 
-
+## How to set up Webpack
+1. Run npm i webpack-cli webpack
+2. Run webpack-cli init and go through all the prompts. 
+3. Configure the webpack.config.js to consume the javascript that needs to be compiled, and output the file into the app/static/js folder.
+4. run webpack --mode production
+5. modify your html file to use the new js at /static/js/main.js

@@ -1,0 +1,845 @@
+Number,Name,Type,Attack,Defense,HP,Catch,Flee,Fast_Moves,Charge_Moves
+1,Bulbasaur,Grass Poison,118,111,128,0.2,0.1,TackleVine Whip,Power WhipSeed BombSludge BombFrustration (Shadow)Return (Shadow)
+2,Ivysaur,Grass Poison,151,143,155,0.1,0.07,Razor LeafVine Whip,Power WhipSludge BombSolar BeamFrustration (Shadow)Return (Shadow)
+3,Venusaur,Grass Poison,198,189,190,0.05,0.05,Razor LeafVine Whip,Petal BlizzardSludge BombSolar BeamFrenzy Plant (Community Day)Frustration (Shadow)Return (Shadow)
+4,Charmander,Fire,116,93,118,0.2,0.1,EmberScratch,Flame BurstFlame ChargeFlamethrowerFrustration (Shadow)Return (Shadow)
+5,Charmeleon,Fire,158,126,151,0.1,0.07,EmberFire FangScratch (legacy),Fire PunchFlame BurstFlamethrowerFrustration (Shadow)Return (Shadow)
+6,Charizard,Fire Flying,223,173,186,0.05,0.05,Air SlashFire SpinEmber (legacy)Wing Attack (legacy)Dragon Breath (Community Day),Dragon ClawFire BlastOverheatFlamethrower (legacy)Blast Burn (Community Day)Frustration (Shadow)Return (Shadow)
+7,Squirtle,Water,94,121,127,0.2,0.1,BubbleTackle,Aqua JetAqua TailWater PulseFrustration (Shadow)Return (Shadow)
+8,Wartortle,Water,126,155,153,0.1,0.07,BiteWater Gun,Aqua JetHydro PumpIce BeamFrustration (Shadow)Return (Shadow)
+9,Blastoise,Water,171,207,188,0.05,0.05,BiteWater Gun,Flash CannonHydro PumpIce BeamSkull BashHydro Cannon (Community Day)Frustration (Shadow)Return (Shadow)
+10,Caterpie,Bug,55,55,128,0.5,0.2,Bug BiteTackle,Struggle
+11,Metapod,Bug,45,80,137,0.25,0.09,Bug BiteTackle,Struggle
+12,Butterfree,Bug Flying,167,137,155,0.125,0.06,ConfusionStruggle BugBug Bite (legacy),Bug BuzzPsychicSignal Beam
+13,Weedle,Bug Poison,63,50,120,0.5,0.2,Bug BitePoison Sting,StruggleFrustration (Shadow)Return (Shadow)
+14,Kakuna,Bug Poison,46,75,128,0.25,0.09,Bug BitePoison Sting,StruggleFrustration (Shadow)Return (Shadow)
+15,Beedrill,Bug Poison,169,130,163,0.125,0.06,InfestationPoison JabBug Bite (legacy),Aerial AceFell StingerSludge BombX-ScissorDrill Run (Community Day)Frustration (Shadow)Return (Shadow)
+16,Pidgey,Normal Flying,85,73,120,0.5,0.2,Quick AttackTackle,Aerial AceAir CutterTwister
+17,Pidgeotto,Normal Flying,117,105,160,0.25,0.09,Steel WingWing Attack,Aerial AceAir CutterTwister
+18,Pidgeot,Normal Flying,166,154,195,0.125,0.06,Air SlashSteel WingGust (legacy)Wing Attack (legacy),Aerial AceBrave BirdFeather DanceHurricaneAir Cutter (legacy)
+19,Rattata,Normal,103,70,102,0.5,0.2,Quick AttackTackle,Body SlamDigHyper FangFrustration (Shadow)Return (Shadow)
+19,Rattata Alolan Rattata,Dark Normal,103,70,102,0.5,0.2,Quick AttackTackle,CrunchHyper FangShadow Ball
+20,Raticate,Normal,161,139,146,0.2,0.07,BiteQuick Attack,DigHyper BeamHyper FangFrustration (Shadow)Return (Shadow)
+20,Raticate Alolan Raticate,Dark Normal,135,154,181,0.2,0.07,BiteQuick Attack,CrunchHyper BeamHyper Fang
+21,Spearow,Normal Flying,112,60,120,0.5,0.15,PeckQuick Attack,Aerial AceDrill PeckSky AttackTwister (legacy)
+22,Fearow,Normal Flying,182,133,163,0.2,0.07,PeckSteel Wing,Aerial AceDrill RunSky AttackTwister (legacy)
+23,Ekans,Poison,110,97,111,0.5,0.15,AcidPoison Sting,Poison FangSludge BombWrapGunk Shot (legacy)Frustration (Shadow)Return (Shadow)
+24,Arbok,Poison,167,153,155,0.2,0.07,AcidBiteDragon Tail,Acid SprayDark PulseGunk ShotSludge WaveFrustration (Shadow)Return (Shadow)
+25,Pikachu,Electric,112,96,111,0.2,0.1,Quick AttackThunder ShockPresent (legacy),DischargeThunderboltWild ChargeThunder (legacy)Surf (Community Day)
+25,Pikachu Pikachu Libre,Electric,112,96,111,0.2,0.0,CharmThunder Shock,Flying PressPlay RoughThunder Punch
+25,Pikachu 5-Shaped Balloon,Electric,112,96,111,0.2,0.1,PresentQuick AttackThunder Shock,DischargeFlyThunderboltWild Charge
+25,Pikachu Pop Star,Electric,112,96,111,0.2,0.0,CharmThunder Shock,Draining KissPlay RoughThunder Punch
+25,Pikachu Rock Star,Electric,112,96,111,0.2,0.0,CharmThunder Shock,Meteor MashPlay RoughThunder Punch
+26,Raichu,Electric,193,151,155,0.1,0.06,CharmSparkThunder ShockVolt Switch,Brick BreakSkull BashThunder PunchWild ChargeThunder (legacy)
+26,Raichu Alolan Raichu,Electric Psychic,201,154,155,0.1,0.06,SparkThunder ShockVolt Switch,Grass KnotPsychicThunder PunchWild Charge
+27,Sandshrew,Ground,126,120,137,0.5,0.1,Mud ShotScratch,DigRock SlideSand TombRock Tomb (legacy)Frustration (Shadow)Return (Shadow)
+27,Sandshrew Alolan Sandshrew,Ice Steel,125,129,137,0.5,0.1,Metal ClawPowder Snow,BlizzardGyro BallNight Slash
+28,Sandslash,Ground,182,175,181,0.2,0.06,Metal ClawMud Shot,BulldozeEarthquakeRock TombNight Slash (Community Day)Frustration (Shadow)Return (Shadow)
+28,Sandslash Alolan Sandslash,Ice Steel,177,195,181,0.2,0.06,Metal ClawPowder SnowShadow Claw (Community Day),BlizzardBulldozeGyro BallIce Punch
+29,Nidoran♀,Poison,86,89,146,0.5,0.15,BitePoison Sting,Body SlamPoison FangSludge BombFrustration (Shadow)Return (Shadow)
+30,Nidorina,Poison,117,120,172,0.25,0.07,BitePoison Sting,DigPoison FangSludge BombFrustration (Shadow)Return (Shadow)
+31,Nidoqueen,Poison Ground,180,173,207,0.125,0.05,BitePoison Jab,Earth PowerEarthquakePoison FangSludge WaveStone EdgeFrustration (Shadow)Return (Shadow)
+32,Nidoran♂,Poison,105,76,130,0.5,0.15,PeckPoison Sting,Body SlamHorn AttackSludge BombFrustration (Shadow)Return (Shadow)
+33,Nidorino,Poison,137,111,156,0.25,0.07,Poison JabPoison Sting,DigHorn AttackSludge BombFrustration (Shadow)Return (Shadow)
+34,Nidoking,Poison Ground,204,156,191,0.125,0.05,Iron TailPoison JabFury Cutter (legacy),Earth PowerEarthquakeMegahornSand TombSludge WaveFrustration (Shadow)Return (Shadow)
+35,Clefairy,Fairy,107,108,172,0.3,0.1,PoundZen Headbutt,Body SlamDisarming VoiceMoonblast
+36,Clefable,Fairy,178,162,216,0.1,0.06,Charge BeamCharmZen HeadbuttPound (legacy),Dazzling GleamMeteor MashMoonblastPsychic
+37,Vulpix,Fire,96,109,116,0.3,0.1,EmberQuick Attack,Body SlamFlame ChargeFlamethrowerWeather Ball - FireFrustration (Shadow)Return (Shadow)
+37,Vulpix Alolan Vulpix,Ice,96,109,116,0.3,0.1,Powder SnowZen Headbutt,BlizzardDark PulseIce BeamWeather Ball - Ice
+38,Ninetales,Fire,169,190,177,0.1,0.06,Feint AttackFire SpinEmber (legacy),Heat WaveOverheatPsyshockSolar BeamWeather Ball - FireFire Blast (legacy)Flamethrower (legacy)Frustration (Shadow)Return (Shadow)
+38,Ninetales Alolan Ninetales,Ice Fairy,170,193,177,0.1,0.06,CharmFeint AttackPowder Snow,BlizzardDazzling GleamIce BeamPsyshockWeather Ball - Ice
+39,Jigglypuff,Normal Fairy,80,41,251,0.5,0.1,Feint AttackPound,Dazzling GleamDisarming VoiceGyro BallBody Slam (legacy)Play Rough (legacy)
+40,Wigglytuff,Normal Fairy,156,90,295,0.2,0.06,CharmFeint AttackPound,Dazzling GleamHyper BeamIce BeamPlay Rough
+41,Zubat,Poison Flying,83,73,120,0.5,0.2,BiteQuick Attack,Air CutterPoison FangSwiftSludge Bomb (legacy)Frustration (Shadow)Return (Shadow)
+42,Golbat,Poison Flying,161,150,181,0.2,0.07,BiteWing Attack,Air CutterPoison FangShadow BallOminous Wind (legacy)Frustration (Shadow)Return (Shadow)
+43,Oddish,Grass Poison,131,112,128,0.6,0.15,AcidRazor Leaf,MoonblastSeed BombSludge BombFrustration (Shadow)Return (Shadow)
+44,Gloom,Grass Poison,153,136,155,0.3,0.07,AcidRazor Leaf,MoonblastPetal BlizzardSludge BombFrustration (Shadow)Return (Shadow)
+45,Vileplume,Grass Poison,202,167,181,0.15,0.05,AcidRazor Leaf,MoonblastPetal BlizzardSludge BombSolar BeamFrustration (Shadow)Return (Shadow)
+46,Paras,Bug Grass,121,99,111,0.4,0.15,Bug BiteScratch,Cross PoisonSeed BombX-Scissor
+47,Parasect,Bug Grass,165,146,155,0.2,0.07,Fury CutterStruggle BugBug Bite (legacy),Cross PoisonSolar BeamX-Scissor
+48,Venonat,Bug Poison,100,100,155,0.5,0.15,Bug BiteConfusion,Poison FangPsybeamSignal BeamFrustration (Shadow)Return (Shadow)
+49,Venomoth,Bug Poison,179,143,172,0.2,0.07,ConfusionInfestationBug Bite (legacy),Bug BuzzPoison FangPsychicSilver WindFrustration (Shadow)Return (Shadow)
+50,Diglett,Ground,109,78,67,0.5,0.1,Mud-SlapScratch,DigMud BombRock TombFrustration (Shadow)Return (Shadow)
+50,Diglett Alolan Diglett,Ground Steel,108,81,67,0.5,0.1,Metal ClawMud-Slap,DigMud BombRock Tomb
+51,Dugtrio,Ground,167,134,111,0.2,0.06,Mud-SlapSucker Punch,EarthquakeMud BombStone EdgeFrustration (Shadow)Return (Shadow)
+51,Dugtrio Alolan Dugtrio,Ground Steel,201,142,111,0.2,0.06,Metal ClawMud-Slap,EarthquakeIron HeadMud Bomb
+52,Meowth,Normal,92,78,120,0.5,0.15,BiteScratch,Dark PulseFoul PlayNight SlashBody Slam (legacy)Frustration (Shadow)Return (Shadow)
+52,Meowth Alolan Meowth,Dark,99,78,120,0.5,0.15,BiteScratch,Dark PulseFoul PlayNight Slash
+52,Meowth Galarian Meowth,Steel,115,92,137,0.45,0.1,Metal ClawScratch,DigGyro BallNight Slash
+53,Persian,Normal,150,136,163,0.2,0.07,Feint AttackScratch,Foul PlayPaybackPlay RoughPower GemNight Slash (legacy)Frustration (Shadow)Return (Shadow)
+53,Persian Alolan Persian,Dark,158,136,163,0.2,0.07,Feint AttackScratch,Dark PulseFoul PlayPaybackPlay Rough
+54,Psyduck,Water,122,95,137,0.5,0.1,Water GunZen Headbutt,Aqua TailCross ChopPsybeamFrustration (Shadow)Return (Shadow)
+55,Golduck,Water,191,162,190,0.2,0.06,ConfusionWater Gun,Bubble BeamCross ChopHydro PumpIce BeamPsychicSynchronoiseFrustration (Shadow)Return (Shadow)
+56,Mankey,Fighting,148,82,120,0.5,0.1,Karate ChopScratch,Brick BreakCross ChopLow Sweep
+57,Primeape,Fighting,207,138,163,0.2,0.06,CounterLow KickKarate Chop (legacy),Close CombatIce PunchLow SweepNight SlashCross Chop (legacy)
+58,Growlithe,Fire,136,93,146,0.3,0.1,BiteEmber,Body SlamFlame WheelFlamethrowerFrustration (Shadow)Return (Shadow)
+59,Arcanine,Fire,227,166,207,0.1,0.06,Fire FangSnarlThunder FangBite (legacy),CrunchFire BlastFlamethrowerWild ChargeBulldoze (legacy)Frustration (Shadow)Return (Shadow)
+60,Poliwag,Water,101,82,120,0.5,0.15,BubbleMud Shot,Body SlamBubble BeamMud BombFrustration (Shadow)Return (Shadow)
+61,Poliwhirl,Water,130,123,163,0.25,0.07,BubbleMud Shot,Bubble BeamMud BombWater PulseScald (legacy)Frustration (Shadow)Return (Shadow)
+62,Poliwrath,Water Fighting,182,184,207,0.125,0.05,BubbleMud ShotRock Smash,Dynamic PunchHydro PumpIce PunchPower-Up PunchScaldSubmission (legacy)Frustration (Shadow)Return (Shadow)
+63,Abra,Psychic,195,82,93,0.5,0.99,Charge BeamZen Headbutt,PsyshockShadow BallSignal BeamFrustration (Shadow)Return (Shadow)
+64,Kadabra,Psychic,232,117,120,0.25,0.07,ConfusionPsycho Cut,Dazzling GleamPsybeamShadow BallFrustration (Shadow)Return (Shadow)
+65,Alakazam,Psychic,271,167,146,0.1,0.05,ConfusionPsycho CutCounter (Community Day),Fire PunchFocus BlastFuture SightShadow BallDazzling Gleam (legacy)Psychic (legacy)Frustration (Shadow)Return (Shadow)
+66,Machop,Fighting,137,82,172,0.5,0.1,Karate ChopRock SmashLow Kick (legacy),Brick BreakCross ChopLow SweepFrustration (Shadow)Return (Shadow)
+67,Machoke,Fighting,177,125,190,0.25,0.07,Karate ChopLow Kick,Brick BreakDynamic PunchSubmissionCross Chop (legacy)Frustration (Shadow)Return (Shadow)
+68,Machamp,Fighting,234,159,207,0.1,0.05,Bullet PunchCounterKarate Chop (legacy),Close CombatCross ChopDynamic PunchHeavy SlamRock SlideStone Edge (legacy)Submission (legacy)Payback (Community Day)Frustration (Shadow)Return (Shadow)
+69,Bellsprout,Grass Poison,139,61,137,0.5,0.15,AcidVine Whip,Power WhipSludge BombWrapFrustration (Shadow)Return (Shadow)
+70,Weepinbell,Grass Poison,172,92,163,0.25,0.07,AcidBullet SeedRazor Leaf (legacy),Power WhipSeed BombSludge BombFrustration (Shadow)Return (Shadow)
+71,Victreebel,Grass Poison,207,135,190,0.125,0.05,AcidRazor Leaf,Acid SprayLeaf BladeLeaf TornadoSludge BombSolar BeamFrustration (Shadow)Return (Shadow)
+72,Tentacool,Water Poison,97,149,120,0.5,0.15,BubblePoison Sting,Bubble BeamWater PulseWrap
+73,Tentacruel,Water Poison,166,209,190,0.2,0.07,AcidPoison Jab,Acid SprayBlizzardHydro PumpSludge Wave
+74,Geodude,Rock Ground,132,132,120,0.5,0.1,Rock ThrowTackle,DigRock SlideRock TombFrustration (Shadow)Return (Shadow)
+74,Geodude Alolan Geodude,Rock Electric,132,132,120,0.5,0.1,Rock ThrowVolt Switch,Rock SlideRock TombThunderbolt
+75,Graveler,Rock Ground,164,164,146,0.25,0.07,Mud-SlapRock Throw,DigRock BlastStone EdgeRock Slide (legacy)Frustration (Shadow)Return (Shadow)
+75,Graveler Alolan Graveler,Rock Electric,164,164,146,0.25,0.07,Rock ThrowVolt Switch,Rock BlastStone EdgeThunderbolt
+76,Golem,Rock Ground,211,198,190,0.125,0.05,Mud-SlapRock Throw,Ancient PowerEarthquakeRock BlastStone EdgeFrustration (Shadow)Return (Shadow)
+76,Golem Alolan Golem,Rock Electric,211,198,190,0.125,0.05,Rock ThrowVolt SwitchRollout (Community Day),Rock BlastStone EdgeWild Charge
+77,Ponyta,Fire,170,127,137,0.4,0.1,EmberTackle,Flame ChargeFlame WheelStompFire Blast (legacy)Frustration (Shadow)Return (Shadow)
+77,Ponyta Galarian Ponyta,Psychic,170,127,137,0.4,0.1,Low KickPsycho Cut,Play RoughPsybeamSwift
+78,Rapidash,Fire,207,162,163,0.15,0.06,Fire SpinIncinerateLow KickEmber (legacy),Drill RunFire BlastFlame ChargeHeat WaveFrustration (Shadow)Return (Shadow)
+78,Rapidash Galarian Rapidash,Psychic Fairy,207,162,163,0.2,0.06,Low KickPsycho Cut,Body SlamMegahornPlay RoughPsychic
+79,Slowpoke,Water Psychic,109,98,207,0.5,0.1,ConfusionWater Gun,PsychicPsyshockWater PulseFrustration (Shadow)Return (Shadow)
+79,Slowpoke Galarian Slowpoke,Psychic,109,98,207,0.5,0.1,ConfusionIron Tail,PsychicPsyshockSurf
+80,Slowbro,Water Psychic,177,180,216,0.2,0.06,ConfusionWater Gun,Ice BeamPsychicWater PulseFrustration (Shadow)Return (Shadow)
+80,Slowbro Galarian Slowbro,Poison Psychic,182,156,216,0.2,0.06,ConfusionPoison Jab,Focus BlastPsychicSludge Bomb
+81,Magnemite,Electric Steel,165,121,93,0.5,0.1,SparkThunder Shock,DischargeMagnet BombThunderboltFrustration (Shadow)Return (Shadow)
+82,Magneton,Electric Steel,223,169,137,0.2,0.06,Charge BeamSparkThunder Shock,DischargeFlash CannonMagnet BombZap CannonFrustration (Shadow)Return (Shadow)
+83,Farfetch'd,Normal Flying,124,115,141,0.3,0.09,Air SlashFury CutterCut (legacy),Aerial AceAir CutterLeaf BladeFrustration (Shadow)Return (Shadow)
+83,Farfetch'd Galarian Farfetch'd,Fighting,174,114,141,0.3,0.09,Fury CutterRock Smash,Brave BirdBrick BreakLeaf Blade
+84,Doduo,Normal Flying,158,83,111,0.5,0.1,PeckQuick Attack,Aerial AceBrave BirdDrill PeckSwift (legacy)
+85,Dodrio,Normal Flying,218,140,155,0.2,0.06,Feint AttackSteel Wing,Aerial AceBrave BirdDrill PeckAir Cutter (legacy)
+86,Seel,Water,85,121,163,0.5,0.09,Ice ShardLickWater Gun (legacy),Aqua TailAurora BeamIcy WindAqua Jet (legacy)
+87,Dewgong,Water Ice,139,177,207,0.2,0.06,Frost BreathIron TailIce Shard (legacy),Aurora BeamBlizzardWater PulseAqua Jet (legacy)Icy Wind (legacy)
+88,Grimer,Poison,135,90,190,0.5,0.1,Mud-SlapPoison Jab,Mud BombSludgeSludge BombFrustration (Shadow)Return (Shadow)
+88,Grimer Alolan Grimer,Poison Dark,135,90,190,0.5,0.1,BitePoison Jab,CrunchGunk ShotSludge Bomb
+89,Muk,Poison,190,172,233,0.2,0.06,InfestationPoison JabLick (legacy),Acid SprayDark PulseGunk ShotSludge WaveThunder PunchFrustration (Shadow)Return (Shadow)
+89,Muk Alolan Muk,Poison Dark,190,172,233,0.2,0.06,BitePoison JabSnarl,Acid SprayDark PulseGunk ShotSludge Wave
+90,Shellder,Water,116,134,102,0.5,0.1,Ice ShardTackle,Bubble BeamIcy WindWater PulseFrustration (Shadow)Return (Shadow)
+91,Cloyster,Water Ice,186,256,137,0.2,0.06,Frost BreathIce Shard,Aurora BeamAvalancheHydro PumpIcy WindBlizzard (legacy)Frustration (Shadow)Return (Shadow)
+92,Gastly,Ghost Poison,186,67,102,0.4,0.1,AstonishLickSucker Punch (legacy),Dark PulseNight ShadeSludge BombOminous Wind (legacy)
+93,Haunter,Ghost Poison,223,107,128,0.2,0.07,AstonishShadow ClawLick (legacy),Dark PulseShadow BallShadow PunchSludge Bomb
+94,Gengar,Ghost Poison,261,149,155,0.1,0.05,HexShadow ClawSucker PunchLick (legacy),Focus BlastShadow BallSludge BombDark Pulse (legacy)Psychic (legacy)Sludge Wave (legacy)Shadow Punch (Community Day)
+95,Onix,Rock Ground,85,232,111,0.2,0.09,Rock ThrowTackle,Heavy SlamSand TombStone EdgeIron Head (legacy)Rock Slide (legacy)Frustration (Shadow)Return (Shadow)
+96,Drowzee,Psychic,89,136,155,0.5,0.1,ConfusionPound,PsybeamPsychicPsyshockFrustration (Shadow)Return (Shadow)
+97,Hypno,Psychic,144,193,198,0.2,0.06,ConfusionZen Headbutt,Fire PunchFocus BlastFuture SightIce PunchPsychicShadow BallThunder PunchPsyshock (legacy)Frustration (Shadow)Return (Shadow)
+98,Krabby,Water,181,124,102,0.5,0.15,BubbleMud Shot,Bubble BeamVise GripWater PulseFrustration (Shadow)Return (Shadow)
+99,Kingler,Water,240,181,146,0.2,0.07,BubbleMetal ClawMud Shot (legacy),CrabhammerVise GripWater PulseX-ScissorFrustration (Shadow)Return (Shadow)
+100,Voltorb,Electric,109,111,120,0.5,0.1,SparkTackle,DischargeGyro BallThunderboltSignal Beam (legacy)
+100,Voltorb Hisuian Voltorb,Electric Grass,109,111,120,0.5,0.1,Charge BeamTackle,Energy BallSwiftThunderbolt
+101,Electrode,Electric,173,173,155,0.2,0.06,SparkVolt SwitchTackle (legacy),DischargeFoul PlayHyper BeamThunderbolt
+101,Electrode Hisuian Electrode,Electric Grass,176,176,155,0.2,0.06,TackleThunder Shock,Energy BallSwiftWild Charge
+102,Exeggcute,Grass Psychic,107,125,155,0.5,0.1,Bullet SeedConfusion,Ancient PowerPsychicSeed BombFrustration (Shadow)Return (Shadow)
+103,Exeggutor,Grass Psychic,233,149,216,0.2,0.06,Bullet SeedConfusionExtrasensoryZen Headbutt (legacy),PsychicSeed BombSolar BeamFrustration (Shadow)Return (Shadow)
+103,Exeggutor Alolan Exeggutor,Grass Dragon,230,153,216,0.2,0.06,Bullet SeedDragon Tail,Dragon PulseSeed BombSolar BeamDraco Meteor (legacy)
+104,Cubone,Ground,90,144,137,0.4,0.1,Mud-SlapRock Smash,Bone ClubBulldozeDigFrustration (Shadow)Return (Shadow)
+105,Marowak,Ground,144,186,155,0.15,0.06,Mud-SlapRock Smash,Bone ClubDigEarthquakeFrustration (Shadow)Return (Shadow)
+105,Marowak Alolan Marowak,Fire Ghost,144,186,155,0.15,0.06,Fire SpinHexRock Smash,Bone ClubFire BlastFlame WheelShadow BallShadow Bone (legacy)
+106,Hitmonlee,Fighting,224,181,137,0.2,0.09,Low KickRock Smash,Close CombatLow SweepStone EdgeBrick Break (legacy)Stomp (legacy)Frustration (Shadow)Return (Shadow)
+107,Hitmonchan,Fighting,193,197,137,0.2,0.09,Bullet PunchCounterRock Smash (legacy),Close CombatFire PunchIce PunchPower-Up PunchThunder PunchBrick Break (legacy)Frustration (Shadow)Return (Shadow)
+108,Lickitung,Normal,108,137,207,0.2,0.09,LickZen Headbutt,Hyper BeamPower WhipStompBody Slam (legacy)
+109,Koffing,Poison,119,141,120,0.5,0.1,InfestationTackle,Dark PulseSludgeSludge BombFrustration (Shadow)Return (Shadow)
+110,Weezing,Poison,174,197,163,0.2,0.06,InfestationTackle,Dark PulseShadow BallSludge BombThunderboltFrustration (Shadow)Return (Shadow)
+110,Weezing Galarian Weezing,Poison Fairy,174,197,163,0.2,0.06,Tackle,Hyper BeamOverheatPlay RoughSludge
+111,Rhyhorn,Ground Rock,140,127,190,0.5,0.1,Mud-SlapRock Smash,BulldozeHorn AttackStompFrustration (Shadow)Return (Shadow)
+112,Rhydon,Ground Rock,222,171,233,0.05,0.06,Mud-SlapRock Smash,EarthquakeStone EdgeSurfMegahorn (legacy)Frustration (Shadow)Return (Shadow)
+113,Chansey,Normal,60,128,487,0.2,0.09,PoundZen Headbutt,Dazzling GleamHyper BeamPsychic
+114,Tangela,Grass,183,169,163,0.4,0.09,InfestationVine Whip,Grass KnotSludge BombSolar BeamPower Whip (legacy)
+115,Kangaskhan,Normal,181,165,233,0.2,0.09,Low KickMud-Slap,CrunchEarthquakeOutragePower-Up PunchBrick Break (legacy)Stomp (legacy)Frustration (Shadow)Return (Shadow)
+116,Horsea,Water,129,103,102,0.5,0.1,BubbleWater Gun,Bubble BeamDragon PulseFlash Cannon
+117,Seadra,Water,187,156,146,0.2,0.06,Dragon BreathWater Gun,Aurora BeamDragon PulseHydro PumpBlizzard (legacy)
+118,Goldeen,Water,123,110,128,0.5,0.15,Mud ShotPeck,Aqua TailHorn AttackWater Pulse
+119,Seaking,Water,175,147,190,0.2,0.07,PeckWaterfallPoison Jab (legacy),Ice BeamMegahornWater PulseDrill Run (legacy)Icy Wind (legacy)
+120,Staryu,Water,137,112,102,0.5,0.15,TackleWater Gun,Bubble BeamPower GemSwift
+121,Starmie,Water Psychic,210,184,155,0.2,0.06,Hidden PowerWater GunTackle (legacy),Hydro PumpIce BeamPower GemPsychicThunder
+122,Mr. Mime,Psychic Fairy,192,205,120,0.3,0.09,ConfusionZen Headbutt,PsybeamPsychicShadow BallFrustration (Shadow)Return (Shadow)
+122,Mr. Mime Galarian Mr. Mime,Ice Psychic,183,169,137,0.3,0.09,ConfusionZen Headbutt,Ice PunchPsybeamPsychic
+123,Scyther,Bug Flying,218,170,172,0.3,0.09,Air SlashFury CutterSteel Wing (legacy),Aerial AceNight SlashX-ScissorBug Buzz (legacy)Frustration (Shadow)Return (Shadow)
+124,Jynx,Ice Psychic,223,151,163,0.3,0.09,ConfusionFrost BreathPound (legacy),AvalancheDraining KissFocus BlastPsyshockIce Punch (legacy)
+125,Electabuzz,Electric,198,158,163,0.2,0.09,Low KickThunder Shock,ThunderThunder PunchThunderboltFrustration (Shadow)Return (Shadow)
+126,Magmar,Fire,206,154,163,0.2,0.09,EmberKarate Chop,Fire BlastFire PunchFlamethrowerFrustration (Shadow)Return (Shadow)
+127,Pinsir,Bug,238,182,163,0.3,0.09,Bug BiteFury CutterRock Smash,Close CombatSuperpowerVise GripX-ScissorSubmission (legacy)Frustration (Shadow)Return (Shadow)
+128,Tauros,Normal,198,183,181,0.3,0.09,TackleZen Headbutt,EarthquakeHorn AttackIron Head
+129,Magikarp,Water,29,85,85,0.7,0.15,Splash,StruggleFrustration (Shadow)Return (Shadow)
+130,Gyarados,Water Flying,237,186,216,0.1,0.07,BiteDragon BreathWaterfallDragon Tail (legacy),CrunchHydro PumpOutrageTwisterDragon Pulse (legacy)Aqua Tail (Community Day)Frustration (Shadow)Return (Shadow)
+131,Lapras,Water Ice,165,174,277,0.05,0.09,Frost BreathWater GunIce Shard (legacy),BlizzardHydro PumpSkull BashSurfDragon Pulse (legacy)Ice Beam (legacy)Frustration (Shadow)Return (Shadow)
+132,Ditto,Normal,91,91,134,0.2,0.1,Transform,Struggle
+133,Eevee,Normal,104,114,146,0.4,0.1,Quick AttackTackle,DigSwiftBody Slam (legacy)Last Resort (Community Day)
+134,Vaporeon,Water,205,161,277,0.125,0.06,Water Gun,Aqua TailHydro PumpWater PulseLast Resort (Community Day)Scald (Community Day)
+135,Jolteon,Electric,232,182,163,0.125,0.06,Thunder ShockVolt Switch,DischargeThunderThunderboltLast Resort (Community Day)Zap Cannon (Community Day)
+136,Flareon,Fire,246,179,163,0.125,0.06,EmberFire Spin,Fire BlastFlamethrowerOverheatHeat Wave (legacy)Last Resort (Community Day)Superpower (Community Day)
+137,Porygon,Normal,153,136,163,0.4,0.09,Charge BeamHidden PowerTackle (legacy)Zen Headbutt (legacy),Hyper BeamSolar BeamZap CannonDischarge (legacy)Psybeam (legacy)Signal Beam (legacy)Tri Attack (Community Day)Frustration (Shadow)Return (Shadow)
+138,Omanyte,Rock Water,155,153,111,0.4,0.09,Mud ShotWater Gun,Ancient PowerBubble BeamRock BlastBrine (legacy)Rock Tomb (legacy)Frustration (Shadow)Return (Shadow)
+139,Omastar,Rock Water,207,201,172,0.15,0.05,Mud ShotWater GunRock Throw (legacy),Ancient PowerHydro PumpRock BlastRock Slide (legacy)Frustration (Shadow)Return (Shadow)
+140,Kabuto,Rock Water,148,140,102,0.4,0.09,Mud ShotScratch,Ancient PowerAqua JetRock TombFrustration (Shadow)Return (Shadow)
+141,Kabutops,Rock Water,220,186,155,0.15,0.05,Mud ShotRock SmashWaterfallFury Cutter (legacy),Ancient PowerStone EdgeWater PulseFrustration (Shadow)Return (Shadow)
+142,Aerodactyl,Rock Flying,221,159,190,0.2,0.09,BiteRock ThrowSteel Wing,Ancient PowerEarth PowerHyper BeamIron HeadRock SlideFrustration (Shadow)Return (Shadow)
+143,Snorlax,Normal,190,169,330,0.05,0.09,LickZen HeadbuttYawn (legacy),Body SlamEarthquakeHeavy SlamHyper BeamOutrageSkull BashSuperpowerFrustration (Shadow)Return (Shadow)
+144,Articuno,Ice Flying,192,236,207,0.03,0.1,Frost BreathIce Shard,Ancient PowerBlizzardIce BeamIcy WindHurricane (legacy)Frustration (Shadow)Return (Shadow)
+145,Zapdos,Electric Flying,253,185,207,0.03,0.1,Charge BeamThunder Shock (legacy),Ancient PowerDrill PeckThunderThunderboltZap CannonFrustration (Shadow)Return (Shadow)
+146,Moltres,Fire Flying,251,181,207,0.03,0.1,Fire SpinWing Attack,Ancient PowerFire BlastHeat WaveOverheatSky Attack (legacy)Frustration (Shadow)Return (Shadow)
+147,Dratini,Dragon,119,91,121,0.4,0.09,Dragon BreathIron Tail,Aqua TailTwisterWrapFrustration (Shadow)Return (Shadow)
+148,Dragonair,Dragon,163,135,156,0.1,0.06,Dragon BreathIron Tail,Aqua TailDragon PulseWrapFrustration (Shadow)Return (Shadow)
+149,Dragonite,Dragon Flying,263,198,209,0.05,0.05,Dragon BreathDragon TailSteel Wing,Dragon ClawHurricaneHyper BeamOutrageDragon Pulse (legacy)Draco Meteor (Community Day)Frustration (Shadow)Return (Shadow)
+150,Mewtwo,Psychic,300,182,214,0.06,0.1,ConfusionPsycho Cut,FlamethrowerFocus BlastIce BeamPsychicThunderboltHyper Beam (legacy)Psystrike (legacy)Shadow Ball (legacy)Frustration (Shadow)Return (Shadow)
+150,Mewtwo Armored Mewtwo,Psychic,182,278,214,0.06,0.0,ConfusionIron Tail,Dynamic PunchEarthquakeFuture SightRock SlidePsystrike (legacy)
+151,Mew,Psychic,210,210,225,1.0,0.0,Charge BeamCutDragon TailFrost BreathInfestationPoison JabPoundRock SmashShadow ClawSnarlSteel WingStruggle BugVolt SwitchWaterfall,Ancient PowerBlizzardBulldozeDark PulseDazzling GleamDragon ClawEnergy BallFlame ChargeFlash CannonFocus BlastGrass KnotGyro BallHyper BeamIce BeamLow SweepOverheatPsychicPsyshockRock SlideSolar BeamStone EdgeSurfThunderThunderboltWild Charge
+152,Chikorita,Grass,92,122,128,0.2,0.1,TackleVine Whip,Body SlamEnergy BallGrass Knot
+153,Bayleef,Grass,122,155,155,0.125,0.07,Razor LeafTackle,Ancient PowerEnergy BallGrass Knot
+154,Meganium,Grass,168,202,190,0.05,0.05,Razor LeafVine Whip,EarthquakePetal BlizzardSolar BeamFrenzy Plant (Community Day)
+155,Cyndaquil,Fire,116,93,118,0.2,0.1,EmberTackle,Flame ChargeFlamethrowerSwift
+156,Quilava,Fire,158,126,151,0.125,0.07,EmberTackle,DigFlame ChargeFlamethrower
+157,Typhlosion,Fire,223,173,186,0.05,0.05,EmberIncinerateShadow Claw,Fire BlastOverheatSolar BeamBlast Burn (Community Day)
+158,Totodile,Water,117,109,137,0.2,0.1,ScratchWater Gun,Aqua JetCrunchWater Pulse
+159,Croconaw,Water,150,142,163,0.125,0.07,ScratchWater Gun,CrunchIce PunchWater Pulse
+160,Feraligatr,Water,205,188,198,0.05,0.05,BiteIce FangWaterfallWater Gun (legacy),CrunchHydro PumpIce BeamHydro Cannon (Community Day)
+161,Sentret,Normal,79,73,111,0.5,0.2,Quick AttackScratch,Brick BreakDigGrass Knot
+162,Furret,Normal,148,125,198,0.15,0.07,Quick AttackSucker Punch,Brick BreakDigHyper Beam
+163,Hoothoot,Normal Flying,67,88,155,0.5,0.15,Feint AttackPeck,Aerial AceNight ShadeSky Attack
+164,Noctowl,Normal Flying,145,156,225,0.15,0.07,ExtrasensoryWing Attack,Night ShadePsychicShadow BallSky Attack
+165,Ledyba,Bug Flying,72,118,120,0.5,0.2,Bug BiteTackle,Aerial AceSilver WindSwift
+166,Ledian,Bug Flying,107,179,146,0.15,0.07,Bug BiteStruggle Bug,Aerial AceBug BuzzSilver Wind
+167,Spinarak,Bug Poison,105,73,120,0.5,0.2,Bug BitePoison Sting,Cross PoisonNight SlashSignal Beam
+168,Ariados,Bug Poison,161,124,172,0.15,0.07,InfestationPoison Sting,Cross PoisonLungeMegahornShadow Sneak
+169,Crobat,Poison Flying,194,178,198,0.1,0.05,Air SlashBite,Air CutterCross PoisonPoison FangShadow BallSludge BombFrustration (Shadow)Return (Shadow)
+170,Chinchou,Water Electric,106,97,181,0.4,0.1,BubbleSpark,Bubble BeamThunderboltWater Pulse
+171,Lanturn,Water Electric,146,137,268,0.15,0.07,Charge BeamSparkWater Gun,Hydro PumpThunderThunderbolt
+172,Pichu,Electric,77,53,85,0.0,0.05,Thunder Shock,Disarming VoiceThunder PunchThunderbolt
+173,Cleffa,Fairy,75,79,137,0.0,0.05,PoundZen Headbutt,Grass KnotPsyshockSignal BeamBody Slam (legacy)Psychic (legacy)
+174,Igglybuff,Normal Fairy,69,32,207,0.0,0.05,Feint AttackPound,PsychicShadow BallWild ChargeBody Slam (legacy)
+175,Togepi,Fairy,67,116,111,0.0,0.05,Hidden PowerPeckZen Headbutt (legacy),Ancient PowerDazzling GleamPsyshock
+176,Togetic,Fairy Flying,139,181,146,0.2,0.05,ExtrasensoryHidden PowerSteel Wing (legacy)Zen Headbutt (legacy),Aerial AceAncient PowerDazzling Gleam
+177,Natu,Psychic Flying,134,89,120,0.4,0.15,PeckQuick Attack,Drill PeckNight ShadePsyshock
+178,Xatu,Psychic Flying,192,146,163,0.15,0.07,Air SlashFeint Attack,Aerial AceFuture SightOminous Wind
+179,Mareep,Electric,114,79,146,0.5,0.1,TackleThunder Shock,Body SlamDischargeThunderboltFrustration (Shadow)Return (Shadow)
+180,Flaaffy,Electric,145,109,172,0.25,0.07,Charge BeamTackle,DischargePower GemThunderboltFrustration (Shadow)Return (Shadow)
+181,Ampharos,Electric,211,169,207,0.125,0.05,Charge BeamVolt Switch,Focus BlastPower GemThunderThunder PunchZap CannonDragon Pulse (Community Day)Frustration (Shadow)Return (Shadow)
+182,Bellossom,Grass,169,186,181,0.05,0.05,AcidBullet SeedRazor Leaf,Dazzling GleamLeaf BladePetal BlizzardFrustration (Shadow)Return (Shadow)
+183,Marill,Water Fairy,37,93,172,0.5,0.1,BubbleTackle,Aqua TailBody SlamBubble Beam
+184,Azumarill,Water Fairy,112,152,225,0.15,0.07,BubbleRock Smash,Hydro PumpIce BeamPlay Rough
+185,Sudowoodo,Rock,167,176,172,0.125,0.05,CounterRock Throw,EarthquakeRock SlideRock TombStone Edge
+186,Politoed,Water,174,179,207,0.1,0.05,BubbleMud Shot,BlizzardHydro PumpSurfWeather Ball - WaterEarthquake (legacy)Frustration (Shadow)Return (Shadow)
+187,Hoppip,Grass Flying,67,94,111,0.5,0.12,Bullet SeedTackle,Dazzling GleamGrass KnotSeed BombFrustration (Shadow)Return (Shadow)
+188,Skiploom,Grass Flying,91,120,146,0.25,0.07,Bullet SeedTackle,Dazzling GleamEnergy BallGrass KnotFrustration (Shadow)Return (Shadow)
+189,Jumpluff,Grass Flying,118,183,181,0.125,0.05,Bullet SeedInfestation,Aerial AceDazzling GleamEnergy BallSolar BeamAcrobatics (Community Day)Frustration (Shadow)Return (Shadow)
+190,Aipom,Normal,136,112,146,0.2,0.09,AstonishScratch,Aerial AceLow SweepSwiftFrustration (Shadow)Return (Shadow)
+191,Sunkern,Grass,55,55,102,0.5,0.09,CutRazor Leaf,Energy BallGrass KnotSeed Bomb
+192,Sunflora,Grass,185,135,181,0.1,0.07,Bullet SeedRazor Leaf,Leaf StormPetal BlizzardSludge BombSolar Beam
+193,Yanma,Bug Flying,154,94,163,0.3,0.1,Quick AttackWing Attack,Aerial AceAncient PowerSilver Wind
+194,Wooper,Water Ground,75,66,146,0.4,0.1,Mud ShotWater Gun,Body SlamDigMud BombFrustration (Shadow)Return (Shadow)
+195,Quagsire,Water Ground,152,143,216,0.15,0.07,Mud ShotWater Gun,Acid SprayEarthquakeSludge BombStone EdgeFrustration (Shadow)Return (Shadow)
+196,Espeon,Psychic,261,175,163,0.125,0.05,ConfusionZen Headbutt,Future SightPsybeamPsychicLast Resort (Community Day)Shadow Ball (Community Day)
+197,Umbreon,Dark,126,240,216,0.125,0.05,Feint AttackSnarl,Dark PulseFoul PlayLast Resort (Community Day)Psychic (Community Day)
+198,Murkrow,Dark Flying,175,87,155,0.2,0.1,Feint AttackPeck,Dark PulseDrill PeckFoul PlayFrustration (Shadow)Return (Shadow)
+199,Slowking,Water Psychic,177,180,216,0.1,0.05,ConfusionWater Gun,BlizzardFire BlastPsychicFrustration (Shadow)Return (Shadow)
+199,Slowking Galarian Slowking,Poison Psychic,190,180,216,0.1,0.05,AcidConfusionHex,Future SightShadow BallSludge Wave
+200,Misdreavus,Ghost,167,154,155,0.3,0.07,AstonishHex,Dark PulseOminous WindShadow SneakFrustration (Shadow)Return (Shadow)
+201,Unown,Psychic,136,91,134,0.3,0.1,Hidden Power,Struggle
+202,Wobbuffet,Psychic,60,106,382,0.25,0.07,CharmCounterSplash,Mirror CoatFrustration (Shadow)Return (Shadow)
+203,Girafarig,Normal Psychic,182,133,172,0.3,0.07,ConfusionTackle,Mirror CoatPsychicThunderbolt
+204,Pineco,Bug,108,122,137,0.4,0.12,Bug BiteTackle,Gyro BallRock TombSand TombFrustration (Shadow)Return (Shadow)
+205,Forretress,Bug Steel,161,205,181,0.15,0.07,Bug BiteStruggle Bug,EarthquakeHeavy SlamMirror ShotRock TombSand TombFrustration (Shadow)Return (Shadow)
+206,Dunsparce,Normal,131,128,225,0.3,0.2,AstonishBite,DigDrill RunRock Slide
+207,Gligar,Ground Flying,143,184,163,0.2,0.07,Fury CutterWing Attack,Aerial AceDigNight SlashFrustration (Shadow)Return (Shadow)
+208,Steelix,Steel Ground,148,272,181,0.1,0.05,Dragon TailIron TailThunder Fang,CrunchEarthquakeHeavy SlamFrustration (Shadow)Return (Shadow)
+209,Snubbull,Fairy,137,85,155,0.4,0.1,BiteTackle,Brick BreakCrunchDazzling Gleam
+210,Granbull,Fairy,212,131,207,0.15,0.08,BiteCharmSnarl,Close CombatCrunchPlay Rough
+211,Qwilfish,Water Poison,184,138,163,0.3,0.08,Poison StingWater Gun,Acid SprayAqua TailFell StingerIce BeamSludge Wave
+212,Scizor,Bug Steel,236,181,172,0.05,0.05,Bullet PunchFury Cutter,Iron HeadNight SlashX-ScissorFrustration (Shadow)Return (Shadow)
+213,Shuckle,Bug Rock,17,396,85,0.3,0.07,Rock ThrowStruggle Bug,Gyro BallRock BlastStone EdgeFrustration (Shadow)Return (Shadow)
+214,Heracross,Bug Fighting,234,179,190,0.3,0.09,CounterStruggle Bug,Close CombatEarthquakeMegahornRock Blast
+215,Sneasel,Dark Ice,189,146,146,0.2,0.07,Feint AttackIce Shard,AvalancheFoul PlayIce PunchFrustration (Shadow)Return (Shadow)
+216,Teddiursa,Normal,142,93,155,0.5,0.2,LickScratch,Cross ChopCrunchPlay RoughFrustration (Shadow)Return (Shadow)
+217,Ursaring,Normal,236,144,207,0.15,0.07,CounterMetal ClawShadow Claw,Close CombatHyper BeamPlay RoughFrustration (Shadow)Return (Shadow)
+218,Slugma,Fire,118,71,120,0.3,0.1,EmberRock Throw,Flame BurstFlame ChargeRock Slide
+219,Magcargo,Fire Rock,139,191,137,0.125,0.06,EmberIncinerateRock Throw,Heat WaveOverheatStone Edge
+220,Swinub,Ice Ground,90,69,137,0.3,0.1,Powder SnowTackle,Body SlamIcy WindRock SlideFrustration (Shadow)Return (Shadow)
+221,Piloswine,Ice Ground,181,138,225,0.125,0.06,Ice ShardPowder Snow,AvalancheBulldozeStone EdgeFrustration (Shadow)Return (Shadow)
+222,Corsola,Water Rock,118,156,146,0.3,0.12,BubbleTackle,Bubble BeamPower GemRock Blast
+223,Remoraid,Water,127,69,111,0.5,0.1,Mud ShotWater Gun,Aurora BeamRock BlastWater Pulse
+224,Octillery,Water,197,141,181,0.15,0.07,Lock-OnMud ShotWater Gun,Acid SprayAurora BeamGunk ShotOctazookaWater Pulse
+225,Delibird,Ice Flying,128,90,128,0.2,0.2,Present,Aerial AceIce PunchIcy WindFrustration (Shadow)Return (Shadow)
+226,Mantine,Water Flying,148,226,163,0.3,0.07,BubbleBullet SeedWing Attack,Aerial AceBubble BeamIce BeamWater Pulse
+227,Skarmory,Steel Flying,148,226,163,0.2,0.09,Air SlashSteel Wing,Brave BirdFlash CannonSky AttackFrustration (Shadow)Return (Shadow)
+228,Houndour,Dark Fire,152,83,128,0.4,0.1,EmberFeint Attack,CrunchDark PulseFlamethrowerFrustration (Shadow)Return (Shadow)
+229,Houndoom,Dark Fire,224,144,181,0.15,0.06,Fire FangSnarl,CrunchFire BlastFlamethrowerFoul PlayFrustration (Shadow)Return (Shadow)
+230,Kingdra,Water Dragon,194,194,181,0.1,0.05,Dragon BreathWaterfallWater Gun (legacy),BlizzardHydro PumpOctazookaOutrage
+231,Phanpy,Ground,107,98,207,0.5,0.2,Rock SmashTackle,Body SlamBulldozeRock Slide
+232,Donphan,Ground,214,185,207,0.125,0.07,CharmCounterMud-SlapTackle,EarthquakeHeavy SlamPlay Rough
+233,Porygon2,Normal,198,180,198,0.05,0.05,Charge BeamHidden PowerLock-On,Hyper BeamSolar BeamTri AttackZap CannonFrustration (Shadow)Return (Shadow)
+234,Stantler,Normal,192,131,177,0.3,0.08,TackleZen Headbutt,MegahornStompWild ChargeFrustration (Shadow)Return (Shadow)
+235,Smeargle,Normal,40,83,146,0.25,0.07,,
+236,Tyrogue,Fighting,64,64,111,0.0,0.2,Rock SmashTackle,Brick BreakLow SweepRock Slide
+237,Hitmontop,Fighting,173,207,137,0.1,0.05,CounterRock Smash,Close CombatGyro BallStone Edge
+238,Smoochum,Ice Psychic,153,91,128,0.25,0.2,PoundPowder SnowFrost Breath (legacy),Ice BeamIce PunchPsyshock
+239,Elekid,Electric,135,101,128,0.0,0.2,Low KickThunder Shock,Brick BreakDischargeThunder PunchThunderbolt (legacy)
+240,Magby,Fire,151,99,128,0.0,0.2,EmberKarate Chop,Brick BreakFire PunchFlame BurstFlamethrower (legacy)
+241,Miltank,Normal,157,193,216,0.2,0.08,TackleZen Headbutt,Body SlamGyro BallIce BeamStompThunderbolt
+242,Blissey,Normal,129,169,496,0.05,0.05,PoundZen Headbutt,Dazzling GleamHyper BeamPsychic
+243,Raikou,Electric,241,195,207,0.02,0.04,Thunder ShockVolt Switch,Shadow BallThunderThunderboltWild ChargeFrustration (Shadow)Return (Shadow)
+244,Entei,Fire,235,171,251,0.02,0.04,Fire FangFire Spin,Fire BlastFlame ChargeFlamethrowerIron HeadOverheatFrustration (Shadow)Return (Shadow)
+245,Suicune,Water,180,235,225,0.02,0.04,ExtrasensoryIce FangSnarlHidden Power (legacy),Bubble BeamHydro PumpIce BeamWater PulseFrustration (Shadow)Return (Shadow)
+246,Larvitar,Rock Ground,115,93,137,0.4,0.1,BiteRock Smash,Ancient PowerCrunchStompFrustration (Shadow)Return (Shadow)
+247,Pupitar,Rock Ground,155,133,172,0.1,0.07,BiteRock Smash,Ancient PowerCrunchDigFrustration (Shadow)Return (Shadow)
+248,Tyranitar,Rock Dark,251,207,225,0.05,0.04,BiteIron TailSmack Down (Community Day),CrunchFire BlastStone EdgeFrustration (Shadow)Return (Shadow)
+249,Lugia,Psychic Flying,193,310,235,0.02,0.04,Dragon TailExtrasensory,Future SightHydro PumpSky AttackAeroblast (legacy)
+250,Ho-oh,Fire Flying,239,244,214,0.02,0.04,ExtrasensoryHidden PowerIncinerateSteel Wing,Brave BirdFire BlastSolar BeamEarthquake (legacy)Sacred Fire (legacy)
+251,Celebi,Psychic Grass,210,210,225,1.0,0.0,Charge BeamConfusionMagical Leaf (legacy),Dazzling GleamHyper BeamLeaf StormPsychicSeed Bomb
+252,Treecko,Grass,124,94,120,0.2,0.1,Bullet SeedPound,Aerial AceEnergy BallGrass Knot
+253,Grovyle,Grass,172,120,137,0.1,0.07,Bullet SeedQuick Attack,Aerial AceGrass KnotLeaf Blade
+254,Sceptile,Grass,223,169,172,0.05,0.05,Bullet SeedFury Cutter,Aerial AceDragon ClawEarthquakeLeaf BladeFrenzy Plant (Community Day)
+255,Torchic,Fire,130,87,128,0.2,0.1,EmberScratch,Flame ChargeFlamethrowerRock Tomb
+256,Combusken,Fire Fighting,163,115,155,0.1,0.07,EmberPeck,Flame ChargeFlamethrowerRock Slide
+257,Blaziken,Fire Fighting,240,141,190,0.05,0.05,CounterFire Spin,Blaze KickBrave BirdFocus BlastOverheatStone Edge (legacy)Blast Burn (Community Day)
+258,Mudkip,Water,126,93,137,0.2,0.1,TackleWater Gun,DigSludgeStompFrustration (Shadow)Return (Shadow)
+259,Marshtomp,Water Ground,156,133,172,0.1,0.07,Mud ShotWater Gun,Mud BombSludgeSurfFrustration (Shadow)Return (Shadow)
+260,Swampert,Water Ground,208,175,225,0.05,0.05,Mud ShotWater Gun,EarthquakeMuddy WaterSludge WaveSurfHydro Cannon (Community Day)Frustration (Shadow)Return (Shadow)
+261,Poochyena,Dark,96,61,111,0.5,0.2,SnarlTackle,CrunchDigPoison Fang
+262,Mightyena,Dark,171,132,172,0.2,0.07,BiteFire FangIce FangThunder Fang,CrunchPlay RoughPoison Fang
+263,Zigzagoon,Normal,58,80,116,0.5,0.2,Rock SmashTackle,DigGrass KnotThunderboltFrustration (Shadow)Return (Shadow)
+263,Zigzagoon Galarian Zigzagoon,Dark Normal,58,80,116,0.5,0.2,TackleTake Down,Body SlamDigSwiftFrustration (Shadow)Return (Shadow)
+264,Linoone,Normal,142,128,186,0.2,0.07,Shadow ClawTackle,DigGrass KnotThunderFrustration (Shadow)Return (Shadow)
+264,Linoone Galarian Linoone,Dark Normal,142,128,186,0.2,0.07,LickSnarl,Body SlamDigGunk ShotFrustration (Shadow)Return (Shadow)
+265,Wurmple,Bug,75,59,128,0.5,0.2,Bug BiteTackle,Struggle
+266,Silcoon,Bug,60,77,137,0.25,0.09,Bug BitePoison Sting,Struggle
+267,Beautifly,Bug Flying,189,98,155,0.125,0.06,InfestationStruggle Bug,Air CutterBug BuzzSilver Wind
+268,Cascoon,Bug,60,77,137,0.25,0.09,Bug BitePoison Sting,Struggle
+269,Dustox,Bug Poison,98,162,155,0.125,0.06,ConfusionStruggle Bug,Bug BuzzSilver WindSludge Bomb
+270,Lotad,Water Grass,71,77,120,0.5,0.2,Razor LeafWater Gun,Bubble BeamEnergy Ball
+271,Lombre,Water Grass,112,119,155,0.25,0.09,BubbleRazor Leaf,Bubble BeamGrass KnotIce Beam
+272,Ludicolo,Water Grass,173,176,190,0.125,0.06,BubbleRazor Leaf,BlizzardEnergy BallHydro PumpIce BeamLeaf StormSolar Beam
+273,Seedot,Grass,71,77,120,0.5,0.2,Bullet SeedQuick Attack,Energy BallFoul PlayGrass KnotFrustration (Shadow)Return (Shadow)
+274,Nuzleaf,Grass Dark,134,78,172,0.25,0.09,Feint AttackRazor Leaf,Foul PlayGrass KnotLeaf BladeFrustration (Shadow)Return (Shadow)
+275,Shiftry,Grass Dark,200,121,207,0.125,0.06,Feint AttackRazor LeafSnarlBullet Seed (Community Day),Foul PlayHurricaneLeaf BladeLeaf TornadoFrustration (Shadow)Return (Shadow)
+276,Taillow,Normal Flying,106,61,120,0.5,0.2,PeckQuick Attack,Aerial Ace
+277,Swellow,Normal Flying,185,124,155,0.2,0.07,Steel WingWing Attack,Aerial AceBrave BirdSky Attack
+278,Wingull,Water Flying,106,61,120,0.5,0.2,Quick AttackWater Gun,Air CutterIce BeamWater Pulse
+279,Pelipper,Water Flying,175,174,155,0.2,0.07,Water GunWing Attack,BlizzardHurricaneHydro PumpWeather Ball - Water
+280,Ralts,Psychic Fairy,79,59,99,0.4,0.09,Charge BeamConfusion,Disarming VoicePsyshockShadow SneakFrustration (Shadow)Return (Shadow)
+281,Kirlia,Psychic Fairy,117,90,116,0.1,0.06,Charge BeamConfusion,Disarming VoicePsychicShadow SneakFrustration (Shadow)Return (Shadow)
+282,Gardevoir,Psychic Fairy,237,195,169,0.05,0.05,Charge BeamCharmConfusion,Dazzling GleamPsychicShadow BallSynchronoise (Community Day)Frustration (Shadow)Return (Shadow)
+283,Surskit,Bug Water,93,87,120,0.5,0.2,BubbleBug Bite,Aqua JetBubble BeamSignal Beam
+284,Masquerain,Bug Flying,192,150,172,0.2,0.07,Air SlashInfestation,Air CutterBubble BeamLungeOminous WindSilver Wind
+285,Shroomish,Grass,74,110,155,0.5,0.2,Bullet SeedTackle,Energy BallGrass KnotSeed Bomb
+286,Breloom,Grass Fighting,241,144,155,0.2,0.07,Bullet SeedCounter,Dynamic PunchSeed BombSludge BombGrass Knot (legacy)
+287,Slakoth,Normal,104,92,155,0.4,0.09,Yawn,Body SlamBrick BreakNight Slash
+288,Vigoroth,Normal,159,145,190,0.1,0.06,CounterScratch,Body SlamBrick BreakBulldoze
+289,Slaking,Normal,290,166,284,0.05,0.05,Yawn,EarthquakeHyper BeamPlay RoughBody Slam (Community Day)
+290,Nincada,Bug Ground,80,126,104,0.2,0.1,Bug BiteScratch,Aerial AceBug BuzzNight Slash
+291,Ninjask,Bug Flying,199,112,156,0.1,0.07,Fury CutterMetal Claw,Aerial AceBug BuzzShadow Ball
+292,Shedinja,Bug Ghost,153,73,1,0.05,0.05,Bug BiteShadow ClawStruggle Bug (legacy),Aerial AceDigShadow Sneak
+293,Whismur,Normal,92,42,162,0.5,0.2,AstonishPound,Disarming VoiceFlamethrowerStomp
+294,Loudred,Normal,134,81,197,0.25,0.09,BiteRock Smash,Disarming VoiceFlamethrowerStomp
+295,Exploud,Normal,179,137,232,0.125,0.06,AstonishBite,CrunchDisarming VoiceFire Blast
+296,Makuhita,Fighting,99,54,176,0.5,0.1,Rock SmashTackle,Cross ChopHeavy SlamLow Sweep
+297,Hariyama,Fighting,209,114,302,0.2,0.06,Bullet PunchCounter,Close CombatDynamic PunchHeavy SlamSuperpower
+298,Azurill,Normal Fairy,36,71,137,0.1,0.04,BubbleSplash,Body SlamBubble BeamIce Beam
+299,Nosepass,Rock,82,215,102,0.2,0.09,Rock ThrowSpark,Rock BlastRock SlideThunderboltFrustration (Shadow)Return (Shadow)
+300,Skitty,Normal,84,79,137,0.5,0.1,Feint AttackTackle,DigDisarming VoiceWild Charge
+301,Delcatty,Normal,132,127,172,0.2,0.06,CharmFeint AttackZen Headbutt,Disarming VoicePlay RoughWild Charge
+302,Sableye,Dark Ghost,141,136,137,0.2,0.07,Feint AttackShadow Claw,Foul PlayPower GemShadow SneakFrustration (Shadow)Return (Shadow)
+303,Mawile,Steel Fairy,155,141,137,0.5,0.09,AstonishBiteFire FangIce Fang,Iron HeadPlay RoughPower-Up PunchVise GripFrustration (Shadow)Return (Shadow)
+304,Aron,Steel Rock,121,141,137,0.5,0.2,Metal ClawTackle,Body SlamIron HeadRock TombFrustration (Shadow)Return (Shadow)
+305,Lairon,Steel Rock,158,198,155,0.25,0.09,Iron TailMetal Claw,Body SlamHeavy SlamRock SlideRock TombFrustration (Shadow)Return (Shadow)
+306,Aggron,Steel Rock,198,257,172,0.125,0.06,Dragon TailIron TailSmack Down,Heavy SlamStone EdgeThunderFrustration (Shadow)Return (Shadow)
+307,Meditite,Fighting Psychic,78,107,102,0.5,0.1,ConfusionRock Smash,Ice PunchLow SweepPsyshock
+308,Medicham,Fighting Psychic,121,152,155,0.2,0.06,CounterPsycho Cut,Dynamic PunchIce PunchPower-Up PunchPsychic
+309,Electrike,Electric,123,78,120,0.5,0.1,Quick AttackSpark,DischargeSwiftThunderbolt
+310,Manectric,Electric,215,127,172,0.2,0.06,Charge BeamSnarlThunder Fang,Flame BurstOverheatThunderWild Charge
+311,Plusle,Electric,167,129,155,0.3,0.09,Quick AttackSpark,DischargeGrass KnotSwiftThunderbolt
+312,Minun,Electric,147,150,155,0.3,0.09,Quick AttackSpark,DischargeGrass KnotSwiftThunderbolt
+313,Volbeat,Bug,143,166,163,0.3,0.09,Struggle BugTackle,Bug BuzzSignal BeamThunderbolt
+314,Illumise,Bug,143,166,163,0.3,0.09,Struggle BugTackle,Bug BuzzDazzling GleamSilver Wind
+315,Roselia,Grass Poison,186,131,137,0.3,0.09,Poison JabRazor Leaf,Dazzling GleamPetal BlizzardSludge Bomb
+316,Gulpin,Poison,80,99,172,0.5,0.1,PoundRock Smash,Gunk ShotIce BeamSludge
+317,Swalot,Poison,140,159,225,0.2,0.06,InfestationRock Smash,Acid SprayGunk ShotIce BeamSludge Bomb
+318,Carvanha,Water Dark,171,39,128,0.5,0.1,BiteSnarl,Aqua JetCrunchPoison FangFrustration (Shadow)Return (Shadow)
+319,Sharpedo,Water Dark,243,83,172,0.2,0.06,BiteWaterfall,CrunchHydro PumpPoison FangFrustration (Shadow)Return (Shadow)
+320,Wailmer,Water,136,68,277,0.5,0.1,SplashWater Gun,Body SlamHeavy SlamWater Pulse
+321,Wailord,Water,175,87,347,0.2,0.06,Water GunZen Headbutt,BlizzardHyper BeamSurf
+322,Numel,Fire Ground,119,79,155,0.5,0.1,EmberTackle,BulldozeHeat WaveStomp
+323,Camerupt,Fire Ground,194,136,172,0.2,0.06,EmberRock Smash,Earth PowerEarthquakeOverheatSolar Beam
+324,Torkoal,Fire,151,203,172,0.3,0.09,EmberFire Spin,EarthquakeOverheatSolar Beam
+325,Spoink,Psychic,125,122,155,0.5,0.1,SplashZen Headbutt,Mirror CoatPsybeamShadow Ball
+326,Grumpig,Psychic,171,188,190,0.2,0.06,Charge BeamExtrasensory,Mirror CoatPsychicShadow Ball
+327,Spinda,Normal,116,116,155,0.3,0.09,Psycho CutSucker Punch,DigIcy WindRock Tomb
+328,Trapinch,Ground,162,78,128,0.4,0.09,Mud ShotStruggle Bug,CrunchDigSand TombFrustration (Shadow)Return (Shadow)
+329,Vibrava,Ground Dragon,134,99,137,0.1,0.06,Dragon BreathMud Shot,Bug BuzzBulldozeSand TombFrustration (Shadow)Return (Shadow)
+330,Flygon,Ground Dragon,205,168,190,0.05,0.05,Dragon TailMud Shot,Dragon ClawEarthquakeStone EdgeEarth Power (Community Day)Frustration (Shadow)Return (Shadow)
+331,Cacnea,Grass,156,74,137,0.5,0.1,Poison StingSucker Punch,Brick BreakGrass KnotPaybackSeed BombFrustration (Shadow)Return (Shadow)
+332,Cacturne,Grass Dark,221,115,172,0.2,0.06,Poison JabSucker Punch,Dark PulseDynamic PunchGrass KnotPaybackFrustration (Shadow)Return (Shadow)
+333,Swablu,Normal Flying,76,132,128,0.5,0.1,AstonishPeck,Aerial AceDisarming VoiceIce Beam
+334,Altaria,Dragon Flying,141,201,181,0.2,0.06,Dragon BreathPeck,Dazzling GleamDragon PulseSky AttackMoonblast (Community Day)
+335,Zangoose,Normal,222,124,177,0.3,0.09,Fury CutterShadow Claw,Close CombatDigNight Slash
+336,Seviper,Poison,196,118,177,0.3,0.09,Iron TailPoison Jab,CrunchPoison FangWrap
+337,Lunatone,Rock Psychic,178,153,207,0.3,0.09,ConfusionRock Throw,MoonblastPsychicRock Slide
+338,Solrock,Rock Psychic,178,153,207,0.3,0.09,ConfusionRock Throw,PsychicRock SlideSolar Beam
+339,Barboach,Water Ground,93,82,137,0.5,0.1,Mud ShotWater Gun,Aqua TailIce BeamMud Bomb
+340,Whiscash,Water Ground,151,141,242,0.2,0.06,Mud ShotWater Gun,BlizzardMud BombWater Pulse
+341,Corphish,Water,141,99,125,0.5,0.1,BubbleRock Smash,Aqua JetBubble BeamVise Grip
+342,Crawdaunt,Water Dark,224,142,160,0.2,0.06,SnarlWaterfall,Bubble BeamCrabhammerNight SlashVise Grip
+343,Baltoy,Ground Psychic,77,124,120,0.5,0.1,ConfusionExtrasensory,DigGyro BallPsybeam
+344,Claydol,Ground Psychic,140,229,155,0.2,0.06,ConfusionExtrasensoryMud-Slap,Earth PowerEarthquakeGyro BallIce BeamPsychicRock TombShadow Ball
+345,Lileep,Rock Grass,105,150,165,0.5,0.1,AcidInfestation,Ancient PowerGrass KnotMirror CoatFrustration (Shadow)Return (Shadow)
+346,Cradily,Rock Grass,152,194,200,0.2,0.06,AcidBullet SeedInfestation,BulldozeGrass KnotStone EdgeFrustration (Shadow)Return (Shadow)
+347,Anorith,Rock Bug,176,100,128,0.5,0.1,ScratchStruggle Bug,Ancient PowerAqua JetCross PoisonFrustration (Shadow)Return (Shadow)
+348,Armaldo,Rock Bug,222,174,181,0.2,0.06,Fury CutterStruggle Bug,Cross PoisonRock BlastWater PulseFrustration (Shadow)Return (Shadow)
+349,Feebas,Water,29,85,85,0.7,0.15,SplashTackle,Mirror Coat
+350,Milotic,Water,192,219,216,0.1,0.07,Dragon TailWaterfall,BlizzardHyper BeamSurf
+351,Castform,Normal,139,139,172,0.3,0.1,HexTackle,Energy BallHurricaneWeather Ball - RockWeather Ball - Normal
+351,Castform Sunny Form,Fire,139,139,172,0.3,0.1,EmberTackle,Fire BlastSolar BeamWeather Ball - Fire
+351,Castform Rainy Form,Water,139,139,172,0.3,0.1,TackleWater Gun,Hydro PumpThunderWeather Ball - Water
+351,Castform Snowy Form,Ice,139,139,172,0.3,0.1,Powder SnowTackle,BlizzardIce BeamWeather Ball - Ice
+353,Shuppet,Ghost,138,65,127,0.4,0.1,AstonishFeint Attack,Night ShadeOminous WindShadow SneakFrustration (Shadow)Return (Shadow)
+354,Banette,Ghost,218,126,162,0.2,0.07,HexShadow Claw,Dazzling GleamShadow BallThunderFrustration (Shadow)Return (Shadow)
+355,Duskull,Ghost,70,162,85,0.4,0.1,AstonishHex,Night ShadeOminous WindShadow SneakFrustration (Shadow)Return (Shadow)
+356,Dusclops,Ghost,124,234,120,0.2,0.07,Feint AttackHex,Fire PunchIce PunchShadow PunchFrustration (Shadow)Return (Shadow)
+357,Tropius,Grass Flying,136,163,223,0.3,0.1,Air SlashRazor Leaf,Aerial AceLeaf BladeStomp
+358,Chimecho,Psychic,175,170,181,0.3,0.1,AstonishExtrasensory,Energy BallPsyshockShadow Ball
+359,Absol,Dark,246,120,163,0.5,0.1,Psycho CutSnarl,Dark PulseMegahornPaybackThunderFrustration (Shadow)Return (Shadow)
+360,Wynaut,Psychic,41,86,216,0.3,0.1,CounterSplash,Mirror Coat
+361,Snorunt,Ice,95,95,137,0.5,0.1,HexPowder Snow,AvalancheIcy WindShadow Ball
+362,Glalie,Ice,162,162,190,0.2,0.06,Frost BreathIce Shard,AvalancheGyro BallShadow Ball
+363,Spheal,Ice Water,95,90,172,0.5,0.1,Rock SmashWater Gun,Aurora BeamBody SlamWater PulseFrustration (Shadow)Return (Shadow)
+364,Sealeo,Ice Water,137,132,207,0.25,0.07,Powder SnowWater Gun,Aurora BeamBody SlamWater PulseFrustration (Shadow)Return (Shadow)
+365,Walrein,Ice Water,182,176,242,0.125,0.05,Frost BreathWaterfallPowder Snow (Community Day),BlizzardEarthquakeWater PulseIcicle Spear (Community Day)Frustration (Shadow)Return (Shadow)
+366,Clamperl,Water,133,135,111,0.5,0.1,Water Gun,Body SlamIce BeamWater Pulse
+367,Huntail,Water,197,179,146,0.2,0.06,BiteWater Gun,Aqua TailCrunchIce Beam
+368,Gorebyss,Water,211,179,146,0.2,0.06,ConfusionWater Gun,Draining KissPsychicWater Pulse
+369,Relicanth,Water Rock,162,203,225,0.9,0.01,Water GunZen Headbutt,Ancient PowerAqua TailHydro Pump
+370,Luvdisc,Water,81,128,125,0.3,0.1,SplashWater Gun,Aqua JetDraining KissWater Pulse
+371,Bagon,Dragon,134,93,128,0.4,0.09,BiteEmber,CrunchFlamethrowerTwisterFrustration (Shadow)Return (Shadow)
+372,Shelgon,Dragon,172,155,163,0.1,0.06,Dragon BreathEmber,Dragon PulseFlamethrowerTwisterFrustration (Shadow)Return (Shadow)
+373,Salamence,Dragon Flying,277,168,216,0.05,0.05,BiteDragon TailFire Fang,Draco MeteorFire BlastHydro PumpOutrage (Community Day)Frustration (Shadow)Return (Shadow)
+374,Beldum,Steel Psychic,96,132,120,0.4,0.09,Take Down,StruggleFrustration (Shadow)Return (Shadow)
+375,Metang,Steel Psychic,138,176,155,0.1,0.06,Metal ClawZen Headbutt,Gyro BallPsychicPsyshockFrustration (Shadow)Return (Shadow)
+376,Metagross,Steel Psychic,257,228,190,0.05,0.05,Bullet PunchZen Headbutt,EarthquakeFlash CannonPsychicMeteor Mash (Community Day)Frustration (Shadow)Return (Shadow)
+377,Regirock,Rock,179,309,190,0.02,0.01,Lock-OnRock SmashRock Throw,Focus BlastStone EdgeZap CannonEarthquake (legacy)
+378,Regice,Ice,179,309,190,0.02,0.01,Frost BreathLock-OnRock Smash,BlizzardEarthquakeFocus BlastThunder
+379,Registeel,Steel,143,285,190,0.02,0.01,Lock-OnMetal ClawRock Smash,Flash CannonFocus BlastHyper BeamZap Cannon
+380,Latias,Dragon Psychic,228,246,190,0.02,0.01,CharmDragon BreathZen Headbutt,OutragePsychicThunderMist Ball (legacy)
+381,Latios,Dragon Psychic,268,212,190,0.02,0.01,Dragon BreathZen Headbutt,Dragon ClawPsychicSolar BeamLuster Purge (legacy)
+382,Kyogre,Water,270,228,205,0.02,0.01,Waterfall,BlizzardHydro PumpSurfThunder
+383,Groudon,Ground,270,228,205,0.02,0.01,Dragon TailMud Shot,EarthquakeFire BlastSolar BeamFire Punch (legacy)
+384,Rayquaza,Dragon Flying,284,170,213,0.02,0.01,Air SlashDragon Tail,Aerial AceAncient PowerOutrageHurricane (legacy)
+385,Jirachi,Steel Psychic,210,210,225,1.0,0.0,Charge BeamConfusion,Dazzling GleamDoom DesirePsychic
+386,Deoxys Normal Forme,Psychic,345,115,137,0.02,0.01,Charge BeamZen Headbutt,Hyper BeamPsycho BoostZap Cannon
+386,Deoxys Attack Forme,Psychic,414,46,137,0.02,0.01,Poison JabZen Headbutt,Dark PulsePsycho BoostZap Cannon
+386,Deoxys Defense Forme,Psychic,144,330,137,0.02,0.01,CounterZen Headbutt,Psycho BoostRock SlideThunderbolt
+386,Deoxys Speed Forme,Psychic,230,218,137,0.02,0.01,Charge BeamZen Headbutt,Psycho BoostSwiftThunderbolt
+387,Turtwig,Grass,119,110,146,0.2,0.1,Razor LeafTackle,Body SlamEnergy BallSeed BombFrustration (Shadow)Return (Shadow)
+388,Grotle,Grass,157,143,181,0.1,0.07,BiteRazor Leaf,Body SlamEnergy BallSolar BeamFrustration (Shadow)Return (Shadow)
+389,Torterra,Grass Ground,202,188,216,0.05,0.05,BiteRazor Leaf,EarthquakeSand TombSolar BeamStone EdgeFrenzy Plant (Community Day)Frustration (Shadow)Return (Shadow)
+390,Chimchar,Fire,113,86,127,0.2,0.1,EmberScratch,Flame ChargeFlame WheelFlamethrowerFrustration (Shadow)Return (Shadow)
+391,Monferno,Fire Fighting,158,105,162,0.1,0.07,EmberRock Smash,Flame WheelFlamethrowerLow SweepFrustration (Shadow)Return (Shadow)
+392,Infernape,Fire Fighting,222,151,183,0.05,0.05,Fire SpinRock Smash,Close CombatFlamethrowerSolar BeamBlast Burn (Community Day)Frustration (Shadow)Return (Shadow)
+393,Piplup,Water,112,102,142,0.2,0.1,BubblePound,Bubble BeamDrill PeckIcy Wind
+394,Prinplup,Water,150,139,162,0.1,0.07,BubbleMetal Claw,Bubble BeamHydro PumpIcy Wind
+395,Empoleon,Water Steel,210,186,197,0.05,0.05,Metal ClawWaterfall,BlizzardDrill PeckFlash CannonHydro PumpHydro Cannon (Community Day)
+396,Starly,Normal Flying,101,58,120,0.5,0.2,Quick AttackTackle,Aerial AceBrave Bird
+397,Staravia,Normal Flying,142,94,146,0.25,0.09,Quick AttackWing Attack,Aerial AceBrave BirdHeat Wave
+398,Staraptor,Normal Flying,234,140,198,0.125,0.06,Quick AttackWing Attack,Brave BirdClose CombatHeat Wave
+399,Bidoof,Normal,80,73,153,0.5,0.2,TackleTake Down,CrunchGrass KnotHyper FangIce Beam (legacy)Shadow Ball (legacy)Superpower (legacy)Thunderbolt (legacy)
+400,Bibarel,Normal Water,162,119,188,0.2,0.07,Take DownWater Gun,Hyper BeamHyper FangSurf
+401,Kricketot,Bug,45,74,114,0.5,0.2,Bug BiteStruggle Bug,Struggle
+402,Kricketune,Bug,160,100,184,0.2,0.07,Fury CutterStruggle Bug,Aerial AceBug BuzzX-Scissor
+403,Shinx,Electric,117,64,128,0.5,0.1,SparkTackle,DischargeSwiftThunderbolt
+404,Luxio,Electric,159,95,155,0.25,0.07,BiteSpark,CrunchThunderboltWild Charge
+405,Luxray,Electric,232,156,190,0.125,0.05,Hidden PowerSnarlSpark,CrunchHyper BeamWild ChargePsychic Fangs (Community Day)
+406,Budew,Grass Poison,91,109,120,0.1,0.04,Hidden PowerRazor Leaf,Energy BallGrass Knot
+407,Roserade,Grass Poison,243,185,155,0.15,0.07,Poison JabRazor LeafBullet Seed (Community Day),Dazzling GleamGrass KnotLeaf StormSludge BombSolar BeamWeather Ball - Fire (Community Day)
+408,Cranidos,Rock,218,71,167,0.5,0.1,Take DownZen Headbutt,Ancient PowerBulldozeRock Tomb
+409,Rampardos,Rock,295,109,219,0.2,0.06,Smack DownZen Headbutt,FlamethrowerOutrageRock Slide
+410,Shieldon,Rock Steel,76,195,102,0.5,0.1,Iron TailTackle,Ancient PowerHeavy SlamRock Tomb
+411,Bastiodon,Rock Steel,94,286,155,0.2,0.06,Iron TailSmack Down,FlamethrowerFlash CannonStone Edge
+412,Burmy Plant Cloak,Bug,53,83,120,0.5,0.2,Bug BiteTackle,Struggle
+412,Burmy Sandy Cloak,Bug,53,83,120,0.5,0.0,Bug BiteTackle,Struggle
+412,Burmy Trash Cloak,Bug,53,83,120,0.5,0.0,Bug BiteTackle,Struggle
+413,Wormadam Plant Cloak,Bug Grass,141,180,155,0.15,0.07,Bug BiteConfusion,Bug BuzzEnergy BallPsybeam
+413,Wormadam Sandy Cloak,Bug Ground,141,180,155,0.15,0.07,Bug BiteConfusion,Bug BuzzBulldozePsybeam
+413,Wormadam Trash Cloak,Bug Steel,127,175,155,0.15,0.07,Bug BiteConfusion,Bug BuzzIron HeadPsybeam
+414,Mothim,Bug Flying,185,98,172,0.15,0.07,Air SlashBug Bite,Aerial AceBug BuzzPsybeam
+415,Combee,Bug Flying,59,83,102,0.15,0.07,Bug Bite,Bug Buzz
+416,Vespiquen,Bug Flying,149,190,172,0.15,0.07,Air SlashBug BiteFury CutterPoison Sting,Bug BuzzFell StingerPower GemSignal BeamX-Scissor
+417,Pachirisu,Electric,94,172,155,0.3,0.09,SparkVolt Switch,ThunderThunder PunchThunderbolt
+418,Buizel,Water,132,67,146,0.5,0.1,Quick AttackWater Gun,Aqua JetSwiftWater Pulse
+419,Floatzel,Water,221,114,198,0.2,0.06,Water GunWaterfall,Aqua JetHydro PumpSwift
+420,Cherubi,Grass,108,92,128,0.5,0.09,Bullet SeedTackle,Dazzling GleamPetal BlizzardSeed Bomb
+421,Cherrim Overcast Form,Grass,170,153,172,0.1,0.07,Bullet SeedRazor Leaf,Dazzling GleamHyper BeamSolar Beam
+421,Cherrim Sunshine Form,Grass,170,153,172,0.1,0.0,Bullet SeedRazor Leaf,Dazzling GleamHyper BeamSolar BeamWeather Ball - Fire
+422,Shellos East Sea,Water,103,105,183,0.5,0.1,Hidden PowerMud-Slap,Body SlamMud BombWater Pulse
+422,Shellos West Sea,Water,103,105,183,0.5,0.0,Hidden PowerMud-Slap,Body SlamMud BombWater Pulse
+423,Gastrodon East Sea,Water Ground,169,143,244,0.2,0.06,Hidden PowerMud-Slap,Body SlamEarth PowerWater Pulse
+423,Gastrodon West Sea,Water Ground,169,143,244,0.2,0.0,Hidden PowerMud-Slap,Body SlamEarth PowerWater Pulse
+424,Ambipom,Normal,205,143,181,0.2,0.06,AstonishScratch,Aerial AceHyper BeamLow SweepFrustration (Shadow)Return (Shadow)
+425,Drifloon,Ghost Flying,117,80,207,0.4,0.1,AstonishHex,Icy WindOminous WindShadow Ball
+426,Drifblim,Ghost Flying,180,102,312,0.2,0.07,AstonishHex,Icy WindOminous WindShadow Ball
+427,Buneary,Normal,130,105,146,0.5,0.1,PoundQuick Attack,Fire PunchSwift
+428,Lopunny,Normal,156,194,163,0.2,0.06,Low KickPound,Fire PunchFocus BlastHyper Beam
+429,Mismagius,Ghost,211,187,155,0.1,0.07,HexSucker Punch,Dark PulseDazzling GleamShadow BallFrustration (Shadow)Return (Shadow)
+430,Honchkrow,Dark Flying,243,103,225,0.1,0.07,PeckSnarl,Brave BirdDark PulsePsychicSky AttackFrustration (Shadow)Return (Shadow)
+431,Glameow,Normal,109,82,135,0.4,0.1,Quick AttackScratch,Aerial AcePlay RoughThunderbolt
+432,Purugly,Normal,172,133,174,0.15,0.08,ScratchShadow Claw,Aerial AcePlay RoughThunder
+433,Chingling,Psychic,114,94,128,0.1,0.04,AstonishZen Headbutt,PsyshockShadow BallWrap
+434,Stunky,Poison Dark,121,90,160,0.5,0.1,BiteScratch,CrunchFlamethrowerSludge BombFrustration (Shadow)Return (Shadow)
+435,Skuntank,Poison Dark,184,132,230,0.2,0.06,BitePoison Jab,CrunchFlamethrowerSludge BombFrustration (Shadow)Return (Shadow)
+436,Bronzor,Steel Psychic,43,154,149,0.5,0.1,ConfusionTackle,Gyro BallHeavy SlamPaybackPsyshock
+437,Bronzong,Steel Psychic,161,213,167,0.2,0.06,ConfusionFeint Attack,BulldozeFlash CannonHeavy SlamPaybackPsychicPsyshock
+438,Bonsly,Rock,124,133,137,0.1,0.04,CounterRock Throw,EarthquakeRock SlideRock Tomb
+439,Mime Jr.,Psychic Fairy,125,142,85,0.1,0.04,ConfusionPound,PsybeamPsychicPsyshock
+440,Happiny,Normal,25,77,225,0.1,0.04,PoundZen Headbutt,Psychic
+441,Chatot,Normal Flying,183,91,183,0.3,0.09,PeckSteel Wing,Heat WaveNight ShadeSky Attack
+442,Spiritomb,Ghost Dark,169,199,137,0.1,0.04,Feint AttackSucker Punch,Ominous WindShadow BallShadow Sneak
+443,Gible,Dragon Ground,124,84,151,0.4,0.09,Mud ShotTake Down,Body SlamDigTwisterFrustration (Shadow)Return (Shadow)
+444,Gabite,Dragon Ground,172,125,169,0.1,0.06,Mud ShotTake Down,DigFlamethrowerTwisterFrustration (Shadow)Return (Shadow)
+445,Garchomp,Dragon Ground,261,193,239,0.05,0.05,Dragon TailMud Shot,EarthquakeFire BlastOutrageSand TombEarth Power (Community Day)Frustration (Shadow)Return (Shadow)
+446,Munchlax,Normal,137,117,286,0.1,0.04,LickTackle,Body SlamBulldozeGunk Shot
+447,Riolu,Fighting,127,78,120,0.0,0.2,CounterQuick Attack,Brick BreakCross ChopLow Sweep
+448,Lucario,Fighting Steel,236,144,172,0.1,0.05,Bullet PunchCounter,Aura SphereClose CombatFlash CannonPower-Up PunchShadow Ball
+449,Hippopotas,Ground,124,118,169,0.4,0.1,BiteTackle,Body SlamDigRock TombFrustration (Shadow)Return (Shadow)
+450,Hippowdon,Ground,201,191,239,0.15,0.08,BiteFire FangIce FangThunder Fang,Body SlamEarth PowerEarthquakeStone EdgeWeather Ball - RockFrustration (Shadow)Return (Shadow)
+451,Skorupi,Poison Bug,93,151,120,0.4,0.1,InfestationPoison Sting,Aqua TailCross PoisonSludge Bomb
+452,Drapion,Poison Dark,180,202,172,0.15,0.08,BiteIce FangInfestationPoison Sting,Aqua TailCrunchFell StingerSludge Bomb
+453,Croagunk,Poison Fighting,116,76,134,0.4,0.12,Poison JabPoison Sting,Brick BreakLow SweepSludge Bomb
+454,Toxicroak,Poison Fighting,211,133,195,0.15,0.07,CounterPoison Jab,Dynamic PunchMud BombSludge Bomb
+455,Carnivine,Grass,187,136,179,0.9,0.01,BiteVine Whip,CrunchEnergy BallPower Whip
+456,Finneon,Water,96,116,135,0.5,0.1,PoundWater Gun,Ice BeamSilver WindWater Pulse
+457,Lumineon,Water,142,170,170,0.2,0.06,Water GunWaterfall,BlizzardSilver WindWater Pulse
+458,Mantyke,Water Flying,105,179,128,0.1,0.04,BubbleTackle,Aerial AceIce BeamWater Pulse
+459,Snover,Grass Ice,115,105,155,0.3,0.1,Ice ShardPowder Snow,Energy BallIce BeamStompFrustration (Shadow)Return (Shadow)
+460,Abomasnow,Grass Ice,178,158,207,0.125,0.06,Powder SnowRazor Leaf,BlizzardEnergy BallOutrageWeather Ball - IceFrustration (Shadow)Return (Shadow)
+461,Weavile,Dark Ice,243,171,172,0.15,0.09,Feint AttackIce ShardSnarl,AvalancheFocus BlastFoul PlayFrustration (Shadow)Return (Shadow)
+462,Magnezone,Electric Steel,238,205,172,0.125,0.05,Charge BeamSpark,Flash CannonMirror ShotWild ChargeZap CannonFrustration (Shadow)Return (Shadow)
+463,Lickilicky,Normal,161,181,242,0.15,0.09,LickZen Headbutt,EarthquakeHyper BeamShadow BallSolar BeamBody Slam (legacy)
+464,Rhyperior,Ground Rock,241,190,251,0.05,0.05,Mud-SlapSmack Down,EarthquakeSkull BashStone EdgeSuperpowerSurfRock Wrecker (Community Day)Frustration (Shadow)Return (Shadow)
+465,Tangrowth,Grass,207,184,225,0.15,0.1,InfestationVine Whip,Ancient PowerPower WhipRock SlideSludge BombSolar Beam
+466,Electivire,Electric,249,163,181,0.15,0.1,Low KickThunder Shock,Ice PunchThunderThunder PunchWild ChargeFlamethrower (Community Day)Frustration (Shadow)Return (Shadow)
+467,Magmortar,Fire,247,172,181,0.15,0.1,Fire SpinKarate Chop,Brick BreakFire BlastFire PunchPsychicThunderbolt (Community Day)Frustration (Shadow)Return (Shadow)
+468,Togekiss,Fairy Flying,225,217,198,0.01,0.05,Air SlashCharmHidden Power,Aerial AceAncient PowerDazzling GleamFlamethrower
+469,Yanmega,Bug Flying,231,156,200,0.175,0.05,Bug BiteWing Attack,Aerial AceAncient PowerBug Buzz
+470,Leafeon,Grass,216,219,163,0.125,0.06,Quick AttackRazor LeafBullet Seed (Community Day),Energy BallLeaf BladeSolar BeamLast Resort (Community Day)
+471,Glaceon,Ice,238,205,163,0.125,0.06,Frost BreathIce Shard,AvalancheIce BeamIcy WindLast Resort (Community Day)Water Pulse (Community Day)
+472,Gliscor,Ground Flying,185,222,181,0.125,0.09,Fury CutterWing Attack,Aerial AceEarthquakeNight SlashSand TombFrustration (Shadow)Return (Shadow)
+473,Mamoswine,Ice Ground,247,146,242,0.05,0.05,Mud-SlapPowder Snow,AvalancheBulldozeStone EdgeAncient Power (Community Day)Frustration (Shadow)Return (Shadow)
+474,Porygon-Z,Normal,264,150,198,0.05,0.05,Charge BeamHidden PowerLock-On,BlizzardHyper BeamSolar BeamZap CannonFrustration (Shadow)Return (Shadow)
+475,Gallade,Psychic Fighting,237,195,169,0.5,0.05,CharmConfusionLow Kick,Close CombatLeaf BladePsychicSynchronoise (Community Day)Frustration (Shadow)Return (Shadow)
+476,Probopass,Rock Steel,135,275,155,0.1,0.07,Rock ThrowSpark,Magnet BombRock SlideThunderboltFrustration (Shadow)Return (Shadow)
+477,Dusknoir,Ghost,180,254,128,0.1,0.05,AstonishHex,Dark PulseOminous WindPsychicShadow Ball (Community Day)Frustration (Shadow)Return (Shadow)
+478,Froslass,Ice Ghost,171,150,172,0.2,0.07,HexPowder Snow,AvalancheCrunchShadow Ball
+479,Rotom Wash Rotom,Electric Water,204,219,137,0.3,0.1,AstonishThunder Shock,Hydro PumpThunderThunderbolt
+480,Uxie,Psychic,156,270,181,0.02,0.0,ConfusionExtrasensory,Future SightSwiftThunder
+481,Mesprit,Psychic,212,212,190,0.02,0.0,ConfusionExtrasensory,BlizzardFuture SightSwift
+482,Azelf,Psychic,270,151,181,0.02,0.0,ConfusionExtrasensory,Fire BlastFuture SightSwift
+483,Dialga,Steel Dragon,275,211,205,0.02,0.04,Dragon BreathMetal Claw,Draco MeteorIron HeadThunder
+484,Palkia,Water Dragon,280,215,189,0.02,0.04,Dragon BreathDragon Tail,Aqua TailDraco MeteorFire BlastHydro Pump
+485,Heatran,Fire Steel,251,213,209,0.02,0.04,Bug BiteFire Spin,Fire BlastFlamethrowerIron HeadStone Edge
+486,Regigigas,Normal,287,210,221,0.02,0.04,Hidden PowerZen Headbutt,Focus BlastGiga ImpactThunder
+487,Giratina Altered Forme,Ghost Dragon,187,225,284,0.02,0.04,Dragon BreathShadow Claw,Ancient PowerDragon ClawShadow Sneak
+487,Giratina Origin Forme,Ghost Dragon,225,187,284,0.02,0.04,Dragon TailShadow Claw,Dragon PulseOminous WindShadow Ball
+488,Cresselia,Psychic,152,258,260,0.02,0.04,ConfusionPsycho Cut,Aurora BeamFuture SightMoonblastGrass Knot (legacy)
+491,Darkrai,Dark,285,198,172,0.02,0.0,Feint AttackSnarl,Dark PulseFocus BlastShadow BallSludge Bomb (legacy)
+494,Victini,Psychic Fire,210,210,225,1.0,0.0,ConfusionQuick Attack,Focus BlastOverheatPsychicV-create
+495,Snivy,Grass,88,107,128,0.2,0.1,TackleVine Whip,Energy BallSeed BombWrap
+496,Servine,Grass,122,152,155,0.1,0.1,Iron TailVine Whip,Grass KnotLeaf TornadoWrap
+497,Serperior,Grass,161,204,181,0.05,0.05,Iron TailVine Whip,Aerial AceGrass KnotLeaf TornadoFrenzy Plant (Community Day)
+498,Tepig,Fire,115,85,163,0.2,0.1,EmberTackle,Body SlamFlame ChargeFlamethrower
+499,Pignite,Fire Fighting,173,106,207,0.1,0.07,EmberTackle,Flame ChargeFlamethrowerRock Tomb
+500,Emboar,Fire Fighting,235,127,242,0.05,0.05,EmberLow Kick,Flame ChargeFocus BlastHeat WaveRock SlideBlast Burn (Community Day)
+501,Oshawott,Water,117,85,146,0.2,0.1,TackleWater Gun,Aqua TailNight SlashWater Pulse
+502,Dewott,Water,159,116,181,0.1,0.07,Fury CutterWater Gun,Aqua TailWater PulseX-Scissor
+503,Samurott,Water,212,157,216,0.05,0.05,Fury CutterWaterfall,BlizzardHydro PumpMegahornRazor ShellHydro Cannon (Community Day)
+504,Patrat,Normal,98,73,128,0.5,0.2,BiteTackle,DigGrass KnotHyper Fang
+505,Watchog,Normal,165,139,155,0.2,0.07,BiteLow Kick,CrunchGrass KnotHyper Fang
+506,Lillipup,Normal,107,86,128,0.5,0.2,TackleTake Down,DigRock TombThunderbolt
+507,Herdier,Normal,145,126,163,0.25,0.09,LickTake Down,DigPlay RoughThunderbolt
+508,Stoutland,Normal,206,182,198,0.125,0.05,Ice FangLickTake Down,CrunchPlay RoughWild Charge
+509,Purrloin,Dark,98,73,121,0.5,0.2,ScratchSucker Punch,Dark PulseNight SlashPlay Rough
+510,Liepard,Dark,187,106,162,0.2,0.07,CharmSnarl,Dark PulseGunk ShotPaybackPlay Rough
+511,Pansage,Grass,104,94,137,0.5,0.2,ScratchVine Whip,CrunchEnergy BallSeed Bomb
+512,Simisage,Grass,206,133,181,0.2,0.07,BiteVine Whip,CrunchGrass KnotSolar Beam
+513,Pansear,Fire,104,94,137,0.5,0.2,Fire SpinScratch,CrunchFlame BurstFlame Charge
+514,Simisear,Fire,206,133,181,0.2,0.07,BiteFire Spin,CrunchFire BlastFlamethrower
+515,Panpour,Water,104,94,137,0.5,0.2,ScratchWater Gun,CrunchSurfWater Pulse
+516,Simipour,Water,206,133,181,0.2,0.07,BiteWater Gun,CrunchHydro PumpSurf
+517,Munna,Psychic,111,92,183,0.5,0.2,Charge BeamZen Headbutt,Dazzling GleamPsybeamPsyshock
+518,Musharna,Psychic,183,166,253,0.2,0.07,Charge BeamZen Headbutt,Dazzling GleamFuture SightPsyshock
+519,Pidove,Normal Flying,98,80,137,0.5,0.2,Air SlashQuick Attack,Aerial AceAir CutterHeat Wave
+520,Tranquill,Normal Flying,144,107,158,0.25,0.09,Air SlashSteel Wing,Aerial AceHeat WaveSky Attack
+521,Unfezant,Normal Flying,226,146,190,0.125,0.05,Air SlashSteel Wing,Heat WaveHyper BeamSky Attack
+522,Blitzle,Electric,118,64,128,0.3,0.1,Quick AttackSpark,DischargeFlame ChargeThunderbolt
+523,Zebstrika,Electric,211,136,181,0.1,0.07,Low KickSpark,DischargeFlame ChargeWild Charge
+524,Roggenrola,Rock,121,110,146,0.5,0.15,Smack DownTackle,BulldozeRock BlastStone Edge
+525,Boldore,Rock,174,143,172,0.25,0.07,Mud-SlapSmack Down,BulldozeRock SlideStone Edge
+526,Gigalith,Rock,226,201,198,0.125,0.05,Mud-SlapSmack Down,Heavy SlamRock SlideSolar BeamSuperpower
+527,Woobat,Psychic Flying,107,85,163,0.5,0.2,Air SlashConfusion,Aerial AceAir CutterPsyshock
+528,Swoobat,Psychic Flying,161,119,167,0.2,0.07,Air SlashConfusion,Aerial AceFuture SightPsychic
+529,Drilbur,Ground,154,85,155,0.5,0.2,Mud-SlapScratch,DigDrill RunRock Tomb
+530,Excadrill,Ground Steel,255,129,242,0.2,0.07,Metal ClawMud ShotMud-Slap,Drill RunEarthquakeIron HeadRock Slide
+531,Audino,Normal,114,163,230,0.05,0.05,PoundZen Headbutt,Dazzling GleamDisarming VoiceHyper Beam
+532,Timburr,Fighting,134,87,181,0.5,0.15,Low KickPound,Brick BreakLow SweepRock Tomb
+533,Gurdurr,Fighting,180,134,198,0.25,0.07,Low KickPoison Jab,Brick BreakLow SweepStone Edge
+534,Conkeldurr,Fighting,243,158,233,0.125,0.05,CounterPoison Jab,Dynamic PunchFocus BlastStone Edge
+535,Tympole,Water,98,78,137,0.5,0.15,BubbleMud Shot,Mud BombSludge WaveWater Pulse
+536,Palpitoad,Water Ground,128,109,181,0.25,0.07,BubbleMud Shot,Earth PowerSludge WaveWater Pulse
+537,Seismitoad,Water Ground,188,150,233,0.125,0.05,BubbleMud Shot,Earth PowerMuddy WaterSludge Bomb
+538,Throh,Fighting,172,160,260,0.2,0.07,Low KickZen Headbutt,Body SlamFocus BlastLow Sweep
+539,Sawk,Fighting,231,153,181,0.2,0.07,Low KickPoison Jab,Body SlamFocus BlastLow Sweep
+540,Sewaddle,Bug Grass,96,124,128,0.5,0.15,Bug BiteStruggle Bug,Energy BallSeed BombSilver Wind
+541,Swadloon,Bug Grass,115,162,146,0.25,0.07,Bug BiteStruggle Bug,Bug BuzzEnergy BallSilver Wind
+542,Leavanny,Bug Grass,205,165,181,0.125,0.05,Bug BiteRazor Leaf,Leaf BladeLeaf StormSilver WindX-Scissor
+543,Venipede,Bug Poison,83,99,102,0.3,0.1,Bug BitePoison Sting,Gyro BallSignal BeamSludge Bomb
+544,Whirlipede,Bug Poison,100,173,120,0.15,0.05,Bug BitePoison Sting,Gyro BallSignal BeamSludge Bomb
+545,Scolipede,Bug Poison,203,175,155,0.2,0.07,Bug BitePoison Jab,Gyro BallMegahornSludge BombX-Scissor
+546,Cottonee,Grass Fairy,71,111,120,0.3,0.1,CharmRazor Leaf,Energy BallGrass KnotSeed Bomb
+547,Whimsicott,Grass Fairy,164,176,155,0.15,0.05,CharmRazor Leaf,Grass KnotHurricaneMoonblast
+548,Petilil,Grass,119,91,128,0.3,0.1,CharmHidden Power,Energy BallSeed Bomb
+549,Lilligant,Grass,214,155,172,0.15,0.05,CharmHidden Power,Hyper BeamPetal BlizzardSolar Beam
+550,Basculin Red-Striped Form,Water,189,129,172,0.2,0.07,TackleWater Gun,Aqua JetAqua TailMuddy Water
+550,Basculin Blue-Striped Form,Water,189,129,172,0.2,0.07,TackleWater Gun,Aqua JetAqua TailMuddy Water
+551,Sandile,Ground Dark,132,69,137,0.5,0.15,BiteMud-Slap,BulldozeCrunchDig
+552,Krokorok,Ground Dark,155,90,155,0.25,0.07,BiteMud-Slap,BulldozeCrunchEarthquake
+553,Krookodile,Ground Dark,229,158,216,0.125,0.05,Mud-SlapSnarl,CrunchEarthquakeOutrage
+554,Darumaka,Fire,153,86,172,0.3,0.09,Fire FangTackle,Fire PunchFlame Charge
+554,Darumaka Galarian Darumaka,Ice,153,86,172,0.3,0.09,Ice FangTackle,Ice BeamIce Punch
+555,Darmanitan Standard Mode,Fire,263,114,233,0.1,0.07,Fire FangIncinerateTackle,Focus BlastOverheatPsychicRock Slide
+555,Darmanitan Galarian Standard Mode,Ice,263,114,233,0.1,0.07,Ice FangTackle,AvalancheIce PunchOverheatSuperpower
+556,Maractus,Grass,201,130,181,0.2,0.07,Bullet SeedPoison Jab,Aerial AcePetal BlizzardSolar Beam
+557,Dwebble,Bug Rock,118,128,137,0.3,0.1,CutSmack Down,Rock BlastRock TombX-Scissor
+558,Crustle,Bug Rock,188,200,172,0.1,0.07,Fury CutterSmack Down,Rock BlastRock SlideX-Scissor
+559,Scraggy,Dark Fighting,132,132,137,0.3,0.09,Feint AttackRock Smash,Acid SprayBrick BreakFoul Play
+560,Scrafty,Dark Fighting,163,222,163,0.1,0.07,CounterSnarl,Acid SprayFoul PlayPower-Up Punch
+561,Sigilyph,Psychic Flying,204,167,176,0.2,0.07,Air SlashZen Headbutt,Air CutterAncient PowerPsybeamSignal Beam
+562,Yamask,Ghost,95,141,116,0.3,0.1,AstonishZen Headbutt,Dark PulseOminous WindShadow BallFrustration (Shadow)Return (Shadow)
+562,Yamask Galarian Yamask,Ground Ghost,95,141,116,0.3,0.1,Astonish,Night ShadeRock Tomb
+563,Cofagrigus,Ghost,163,237,151,0.1,0.07,AstonishShadow ClawZen Headbutt,Dark PulsePsychicShadow BallFrustration (Shadow)Return (Shadow)
+564,Tirtouga,Water Rock,134,146,144,0.3,0.1,BiteWater Gun,Ancient PowerBody SlamSurf
+565,Carracosta,Water Rock,192,197,179,0.1,0.07,Rock ThrowWater Gun,Ancient PowerBody SlamSurf
+566,Archen,Rock Flying,213,89,146,0.3,0.09,Quick AttackWing Attack,Ancient PowerCrunchDragon Claw
+567,Archeops,Rock Flying,292,139,181,0.1,0.07,Steel WingWing Attack,Ancient PowerCrunchDragon Claw
+568,Trubbish,Poison,96,122,137,0.3,0.09,PoundTake Down,Gunk ShotSeed Bomb
+569,Garbodor,Poison,181,164,190,0.1,0.07,InfestationTake Down,Acid SprayBody SlamGunk ShotSeed Bomb
+572,Minccino,Normal,98,80,146,0.3,0.1,CharmPound,Aqua TailSwiftThunderbolt
+573,Cinccino,Normal,198,130,181,0.1,0.07,CharmPound,Aqua TailHyper BeamThunderbolt
+574,Gothita,Psychic,98,112,128,0.5,0.15,ConfusionPound,PsybeamPsychicPsyshock
+575,Gothorita,Psychic,137,153,155,0.25,0.07,ConfusionPound,Future SightPsybeamPsychic
+576,Gothitelle,Psychic,176,205,172,0.125,0.05,CharmConfusion,Future SightPsychicRock Slide
+577,Solosis,Psychic,170,83,128,0.5,0.15,Hidden PowerZen Headbutt,Night ShadePsyshockThunder
+578,Duosion,Psychic,208,103,163,0.25,0.07,Hidden PowerZen Headbutt,Night ShadePsyshockThunder
+579,Reuniclus,Psychic,214,148,242,0.125,0.05,Hidden PowerZen Headbutt,Future SightShadow BallThunder
+580,Ducklett,Water Flying,84,96,158,0.5,0.15,Water GunWing Attack,Aerial AceBrave BirdBubble Beam
+581,Swanna,Water Flying,182,132,181,0.4,0.12,Air SlashWater Gun,Bubble BeamHurricaneIce Beam
+582,Vanillite,Ice,118,106,113,0.4,0.07,AstonishPowder Snow,Ice BeamIcy WindSignal Beam
+583,Vanillish,Ice,151,138,139,0.05,0.05,AstonishFrost Breath,Ice BeamIcy WindSignal Beam
+584,Vanilluxe,Ice,218,184,174,0.125,0.05,AstonishFrost Breath,BlizzardFlash CannonSignal Beam
+585,Deerling Spring Form,Normal Grass,115,100,155,0.3,0.0,TackleTake Down,Energy BallSeed BombWild Charge
+585,Deerling Autumn Form,Normal Grass,115,100,155,0.3,0.0,TackleTake Down,Energy BallSeed BombWild Charge
+585,Deerling Summer Form,Normal Grass,115,100,155,0.3,0.0,TackleTake Down,Energy BallSeed BombWild Charge
+585,Deerling Winter Form,Normal Grass,115,100,155,0.3,0.0,TackleTake Down,Energy BallSeed BombWild Charge
+586,Sawsbuck Spring Form,Normal Grass,198,146,190,0.15,0.0,Feint AttackTake Down,Hyper BeamMegahornSolar BeamWild Charge
+586,Sawsbuck Autumn Form,Normal Grass,198,146,190,0.15,0.0,Feint AttackTake Down,Hyper BeamMegahornSolar BeamWild Charge
+586,Sawsbuck Summer Form,Normal Grass,198,146,190,0.15,0.0,Feint AttackTake Down,Hyper BeamMegahornSolar BeamWild Charge
+586,Sawsbuck Winter Form,Normal Grass,198,146,190,0.2,0.0,Feint AttackTake Down,Hyper BeamMegahornSolar BeamWild Charge
+587,Emolga,Electric Flying,158,127,146,0.2,0.07,Quick AttackThunder Shock,Aerial AceDischargeThunderbolt
+588,Karrablast,Bug,137,87,137,0.3,0.1,Fury CutterPeck,Aerial AceDrill RunSignal BeamX-Scissor
+589,Escavalier,Bug Steel,223,187,172,0.125,0.05,Bug BiteCounter,Acid SprayAerial AceDrill RunMegahorn
+590,Foongus,Grass Poison,97,91,170,0.3,0.1,AstonishFeint Attack,Body SlamEnergy BallGrass Knot
+591,Amoonguss,Grass Poison,155,139,249,0.125,0.05,AstonishFeint Attack,Foul PlayGrass KnotSludge Bomb
+592,Frillish Male,Water Ghost,115,134,146,0.3,0.09,BubbleHex,Ice BeamNight ShadeOminous Wind
+592,Frillish Female,Water Ghost,115,134,146,0.3,0.09,BubbleHex,Ice BeamNight ShadeOminous Wind
+593,Jellicent Male,Water Ghost,159,178,225,0.125,0.05,BubbleHex,Bubble BeamIce BeamShadow Ball
+593,Jellicent Female,Water Ghost,159,178,225,0.125,0.05,BubbleHex,Bubble BeamIce BeamShadow Ball
+594,Alomomola,Water,138,131,338,0.2,0.07,Hidden PowerWaterfall,BlizzardHydro PumpPsychic
+595,Joltik,Bug Electric,110,98,137,0.3,0.1,Charge BeamSucker Punch,Bug BuzzCross PoisonDischarge
+596,Galvantula,Bug Electric,201,128,172,0.125,0.05,Fury CutterVolt Switch,Bug BuzzCross PoisonDischargeEnergy BallLunge
+597,Ferroseed,Grass Steel,82,155,127,0.3,0.09,Metal ClawTackle,Flash CannonGyro BallIron Head
+598,Ferrothorn,Grass Steel,158,223,179,0.125,0.05,Bullet SeedMetal Claw,Acid SprayFlash CannonMirror ShotPower WhipThunder
+599,Klink,Steel,98,121,120,0.4,0.1,Charge BeamVolt Switch,DischargeVise GripZap Cannon
+600,Klang,Steel,150,174,155,0.1,0.07,Charge BeamThunder Shock,ThunderboltVise GripZap Cannon
+601,Klinklang,Steel,199,214,155,0.05,0.05,Charge BeamThunder Shock,Flash CannonHyper BeamMirror ShotZap Cannon
+602,Tynamo,Electric,105,78,111,0.4,0.15,SparkTackle,Struggle
+603,Eelektrik,Electric,156,130,163,0.1,0.07,AcidSpark,CrunchDischargeThunderbolt
+604,Eelektross,Electric,217,152,198,0.05,0.05,AcidSpark,Acid SprayCrunchDragon ClawThunderbolt
+605,Elgyem,Psychic,148,100,146,0.3,0.1,AstonishConfusion,Dark PulsePsybeamPsychic
+606,Beheeyem,Psychic,221,163,181,0.15,0.05,AstonishConfusion,Dark PulsePsychicRock Slide
+607,Litwick,Ghost Fire,108,98,137,0.4,0.09,AstonishEmber,Flame BurstFlame ChargeHeat Wave
+608,Lampent,Ghost Fire,169,115,155,0.1,0.07,AstonishEmber,Energy BallFlame BurstHeat Wave
+609,Chandelure,Ghost Fire,271,182,155,0.05,0.05,Fire SpinHexIncinerate,Energy BallFlame ChargeOverheatShadow Ball
+610,Axew,Dragon,154,101,130,0.4,0.09,Iron TailScratch,Aqua TailDragon ClawDragon Pulse
+611,Fraxure,Dragon,212,123,165,0.1,0.07,Dragon TailIron Tail,Aqua TailDragon ClawNight Slash
+612,Haxorus,Dragon,284,172,183,0.05,0.05,CounterDragon Tail,Dragon ClawEarthquakeNight SlashSurf
+613,Cubchoo,Ice,128,74,146,0.3,0.1,CharmPowder Snow,Ice PunchIcy WindPlay Rough
+614,Beartic,Ice,233,152,216,0.15,0.05,CharmPowder Snow,Ice PunchPlay RoughSurf
+615,Cryogonal,Ice,190,218,190,0.2,0.07,Frost BreathIce Shard,Aurora BeamNight SlashSolar BeamWater Pulse
+616,Shelmet,Bug,72,140,137,0.3,0.1,AcidInfestation,Body SlamBug BuzzSignal Beam
+617,Accelgor,Bug,220,120,190,0.15,0.05,AcidInfestation,Acid SprayBug BuzzFocus BlastSignal Beam
+618,Stunfisk,Ground Electric,144,171,240,0.2,0.07,Mud ShotThunder Shock,DischargeMud BombMuddy Water
+618,Stunfisk Galarian Stunfisk,Ground Steel,144,171,240,0.2,0.07,Metal ClawMud Shot,EarthquakeFlash CannonMuddy WaterRock Slide
+619,Mienfoo,Fighting,160,98,128,0.3,0.1,Low KickPound,Brick BreakFocus BlastLow Sweep
+620,Mienshao,Fighting,258,127,163,0.15,0.05,Low KickPoison Jab,Brick BreakGrass KnotStone Edge
+621,Druddigon,Dragon,213,170,184,0.2,0.07,BiteDragon Tail,Dragon ClawHyper BeamNight Slash
+622,Golett,Ground Ghost,127,92,153,0.3,0.1,AstonishMud-Slap,Brick BreakNight ShadeShadow Punch
+623,Golurk,Ground Ghost,222,154,205,0.15,0.05,AstonishMud-Slap,Dynamic PunchEarth PowerShadow Punch
+624,Pawniard,Dark Steel,154,114,128,0.3,0.09,Fury CutterScratch,Iron HeadNight SlashX-Scissor
+625,Bisharp,Dark Steel,232,176,163,0.15,0.05,Metal ClawSnarl,Dark PulseFocus BlastIron HeadX-Scissor
+626,Bouffalant,Normal,195,182,216,0.2,0.07,Mud ShotZen Headbutt,EarthquakeMegahornSkull BashStomp
+627,Rufflet,Normal Flying,150,97,172,0.3,0.1,PeckWing Attack,Aerial AceBrave BirdRock Tomb
+628,Braviary,Normal Flying,232,152,225,0.15,0.05,Air SlashSteel Wing,Brave BirdClose CombatHeat WaveRock Slide
+629,Vullaby,Dark Flying,105,139,172,0.3,0.1,Air SlashFeint Attack,Brave BirdDark PulseFoul Play
+630,Mandibuzz,Dark Flying,129,205,242,0.15,0.05,Air SlashSnarl,Aerial AceDark PulseFoul PlayShadow Ball
+631,Heatmor,Fire,204,129,198,0.2,0.07,Fire SpinLick,FlamethrowerPower-Up PunchThunder Punch
+632,Durant,Bug Steel,217,188,151,0.2,0.07,Bug BiteMetal Claw,Iron HeadStone EdgeX-Scissor
+633,Deino,Dark Dragon,116,93,141,0.4,0.09,Dragon BreathTackle,Body SlamCrunchDragon Pulse
+634,Zweilous,Dark Dragon,159,135,176,0.1,0.07,BiteDragon Breath,Body SlamDark PulseDragon Pulse
+635,Hydreigon,Dark Dragon,256,188,211,0.05,0.05,BiteDragon Breath,Dark PulseDragon PulseFlash Cannon
+638,Cobalion,Steel Fighting,192,229,209,0.02,0.01,Metal ClawZen Headbutt,Close CombatIron HeadStone EdgeSacred Sword (legacy)
+639,Terrakion,Rock Fighting,260,192,209,0.02,0.01,Smack DownZen Headbutt,Close CombatEarthquakeRock SlideSacred Sword (legacy)
+640,Virizion,Grass Fighting,192,229,209,0.02,0.01,Quick AttackZen Headbutt,Close CombatLeaf BladeStone EdgeSacred Sword (legacy)
+641,Tornadus Incarnate Forme,Flying,266,164,188,0.02,0.01,Air SlashBite,Dark PulseGrass KnotHurricaneHyper Beam
+641,Tornadus Therian Forme,Flying,238,189,188,0.02,0.01,AstonishGust,Focus BlastHeat WaveHurricanePsychic
+642,Thundurus Incarnate Forme,Electric Flying,266,164,188,0.02,0.01,AstonishThunder Shock,Brick BreakCrunchThunderThunder Punch
+642,Thundurus Therian Forme,Electric Flying,295,161,188,0.02,0.01,BiteVolt Switch,Focus BlastSludge WaveThunderThunderbolt
+643,Reshiram,Dragon Fire,275,211,205,0.02,0.01,Dragon BreathFire Fang,CrunchDraco MeteorOverheatStone Edge
+644,Zekrom,Dragon Electric,275,211,205,0.02,0.01,Charge BeamDragon Breath,CrunchFlash CannonOutrageWild Charge
+645,Landorus Incarnate Forme,Ground Flying,261,182,205,0.02,0.01,Mud ShotRock Throw,Earth PowerFocus BlastOutrageRock Slide
+645,Landorus Therian Forme,Ground Flying,289,179,205,0.02,0.01,ExtrasensoryMud Shot,BulldozeEarthquakeStone EdgeSuperpower
+646,Kyurem,Dragon Ice,246,170,245,0.02,0.01,Dragon BreathSteel Wing,BlizzardDraco MeteorDragon Claw
+648,Meloetta Aria Forme,Normal Psychic,250,225,225,1.0,0.0,ConfusionQuick Attack,Dazzling GleamHyper BeamPsyshockThunderbolt
+649,Genesect,Bug Steel,252,199,174,0.02,0.01,Fury CutterMetal Claw,Hyper BeamMagnet BombX-Scissor
+649,Genesect Burn Drive,Bug Steel,252,199,174,0.02,0.01,Fury CutterMetal Claw,FlamethrowerMagnet BombX-ScissorTechno Blast - Fire (legacy)
+649,Genesect Douse Drive,Bug Steel,252,199,174,0.02,0.01,Fury CutterMetal Claw,Gunk ShotMagnet BombX-ScissorTechno Blast - Water (legacy)
+650,Chespin,Grass,110,106,148,0.2,0.1,Take DownVine Whip,Body SlamGyro BallSeed Bomb
+651,Quilladin,Grass,146,156,156,0.1,0.1,Low KickVine Whip,Body SlamEnergy BallGyro Ball
+652,Chesnaught,Grass Fighting,201,204,204,0.05,0.1,Low KickSmack DownVine Whip,Energy BallGyro BallSolar BeamSuperpower
+653,Fennekin,Fire,116,102,120,0.2,0.1,EmberScratch,Flame ChargeFlamethrowerPsyshock
+654,Braixen,Fire,171,130,153,0.1,0.1,EmberScratch,Flame ChargeFlamethrowerPsyshock
+655,Delphox,Fire Psychic,230,189,181,0.05,0.1,Fire SpinScratchZen Headbutt,Fire BlastFlame ChargeFlamethrowerPsychic
+656,Froakie,Water,122,84,121,0.2,0.1,BubblePound,Aerial AceSurfWater Pulse
+657,Frogadier,Water,168,114,144,0.1,0.1,BubblePound,Aerial AceSurfWater Pulse
+658,Greninja,Water Dark,223,152,176,0.05,0.1,BubbleFeint Attack,Aerial AceHydro PumpNight SlashSurf
+659,Bunnelby,Normal,68,72,116,0.5,0.1,Mud-SlapQuick Attack,BulldozeDigEarthquake
+660,Diggersby,Normal Ground,112,155,198,0.2,0.1,Mud ShotQuick Attack,DigEarthquakeFire PunchHyper Beam
+661,Fletchling,Normal Flying,95,80,128,0.5,0.2,PeckQuick Attack,Aerial AceHeat WaveSwift
+662,Fletchinder,Fire Flying,145,110,158,0.25,0.09,EmberPeckSteel Wing,Aerial AceFlame ChargeHeat Wave
+663,Talonflame,Fire Flying,176,155,186,0.125,0.05,Fire SpinPeckSteel WingIncinerate (Community Day),Brave BirdFire BlastFlame ChargeHurricane
+667,Litleo,Fire Normal,139,112,158,0.5,0.2,EmberFire FangTackle,CrunchFlame ChargeFlamethrower
+668,Pyroar Male,Fire Normal,221,149,200,0.2,0.07,EmberFire FangTake Down,Dark PulseFlame ChargeOverheatSolar Beam
+668,Pyroar Female,Fire Normal,221,149,200,0.2,0.07,Fire FangTake Down,Dark PulseFlame ChargeOverheatSolar Beam
+669,Flabébé Red Flower,Fairy,108,120,127,0.5,0.15,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+669,Flabébé Blue Flower,Fairy,108,120,127,0.5,0.15,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+669,Flabébé Orange Flower,Fairy,108,120,127,0.5,0.15,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+669,Flabébé White Flower,Fairy,108,120,127,0.5,0.15,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+669,Flabébé Yellow Flower,Fairy,108,120,127,0.5,0.15,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+670,Floette Red Flower,Fairy,136,151,144,0.25,0.07,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+670,Floette Blue Flower,Fairy,136,151,144,0.25,0.07,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+670,Floette Orange Flower,Fairy,136,151,144,0.25,0.07,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+670,Floette White Flower,Fairy,136,151,144,0.25,0.07,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+670,Floette Yellow Flower,Fairy,136,151,144,0.25,0.07,TackleVine Whip,Dazzling GleamPetal BlizzardPsychic
+671,Florges Red Flower,Fairy,212,244,186,0.125,0.05,Razor LeafTackleVine Whip,Disarming VoiceMoonblastPetal BlizzardPsychic
+671,Florges Blue Flower,Fairy,212,244,186,0.125,0.05,Razor LeafTackleVine Whip,Disarming VoiceMoonblastPetal BlizzardPsychic
+671,Florges Orange Flower,Fairy,212,244,186,0.125,0.05,Razor LeafTackleVine Whip,Disarming VoiceMoonblastPetal BlizzardPsychic
+671,Florges White Flower,Fairy,212,244,186,0.125,0.05,Razor LeafTackleVine Whip,Disarming VoiceMoonblastPetal BlizzardPsychic
+671,Florges Yellow Flower,Fairy,212,244,186,0.125,0.05,Razor LeafTackleVine Whip,Disarming VoiceMoonblastPetal BlizzardPsychic
+674,Pancham,Fighting,145,107,167,0.3,0.09,Low KickTackle,Body SlamCrunchLow Sweep
+675,Pangoro,Fighting Dark,226,146,216,0.1,0.07,Bullet PunchLow KickSnarl,Close CombatIron HeadNight SlashRock Slide
+676,Furfrou Natural Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou Heart Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou Star Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou Diamond Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou Debutante Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou Matron Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou Dandy Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou La Reine Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou Kabuki Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+676,Furfrou Pharaoh Trim,Normal,164,167,181,0.2,0.07,BiteSucker PunchTake Down,Dark PulseGrass KnotSurf
+677,Espurr,Psychic,120,114,158,0.4,0.1,ConfusionScratch,Energy BallPsychicPsyshock
+678,Meowstic Male,Psychic,166,167,179,0.2,0.07,ConfusionSucker Punch,Energy BallPsychicThunderbolt
+678,Meowstic Female,Psychic,166,167,179,0.2,0.07,CharmConfusion,Energy BallPsychicShadow Ball
+682,Spritzee,Fairy,110,113,186,0.2,0.1,Charge BeamCharm,Draining KissThunderbolt
+683,Aromatisse,Fairy,173,150,226,0.2,0.1,Charge BeamCharm,Draining KissMoonblastPsychicThunderbolt
+684,Swirlix,Fairy,109,119,158,0.2,0.1,Tackle,Draining KissEnergy Ball
+685,Slurpuff,Fairy,168,163,193,0.2,0.1,CharmTackle,Draining KissEnergy BallFlamethrowerPlay Rough
+686,Inkay,Dark Psychic,98,95,142,0.2,0.1,PeckTackle,Night SlashPsybeam
+687,Malamar,Dark Psychic,177,165,200,0.2,0.1,PeckPsycho Cut,Foul PlayHyper BeamPsybeamSuperpower
+688,Binacle,Rock Water,96,120,123,0.2,0.1,Mud-SlapScratch,Ancient PowerCross ChopDig
+689,Barbaracle,Rock Water,194,205,176,0.2,0.1,Fury CutterMud-SlapWater Gun,Cross ChopGrass KnotSkull BashStone Edge
+690,Skrelp,Poison Water,109,109,137,0.2,0.1,AcidWater Gun,Aqua TailSludge BombTwisterWater Pulse
+691,Dragalge,Poison Dragon,177,207,163,0.2,0.1,AcidDragon TailWater Gun,Aqua TailGunk ShotHydro PumpOutrage
+692,Clauncher,Water,108,117,137,0.2,0.1,Smack DownWater Gun,Aqua JetCrabhammerWater Pulse
+693,Clawitzer,Water,221,171,174,0.2,0.1,Smack DownWater Gun,CrabhammerDark PulseIce BeamWater Pulse
+694,Helioptile,Electric Normal,115,78,127,0.2,0.1,Quick AttackThunder Shock,BulldozeParabolic ChargeThunderbolt
+695,Heliolisk,Electric Normal,219,168,158,0.2,0.1,Mud-SlapQuick AttackVolt Switch,BulldozeGrass KnotParabolic ChargeThunderbolt
+700,Sylveon,Fairy,203,205,216,0.125,0.06,CharmQuick Attack,Dazzling GleamDraining KissMoonblastLast Resort (legacy)Psyshock (Community Day)
+702,Dedenne,Electric Fairy,164,134,167,0.2,0.1,TackleThunder Shock,DischargePlay Rough
+704,Goomy,Dragon,101,112,128,0.4,0.09,TackleWater Gun,Dragon PulseMuddy WaterSludge Wave
+705,Sliggoo,Dragon,159,176,169,0.1,0.07,TackleWater Gun,Dragon PulseMuddy WaterSludge WaveWater Pulse
+706,Goodra,Dragon,220,242,207,0.05,0.05,Dragon BreathWater Gun,Draco MeteorMuddy WaterPower WhipSludge Wave
+707,Klefki,Steel Fairy,160,179,149,0.2,0.1,AstonishTackle,Draining KissFlash CannonFoul PlayPlay Rough
+708,Phantump,Ghost Grass,125,103,125,0.3,0.1,AstonishTackle,Foul PlaySeed BombShadow Ball
+709,Trevenant,Ghost Grass,201,154,198,0.15,0.05,Shadow ClawSucker Punch,Foul PlaySeed BombShadow Ball
+710,Pumpkaboo Average Size,Ghost Grass,121,123,135,0.3,0.1,AstonishRazor Leaf,Foul PlayGrass KnotShadow Sneak
+710,Pumpkaboo Small Size,Ghost Grass,122,124,127,0.3,0.1,AstonishRazor Leaf,Foul PlayGrass KnotShadow Sneak
+710,Pumpkaboo Large Size,Ghost Grass,120,122,144,0.3,0.1,AstonishRazor Leaf,Foul PlayGrass KnotShadow Sneak
+710,Pumpkaboo Super Size,Ghost Grass,118,120,153,0.3,0.1,AstonishRazor Leaf,Foul PlayGrass KnotShadow Sneak
+711,Gourgeist Average Size,Ghost Grass,175,213,163,0.125,0.06,HexRazor Leaf,Fire BlastFoul PlaySeed BombShadow Ball
+711,Gourgeist Small Size,Ghost Grass,171,219,146,0.125,0.06,HexRazor Leaf,Fire BlastFoul PlaySeed BombShadow Ball
+711,Gourgeist Large Size,Ghost Grass,179,206,181,0.125,0.06,HexRazor Leaf,Fire BlastFoul PlaySeed BombShadow Ball
+711,Gourgeist Super Size,Ghost Grass,182,200,198,0.125,0.06,HexRazor Leaf,Fire BlastFoul PlaySeed BombShadow Ball
+712,Bergmite,Ice,117,120,146,0.2,0.1,BiteTackle,CrunchIcy WindMirror Coat
+713,Avalugg,Ice,196,240,216,0.2,0.1,BiteIce Fang,AvalancheBody SlamCrunchEarthquakeMirror Coat
+714,Noibat,Flying Dragon,83,73,120,0.4,0.09,BiteWing Attack,Air CutterDragon PulseHeat Wave
+715,Noivern,Flying Dragon,205,175,198,0.15,0.05,Air SlashBite,Draco MeteorHeat WaveHurricanePsychic
+716,Xerneas,Fairy,250,185,246,0.02,0.1,TackleZen Headbutt,Close CombatGiga ImpactMegahornMoonblastThunder
+717,Yveltal,Dark Flying,250,185,246,0.02,0.1,GustSnarlSucker Punch,Dark PulseFocus BlastHurricaneHyper BeamPsychic
+720,Hoopa Hoopa Confined,Psychic Ghost,261,187,173,1.0,0.0,AstonishConfusion,PsybeamPsychicShadow Ball
+720,Hoopa Hoopa Unbound,Psychic Dark,311,191,173,1.0,0.0,AstonishConfusion,Dark PulsePsychicShadow Ball
+722,Rowlet,Grass Flying,102,99,169,0.2,0.1,Razor LeafTackle,Energy BallSeed Bomb
+723,Dartrix,Grass Flying,142,139,186,0.1,0.1,PeckRazor Leaf,Brave BirdEnergy BallSeed Bomb
+724,Decidueye,Grass Ghost,210,179,186,0.05,0.1,AstonishRazor Leaf,Brave BirdEnergy BallShadow Sneak
+725,Litten,Fire,128,79,128,0.2,0.1,EmberScratch,CrunchFlame ChargeFlamethrower
+726,Torracat,Fire,174,103,163,0.1,0.1,BiteEmber,CrunchFlame ChargeFlamethrower
+727,Incineroar,Fire Dark,214,175,216,0.05,0.1,Fire FangSnarl,Dark PulseFire BlastFlame Charge
+728,Popplio,Water,120,103,137,0.2,0.1,PoundWater Gun,Aqua JetAqua TailWater Pulse
+729,Brionne,Water,168,145,155,0.1,0.1,CharmWater Gun,Aqua JetDisarming VoiceWater Pulse
+730,Primarina,Water Fairy,232,195,190,0.05,0.1,CharmWaterfall,Hydro PumpMoonblastPsychic
+731,Pikipek,Normal Flying,136,59,111,0.5,0.2,PeckRock Smash,Aerial AceDrill PeckSky Attack
+732,Trumbeak,Normal Flying,159,100,146,0.25,0.09,PeckRock Smash,Drill PeckRock BlastSky Attack
+733,Toucannon,Normal Flying,222,146,190,0.125,0.05,Bullet SeedPeckRock Smash,Drill PeckFlash CannonRock Blast
+734,Yungoos,Normal,122,56,134,0.5,0.1,BiteTackle,CrunchHyper FangRock Tomb
+735,Gumshoos,Normal,194,113,204,0.2,0.1,BiteTake Down,CrunchHyper FangRock Tomb
+741,Oricorio Baile Style,Fire Flying,196,145,181,0.2,0.07,Air SlashPound,Aerial AceAir CutterHurricane
+741,Oricorio Pom-Pom Style,Electric Flying,196,145,181,0.2,0.07,Air SlashPound,Aerial AceAir CutterHurricane
+741,Oricorio Pa'u Style,Psychic Flying,196,145,181,0.2,0.07,Air SlashPound,Aerial AceAir CutterHurricane
+741,Oricorio Sensu Style,Ghost Flying,196,145,181,0.2,0.07,Air SlashPound,Aerial AceAir CutterHurricane
+744,Rockruff,Rock,117,78,128,0.2,0.1,Rock ThrowTackle,CrunchRock TombStone Edge
+745,Lycanroc Midday Form,Rock,231,140,181,0.2,0.1,Rock ThrowSucker Punch,CrunchDrill RunStone Edge
+745,Lycanroc Midnight Form,Rock,218,152,198,0.2,0.1,CounterRock Throw,CrunchPsychic FangsStone Edge
+751,Dewpider,Water Bug,72,117,116,0.2,0.1,Bug BiteInfestation,Bubble BeamMirror CoatWater Pulse
+752,Araquanid,Water Bug,126,219,169,0.2,0.1,Bug BiteInfestation,Bubble BeamBug BuzzMirror Coat
+753,Fomantis,Grass,100,64,120,0.2,0.1,Fury CutterRazor Leaf,Energy BallGrass KnotLeaf Blade
+754,Lurantis,Grass,192,169,172,0.2,0.1,Fury CutterRazor Leaf,Leaf BladeLeaf StormSuperpowerX-Scissor
+757,Salandit,Poison Fire,136,80,134,0.2,0.1,EmberPoison Jab,Dragon PulseFlamethrowerPoison Fang
+758,Salazzle,Poison Fire,228,130,169,0.2,0.1,IncineratePoison Jab,Dragon PulseFire BlastPoison FangSludge Wave
+759,Stufful,Normal Fighting,136,95,172,0.5,0.1,TackleTake Down,Brick BreakStompSuperpower
+760,Bewear,Normal Fighting,226,141,260,0.2,0.06,Low KickShadow ClawTackle,PaybackStompSuperpowerDrain Punch (Community Day)
+764,Comfey,Fairy,165,215,139,0.2,0.1,Hidden PowerVine Whip,Draining KissGrass KnotPetal Blizzard
+765,Oranguru,Normal Psychic,168,192,207,0.2,0.07,ConfusionYawnZen Headbutt,Foul PlayFuture SightPsychic
+782,Jangmo-o,Dragon,102,108,128,0.4,0.09,Dragon TailTackle,Brick BreakDragon ClawDragon Pulse
+783,Hakamo-o,Dragon Fighting,145,162,146,0.1,0.07,Dragon TailTackle,Brick BreakDragon ClawDragon Pulse
+784,Kommo-o,Dragon Fighting,222,240,181,0.05,0.05,Dragon TailPoison Jab,Close CombatDragon ClawFlamethrower
+785,Tapu Koko,Electric Fairy,250,181,172,0.02,0.1,Quick AttackVolt Switch,Brave BirdDazzling GleamThunderThunderbolt
+786,Tapu Lele,Psychic Fairy,259,208,172,0.02,0.1,AstonishConfusion,Focus BlastFuture SightMoonblastPsyshock
+787,Tapu Bulu,Grass Fairy,249,215,172,0.02,0.1,Bullet SeedRock Smash,Dazzling GleamGrass KnotMegahornSolar Beam
+808,Meltan,Steel,118,99,130,0.3,0.0,Thunder Shock,Flash CannonThunderbolt
+809,Melmetal,Steel,226,190,264,0.3,0.0,Thunder Shock,Flash CannonHyper BeamRock SlideSuperpowerThunderbolt
+819,Skwovet,Normal,95,86,172,0.6,0.1,BiteBullet SeedTackle,Body SlamCrunch
+820,Greedent,Normal,160,156,260,0.3,0.07,BiteBullet SeedTackle,Body SlamCrunch
+831,Wooloo,Normal,76,97,123,0.5,0.1,TackleTake Down,PaybackStompWild Charge
+832,Dubwool,Normal,159,198,176,0.2,0.07,TackleTake Down,Body SlamPaybackWild Charge
+862,Obstagoon,Dark Normal,180,194,212,0.04,0.04,CounterLick,Cross ChopGunk ShotHyper BeamNight SlashFrustration (Shadow)Return (Shadow)
+863,Perrserker,Steel,195,162,172,0.1,0.07,Metal ClawShadow Claw,Close CombatFoul PlayIron HeadPlay Rough
+865,Sirfetch'd,Fighting,248,176,158,0.1,0.07,CounterFury Cutter,Brave BirdClose CombatLeaf BladeNight SlashFrustration (Shadow)Return (Shadow)
+866,Mr. Rime,Ice Psychic,212,179,190,0.3,0.09,ConfusionIce ShardZen Headbutt,Ice PunchIcy WindPsybeamPsychicFrustration (Shadow)Return (Shadow)
+867,Runerigus,Ground Ghost,163,237,151,0.1,0.07,Astonish,Rock TombSand TombShadow BallFrustration (Shadow)Return (Shadow)
+870,Falinks,Fighting,193,170,163,0.2,0.1,CounterRock Smash,Brick BreakMegahornSuperpower
+888,Zacian Hero of Many Battles,Fairy,254,236,192,0.02,0.1,Fire FangMetal ClawQuick AttackSnarl,Close CombatIron HeadPlay RoughWild Charge
+889,Zamazenta Hero of Many Battles,Fighting,254,236,192,0.02,0.1,Ice FangMetal ClawQuick AttackSnarl,Close CombatCrunchIron HeadMoonblast
+893,Zarude,Dark Grass,242,215,233,0.1,0.0,BiteVine Whip,Dark PulseEnergy BallPower Whip
