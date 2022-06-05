@@ -131,6 +131,7 @@ button:hover {
     border: 1px solid black;
     margin: 1rem 0;
     text-align: center;
+    background-color: hsl(206deg 100% 73%);
 }
  
 .center {
