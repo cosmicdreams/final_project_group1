@@ -4,11 +4,11 @@
 
 #### In Pokemon Lore, there is a Pokedex.  A digital assistant that helps you identify Pokemon and explain the detail about the game.  For our final project in Data Science boot camp we wanted to build a Pokedex that is capable of:
 
-Identifying Pokemon from an image: What’s that Pokemon
-•	Uploading an image of an unknown Pokemon
-•	Our Machine Learning Model will make an ID to a Pokemon Character
-•	Output will include name and confirmation picture with statistics for that character
-•	A classic Pokemon card for your viewing pleasure
+#### Identifying Pokemon from an image: What’s that Pokemon
+- Uploading an image of an unknown Pokemon
+- Our Machine Learning Model will make an ID to a Pokemon Character
+- Output will include name and confirmation picture with statistics for that character
+-	A classic Pokemon card for your viewing pleasure
 ## Link to Google Slides draft presentation: https://docs.google.com/presentation/d/1TUYjjJdEUT_wmSrtK9HSYktDf_2qKt652W3KmD4fK8A/edit?usp=sharing
 
 
