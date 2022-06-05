@@ -1,1 +1,26 @@
-/* Styles for data we scraped. */
+.grid-col.span-md-12.span-lg-4 {
+   position: relative;
+   left: 500px;
+   bottom: 620px;
+}
+
+h2 {
+   margin-right: 500px;
+}
+
+.grid-row {
+   position: relative;
+   bottom: 50px;
+}
+
+.grid-col.span-md-12.span-lg-8 {
+   position: relative;
+   right: auto;
+   bottom: 240px;
+}
+
+.grid-col.span-md-12.span-lg-4 {
+   position: relative;
+   left: 600px;
+   bottom: 610px;
+}
