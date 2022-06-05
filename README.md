@@ -22,22 +22,16 @@
 ### Machine Learning Model 
 
 #### 1) For the data pre-processing in the machine learning model, we uploaded 6,820 images of 150 different Pokemon via Tensorflow ImageDataGenerator.
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN7.png)
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN8.png)
 
-
 ##### 2) Feature engineering aspects of our model included several rounds of the activation function ReLU (rectified linear unit) in hidden layer to avoid vanishing gradient problem and increased computation performance , and Softmax function use in last output layer to calculate the probabilities distribution. 
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN9.png)
 
 #### 3) We used 20 epochs
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN10.png)
 
 #### 4) The accuracy of the model was: 66%
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN11.png)
 
 
@@ -48,23 +42,18 @@
 ---------------------------------------------------------------
 ### Database Integration
 #### 1) Data was scraped from https://pokemondb.net/pokedex using pandas, splinter, and BeautifulSoup
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN1.png)
 
 #### 2) Data was cleaned after scraping (I.e. removal of odd characters)
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN1_5.png)
 
 #### 3) Output of data scraping:
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN2.png)
 
 #### 4) We utilized postgres in AWS to store our scraped data:
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN3.png)
 
 #### 5) Using Sqlalchemy, we queried the database to dynamically interface and retrieve specific character information
-
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN4.png)
 
 
