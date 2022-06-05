@@ -12,7 +12,7 @@
 ## Link to Google Slides draft presentation: https://docs.google.com/presentation/d/1TUYjjJdEUT_wmSrtK9HSYktDf_2qKt652W3KmD4fK8A/edit?usp=sharing
 
 
----------------------------------------------------------------
+
 
 ## Pokemon Identifier
 #### In order to have our Pokedex identify a Pokemon from an uploaded picture we need a large image collection of Pokemon.  This whole process sounds complicated. Luckily others have done this before.  
