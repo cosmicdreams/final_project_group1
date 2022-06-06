@@ -24,3 +24,7 @@ h2 {
    left: 600px;
    bottom: 610px;
 }
+
+.col.scrape {
+    overflow: hidden;
+}
