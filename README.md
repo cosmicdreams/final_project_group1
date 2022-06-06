@@ -25,14 +25,12 @@
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN7.png)
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN8.png)
 
-##### 2) Feature engineering aspects of our model included several rounds of the activation function ReLU (rectified linear unit) in hidden layer to avoid vanishing gradient problem and increased computation performance , and Softmax function use in last output layer to calculate the probabilities distribution. 
-![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN9.png)
+#### 2) The data was split into training/testing sets. 
 
-#### 3) We used 20 epochs
-![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN10.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN9_5.png)
+#### 3) Feature engineering aspects of our model included several rounds of the activation function ReLU (rectified linear unit) in hidden layer to avoid vanishing gradient problem and increased computation performance , and Softmax function use in last output layer to calculate the probabilities distribution. 
+![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN10_5.png)
 
-#### 4) The accuracy of the model was: 66%
-![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN11.png)
 
 
 
@@ -56,7 +54,18 @@
 #### 5) Using Sqlalchemy, we queried the database to dynamically interface and retrieve specific character information
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN4.png)
 
+#### 6) The data ERD relationships:
 
+![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN12.png)
+
+## Poke-card js / custom elements
+-------------------------------------------------------
+
+#### 1) We constructed custom pokemon card using javascript and linked the card to specific Pokemon ID, name, and characteristics using Pokeapi.co (https://pokeapi.co/api/vs/pokemon). 
+#### 2) With this script, and to allow us to trigger the card to receive a live and changing image result from the image classifier, we re-constructed the javascript as a custom element. This helped us with streamlined functionality instead of have to make long, nested batches of elements.
+![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN13.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN14.png)
+![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN15.png)
 
 ## Pokemon Visualization
 --------------------------------------------------------
