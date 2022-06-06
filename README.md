@@ -86,3 +86,4 @@ https://pokedex-bootcamp.herokuapp.com/
 3. Configure the webpack.config.js to consume the javascript that needs to be compiled, and output the file into the app/static/js folder.
 4. run webpack --mode production
 5. modify your html file to use the new js at /static/js/main.js
+ 
