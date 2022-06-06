@@ -31,8 +31,6 @@
 #### 3) Feature engineering aspects of our model included several rounds of the activation function ReLU (rectified linear unit) in hidden layer to avoid vanishing gradient problem and increased computation performance , and Softmax function use in last output layer to calculate the probabilities distribution. 
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN10.png)
 
-#### 4) The accuracy of the model was: 66%
-![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN11.png)
 
 
 
