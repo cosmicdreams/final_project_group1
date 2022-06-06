@@ -61,8 +61,8 @@
 ## Poke-card js / custom elements
 -------------------------------------------------------
 
-#### We constructed custom pokemon card using javascript and linked the card to Pokeapi.co (https://pokeapi.co/api/vs/pokemon)
-#### To trigger the card to receive the image result of the image classifier, we first re-constructed the javascript as a custom element. This helped us with streamlined functionality instead of have to make long, nested batches of elements.
+#### 1) We constructed custom pokemon card using javascript and linked the card to specific Pokemon ID, name, and characteristics using Pokeapi.co (https://pokeapi.co/api/vs/pokemon). 
+#### 2) With this script, and to allow us to trigger the card to receive a live and changing image result from the image classifier, we re-constructed the javascript as a custom element. This helped us with streamlined functionality instead of have to make long, nested batches of elements.
 ![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN13.png)
 ![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN14.png)
 ![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN15.png)
