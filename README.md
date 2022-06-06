@@ -81,16 +81,16 @@ https://pokedex-bootcamp.herokuapp.com/
 # Things we learned
 
 ## How to set up Webpack
-- 1. Run npm i webpack-cli webpack
-- 2. Run webpack-cli init and go through all the prompts. 
-- 3. Configure the webpack.config.js to consume the javascript that needs to be compiled, and output the file into the app/static/js folder.
-- 4. run webpack --mode production
-- 5. modify your html file to use the new js at /static/js/main.js
+- Run npm i webpack-cli webpack
+- Run webpack-cli init and go through all the prompts. 
+- Configure the webpack.config.js to consume the javascript that needs to be compiled, and output the file into the app/static/js folder.
+- Run webpack --mode production
+- Modify your html file to use the new js at /static/js/main.js
 
 ----------------------------------------------------------
 # Future Considerations / Ideas
-- 1. Save some of the images (if they meet a certain accuracy threshold) and create another app that manually curates them into either allowing them to be in a new training set or to remove them.
-- 2. Add a widget to the main app that asks the user to categorize 2 images each time they use the app.
-- 3. Separate the app into more granular bits, will increase memory we can use.
-- 4. Protect the app from huge incoming files.
-- 5. Add more guidance for app usage.
+- Save some of the images (if they meet a certain accuracy threshold) and create another app that manually curates them into either allowing them to be in a new training set or to remove them.
+- Add a widget to the main app that asks the user to categorize 2 images each time they use the app.
+- Separate the app into more granular bits, will increase memory we can use.
+- Protect the app from huge incoming files.
+- Add more guidance for app usage.
