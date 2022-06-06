@@ -25,10 +25,10 @@
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN7.png)
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN8.png)
 
-##### 2) Feature engineering aspects of our model included several rounds of the activation function ReLU (rectified linear unit) in hidden layer to avoid vanishing gradient problem and increased computation performance , and Softmax function use in last output layer to calculate the probabilities distribution. 
+#### 2) The data was split into training/testing sets. 
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN9.png)
 
-#### 3) We used 20 epochs
+#### 3) Feature engineering aspects of our model included several rounds of the activation function ReLU (rectified linear unit) in hidden layer to avoid vanishing gradient problem and increased computation performance , and Softmax function use in last output layer to calculate the probabilities distribution. 
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN10.png)
 
 #### 4) The accuracy of the model was: 66%
@@ -55,6 +55,9 @@
 
 #### 5) Using Sqlalchemy, we queried the database to dynamically interface and retrieve specific character information
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN4.png)
+
+#### 6) The data ERD relationships:
+![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN12.png)
 
 
 
