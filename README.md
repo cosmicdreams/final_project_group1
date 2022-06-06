@@ -57,8 +57,8 @@
 ![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN4.png)
 
 #### 6) The data ERD relationships:
-![](https://github.com/cosmicdreams/final_project_group1/blob/main/app/Resources/JN12.png)
 
+![](https://github.com/cosmicdreams/final_project_group1/blob/develop/app/Resources/JN12.png)
 
 
 ## Pokemon Visualization
