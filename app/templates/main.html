@@ -61,13 +61,14 @@
   <div class="container">
     <!-- Bar separating post submission display -->
     <div class="row">
-      <div class="col">
+      <div class="col-md-12">
         {% if result is not defined %}
         {{ dropzone.create(action='/') }}
         {% else %}
           <a href="/" class="btn btn-success btn-lg">Try Again!</a>
         {% endif %}
       </div>
+      <div id="retry"></div>
     </div>
   </div>
 </div>
@@ -93,7 +94,8 @@
 <script type="module" src="static/js/main.js"></script>
 {{ dropzone.load_js() }}
 {{ dropzone.config(resizeWidth='96', resizeHeight='96', custom_init='this.on("success", function(files, response) {
-      document.getElementsByTagName("html")[0].innerHTML = response
+      document.getElementById("result").innerHTML = response
+      document.getElementById("retry").innerHTML = "<a href=\'/\' class=\'btn btn-success btn-lg\' style=\'margin-top: 1em\'>Try Again!</a>"
     });') }}
 </body>
 </html>
