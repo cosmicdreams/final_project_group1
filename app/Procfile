@@ -1,1 +1,1 @@
-web: bin/start-nginx newrelic-admin run-program gunicorn upload:app --preload
+web: bin/start-nginx newrelic-admin run-program gunicorn app:app --preload
