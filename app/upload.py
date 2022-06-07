@@ -53,8 +53,7 @@ def upload_files():
 
         # 5. Send response
         pokemon_name = payload['Prediction']
-        compiled_result = render_result(pokemon_name)
-        return render_template('main.html', result=compiled_result)
+        return render_result(pokemon_name)
 
 
 @app.route('/uploads/<filename>')
@@ -181,7 +180,7 @@ def clean_markup(markup):
     return markup
 
 
-# Outputs and initializes the pokemon card element.
+# Outputs and initializes the Pokémon card element.
 def render_card(pokemon_name):
     return render_template('pokemon-card.html', pokemon_name=pokemon_name)
 
@@ -190,8 +189,7 @@ def render_card(pokemon_name):
 def render_result(pokemon_name):
     scrape_result = render_scrape(pokemon_name)
     card_result = render_card(pokemon_name.lower())  # PokeApi requires names to be lower case.
-    compiled_result = render_template('result.html', scrape=scrape_result, card=card_result)
-    return compiled_result
+    return render_template('result.html', scrape=scrape_result, card=card_result)
 
 
 # Until we have the db select working, here's a method to get the

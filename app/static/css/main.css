@@ -79,3 +79,7 @@ button:hover {
 .vitals-table, .type-table {
     width: 100%;
 }
+
+.dropzone {
+    background-color: transparent
+}
