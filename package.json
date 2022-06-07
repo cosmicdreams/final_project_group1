@@ -16,8 +16,9 @@
     "workbox-webpack-plugin": "^6.5.3"
   },
   "version": "1.0.0",
-  "description": "My webpack project",
-  "name": "my-webpack-project",
+  "description": "A custom element for a Pokemon card.",
+  "name": "pokemon-card",
+  "main": "app/static/js/pokemon-card/pokemon-card.js",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
