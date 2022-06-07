@@ -37,6 +37,10 @@ export class PokemonCard extends LitElement {
     :host {
         position: relative;      
         width: 100%;
+        max-width: 390px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 1em;         
         padding: 30px 20px;
         box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
         border-radius: 10px;
