@@ -82,9 +82,12 @@ button:hover {
 
 .dropzone {
     background-color: transparent;
-    min-width:200px;
+    min-width: 200px;
 }
-.jumbotron .container {min-width: 200px}
+
+.jumbotron .container {
+    min-width: 200px
+}
 
 /* Small devices (landscape phones, 576px and up) */
 /*@media (min-width: 576px) {}*/
