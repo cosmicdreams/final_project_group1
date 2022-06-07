@@ -6,6 +6,7 @@ import cv2 as cv
 import numpy as np
 import requests
 from flask import Flask, render_template, request, abort, send_from_directory
+from flask_dropzone import Dropzone
 from tensorflow.keras.models import load_model
 from werkzeug.utils import secure_filename
 
@@ -13,6 +14,11 @@ app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024
 app.config['UPLOAD_EXTENSIONS'] = ['.jpg', '.png', '.gif', '.webp', '.jpeg']
 app.config['UPLOAD_PATH'] = 'uploads'
+app.config['DROPZONE_ALLOWED_FILE_TYPE'] = 'image'
+app.config['DROPZONE_DEFAULT_MESSAGE'] = 'Drop an image here to upload'
+app.config['DROPZONE_FILE_TOO_BIG'] = 'Image is too big {{filesize}}. Max file size: {{maxFilesize}} MB'
+app.config['DROPZONE_INPUT_NAME'] = 'upload'
+dropzone = Dropzone(app)
 
 
 @app.route('/')
@@ -25,7 +31,7 @@ def upload_files():
     uploaded_file = request.files['upload']
     filename = secure_filename(uploaded_file.filename)
     if filename != '':
-        file_ext = os.path.splitext(filename)[1]
+        file_ext = os.path.splitext(filename)[1].lower()
         if file_ext not in app.config['UPLOAD_EXTENSIONS'] or not validate_image(uploaded_file.stream, file_ext):
             abort(400)
 
@@ -47,7 +53,8 @@ def upload_files():
 
         # 5. Send response
         pokemon_name = payload['Prediction']
-        return render_result(pokemon_name)
+        compiled_result = render_result(pokemon_name)
+        return render_template('main.html', result=compiled_result)
 
 
 @app.route('/uploads/<filename>')
@@ -184,7 +191,7 @@ def render_result(pokemon_name):
     scrape_result = render_scrape(pokemon_name)
     card_result = render_card(pokemon_name.lower())  # PokeApi requires names to be lower case.
     compiled_result = render_template('result.html', scrape=scrape_result, card=card_result)
-    return render_template('main.html', result=compiled_result)
+    return compiled_result
 
 
 # Until we have the db select working, here's a method to get the
