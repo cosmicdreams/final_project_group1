@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Who's That Pokemon</title>
+  <title>Who's That Pokémon</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon"
@@ -95,7 +95,7 @@
 {{ dropzone.load_js() }}
 {{ dropzone.config(resizeWidth='96', resizeHeight='96', custom_init='this.on("success", function(files, response) {
       document.getElementById("result").innerHTML = response
-      document.getElementById("retry").innerHTML = "<a href=\'/\' class=\'btn btn-success btn-lg\' style=\'margin-top: 1em\'>Try Again!</a>"
+      document.getElementById("retry").innerHTML = "<a href=\'/\' class=\'btn btn-success btn-lg\' style=\'margin-top: 1em\'>Again!</a>"
     });') }}
 </body>
 </html>

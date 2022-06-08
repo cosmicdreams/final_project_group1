@@ -21,9 +21,9 @@ const config = {
         host: 'localhost',
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            template: 'index.html',
-        }),
+        // new HtmlWebpackPlugin({
+        //     template: 'index.html',
+        // }),
 
         // Add your plugins here
         // Learn more about plugins from https://webpack.js.org/configuration/plugins/
@@ -54,7 +54,7 @@ module.exports = () => {
         config.mode = 'production';
         
         
-        config.plugins.push(new WorkboxWebpackPlugin.GenerateSW());
+        // config.plugins.push(new WorkboxWebpackPlugin.GenerateSW());
         
     } else {
         config.mode = 'development';
