@@ -94,7 +94,6 @@
 <script type="module" src="static/js/main.js"></script>
 {{ dropzone.load_js() }}
 {{ dropzone.config(custom_options='chunked: true, chunkSize: 800000', custom_init='this.on("success", function(files, response) {
-      console.log("success");
       document.getElementById("result").innerHTML = response
       document.getElementById("retry").innerHTML = "<a href=\'/\' class=\'btn btn-success btn-lg\' style=\'margin-top: 1em\'>Again!</a>"
   });
