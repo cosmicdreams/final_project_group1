@@ -17,7 +17,6 @@ app.config['UPLOAD_PATH'] = 'uploads'
 app.config['DROPZONE_ALLOWED_FILE_TYPE'] = 'image'
 app.config['DROPZONE_DEFAULT_MESSAGE'] = 'Drop an image here to upload'
 app.config['DROPZONE_FILE_TOO_BIG'] = 'Image is too big {{filesize}}. Max file size: {{maxFilesize}} MB'
-app.config['DROPZONE_INPUT_NAME'] = 'upload'
 dropzone = Dropzone(app)
 
 
@@ -28,7 +27,7 @@ def home_page():
 
 @app.route('/', methods=['POST'])
 def upload_files():
-    uploaded_file = request.files['upload']
+    uploaded_file = request.files['file']
     filename = secure_filename(uploaded_file.filename)
     if filename != '':
         file_ext = os.path.splitext(filename)[1].lower()

@@ -93,9 +93,11 @@
         crossorigin="anonymous"></script>
 <script type="module" src="static/js/main.js"></script>
 {{ dropzone.load_js() }}
-{{ dropzone.config(resizeWidth='96', resizeHeight='96', custom_init='this.on("success", function(files, response) {
+{{ dropzone.config(custom_options='chunked: true, chunkSize: 800000', custom_init='this.on("success", function(files, response) {
       document.getElementById("result").innerHTML = response
       document.getElementById("retry").innerHTML = "<a href=\'/\' class=\'btn btn-success btn-lg\' style=\'margin-top: 1em\'>Again!</a>"
-    });') }}
+  });
+  this.on("addedfile", function(files) { var audio = new Audio("/static/wtp.mp3"); audio.play(); });
+') }}
 </body>
 </html>
